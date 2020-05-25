@@ -1,0 +1,37 @@
+[
+    {
+        "name": "mondrian.fun",
+        "path": "/mondrian",
+        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"]
+    },
+    {
+        "name": "Shower Tune",
+        "path": "/showertune",
+        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"]
+    },
+    {
+        "name": "Better Interviews",
+        "path": "/better-interviews",
+        "skills": ["UX Research", "UX Design", "Rapid Prototyping"]
+    },
+    {
+        "name": "Google Reliable User Experience",
+        "path": "/google-reliable-ux",
+        "skills": ["Fullstack Software Engineering"]
+    },
+    {
+        "name": "Method Data Science for Design",
+        "path": "/method-data-science-for-design",
+        "skills": ["Data Visualisation", "Data Science", "Chatbot development"]
+    },
+    {
+        "name": "Amazon Transportation",
+        "path": "/amazon-transportation",
+        "skills": ["UX Research", "UX Design", "Data Visualisation", "Fullstack Web Development"]
+    },
+    {
+        "name": "BuzzFeed News Offline Experience",
+        "path": "/buzzfeed-news-offline-experience",
+        "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"]
+    }
+]
