@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HttpsRedirect from 'react-https-redirect';
 
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import HomePage from "./components/HomePage/HomePage";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
@@ -20,7 +20,7 @@ function App() {
   return (
     <HttpsRedirect>
       <div className="App">
-        <HashRouter>
+        <BrowserRouter>
           <Navigation />
           <Switch>
             <Route exact path='/' component={HomePage} />
@@ -34,7 +34,7 @@ function App() {
             )}
 
           </Switch>
-        </HashRouter>
+        </BrowserRouter>
       </div >
     </HttpsRedirect>
   );
