@@ -1,0 +1,10 @@
+.contact {
+    min-height: 100vh;
+    padding-top: 56px;
+}
+
+.contact__info {
+    font-size: 2em;
+    text-align: initial;
+    margin: 5rem 0;
+}

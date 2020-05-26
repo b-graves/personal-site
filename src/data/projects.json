@@ -1,37 +1,66 @@
 [
     {
         "name": "mondrian.fun",
+        "type": "Personal Project",
         "path": "/mondrian",
-        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"]
+        "id": "mondrian",
+        "hasSecondaryImage": true,
+        "secondaryImageFormat": "jpg",
+        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+        "description": "Case study coming soon...",
+        "hasLink": true,
+        "link": "https://www.mondrian.fun"
     },
     {
         "name": "Shower Tune",
+        "type": "Personal Project",
         "path": "/showertune",
-        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"]
+        "id": "showertune",
+        "hasSecondaryImage": true,
+        "secondaryImageFormat": "png",
+        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+        "description": "Case study coming soon...",
+        "hasLink": true,
+        "link": "https://www.showertune.app"
     },
     {
         "name": "Better Interviews",
+        "type": "University Project",
         "path": "/better-interviews",
-        "skills": ["UX Research", "UX Design", "Rapid Prototyping"]
+        "id": "better-interviews",
+        "skills": ["UX Research", "UX Design", "Design Thinking", "Rapid Prototyping"],
+        "description": "Case study coming soon..."
     },
     {
-        "name": "Google Reliable User Experience",
+        "name": "Google Reliable UX",
+        "type": "Internship Project",
         "path": "/google-reliable-ux",
-        "skills": ["Fullstack Software Engineering"]
+        "id": "google",
+        "skills": ["Fullstack Software Engineering"],
+        "description": "Case study coming soon..."
     },
     {
         "name": "Method Data Science for Design",
+        "type": "Internship Project",
         "path": "/method-data-science-for-design",
-        "skills": ["Data Visualisation", "Data Science", "Chatbot development"]
+        "id": "method",
+        "skills": ["Data Visualisation", "Data Science", "Chatbot development"],
+        "description": "Case study coming soon..."
     },
     {
         "name": "Amazon Transportation",
+        "type": "Internship Project",
         "path": "/amazon-transportation",
-        "skills": ["UX Research", "UX Design", "Data Visualisation", "Fullstack Web Development"]
+        "id": "amazon",
+        "skills": ["UX Research", "UX Design", "Data Visualisation", "Fullstack Web Development"],
+        "description": "Case study coming soon..."
     },
     {
         "name": "BuzzFeed News Offline Experience",
+        "type": "Internship Project",
         "path": "/buzzfeed-news-offline-experience",
-        "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"]
+        "id": "buzzfeed-news",
+        "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"],
+        "description": "Case study coming soon..."
     }
 ]

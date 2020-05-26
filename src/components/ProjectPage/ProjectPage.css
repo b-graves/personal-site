@@ -1,0 +1,34 @@
+.project__name {
+    font-size: 4em;
+    background-color: white;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+.project__info {
+    position: absolute;
+    top: 50vh;
+    text-align: initial;
+    width: 50%;
+}
+
+
+.project__description {
+    background-color: white;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+.project__link {
+    background-color: white;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.project__secondary-image {
+    position: absolute;
+    top: 20vh;
+    left: 60vw;
+    width: 30vw;
+}

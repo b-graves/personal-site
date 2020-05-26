@@ -1,0 +1,61 @@
+.navbar {
+    background-color: transparent !important;
+}
+
+.card-deck {
+    padding: 17px 0 !important;
+    width: 100% !important;
+}
+
+.projects__card {
+    background-color: transparent !important;
+    border: none;
+    margin: 0 17px !important;
+ }
+
+
+ .projects__card:hover {
+   text-decoration: none;
+    opacity: 0.7;
+ }
+
+ .projects__project-title {
+    text-align: initial !important;
+    color: black !important;
+    margin-bottom: .35rem !important;
+ }
+
+ .projects__project-type {
+    text-align: initial !important;
+    color: grey !important;
+ }
+
+.projects__card  > .card-body {
+    padding: 0.75rem 0 !important;
+}
+
+.projects__card  > .card-footer {
+    background-color: transparent !important;
+    border: none !important;
+    text-align: initial !important;
+    padding: 0px !important;
+}
+
+.projects__project-skill{
+    background-color: #ebebeb;
+    color: grey;
+    padding: 5px !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    width: fit-content;
+    display: inline-block;
+}
+
+.placeholder {
+    opacity: 0;
+}
+
+.projects {
+    padding-top: 56px;
+}

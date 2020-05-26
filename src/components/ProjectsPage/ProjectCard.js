@@ -6,6 +6,9 @@ import Card from "react-bootstrap/Card";
 
 import { Link } from 'react-router-dom';
 
+import "./ProjectCard.css"
+
+
 class ProjectCard extends Component {
 
 
@@ -15,15 +18,20 @@ class ProjectCard extends Component {
 
     render() {
 
-        const {project} = this.props;
+        const { project } = this.props;
+
 
         return (
-            <Card  as={Link} to={project.path} style={{margin: "15px 0"}}>
+            <Card as={Link} to={project.path} className="projects__card">
+                <img src={"/assets/" + project.id + "-project-image.svg"} alt="project" />
                 <Card.Body>
-                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Title className="projects__project-title">{project.name}</Card.Title>
+                    <Card.Text  className="projects__project-type">
+                        {project.type}
+                    </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    {project.skills.map(skill => <span style={{padding: "0 5px"}}>{skill}</span>)}
+                    {project.skills.map(skill => <div className="projects__project-skill" style={{ padding: "0 5px" }}>{skill}</div>)}
                 </Card.Footer>
             </Card>
         );

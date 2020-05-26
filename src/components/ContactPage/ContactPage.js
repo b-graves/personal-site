@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
 
+import Container from 'react-bootstrap/Container'
+
+import "./ContactPage.css"
 
 class ContactPage extends Component {
-    
+
 
     state = {
-        
+
     }
 
     render() {
-        
+
 
         return (
-            <div>
-                Contact
+            <Container className="contact">
+                <div className="intro">
+                    Hi, I'm Ben. I'm a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
             </div>
+                <div className="contact__info">
+                    Get In Touch: <a href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a href="mailto:btgraves1997@gmail.com">Email</a>
+                </div>
+
+
+            </Container>
         );
     }
 }
