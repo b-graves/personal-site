@@ -17,8 +17,8 @@ class ContactPage extends Component {
         return (
             <Container className="contact">
                 <div className="intro">
-                    Hi, I'm Ben. I'm a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
-            </div>
+                    I'm Ben, a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
+                </div>
                 <div className="contact__info">
                     Get In Touch: <a href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a href="mailto:btgraves1997@gmail.com">Email</a>
                 </div>
