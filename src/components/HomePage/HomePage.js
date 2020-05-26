@@ -38,7 +38,7 @@ class HomePage extends Component {
         return (
             <Container className="projects">
                 <div className="intro">
-                Hi, I'm Ben. I'm a creative coder who enjoys designing and building digital products and experiences that work for people.
+                Hi, I'm Ben. I'm a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
                 </div>
                 <div className="home__project-header">Projects</div>
                 {rows}
