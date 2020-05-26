@@ -22,7 +22,7 @@ class ProjectCard extends Component {
 
 
         return (
-            <Card as={Link} to={project.path} className="projects__card">
+            <Card as={Link} to={"/project/"+project.id} className="projects__card">
                 <img src={"/assets/" + project.id + "-project-image.svg"} alt="project" />
                 <Card.Body>
                     <Card.Title className="projects__project-title">{project.name}</Card.Title>
