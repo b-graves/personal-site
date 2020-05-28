@@ -1,8 +1,11 @@
 .project__name {
     font-size: 4em;
-    background-color: white;
+
     width: fit-content;
     margin-bottom: 20px;
+
+    padding: 0 10px;
+    
 }
 
 .project__link {
@@ -12,21 +15,19 @@
 }
 
 .project__info {
-    position: absolute;
-    top: 50vh;
+    margin-top: 50vh;
     text-align: initial;
-    width: 50%;
+    width: 60%;
 }
 
 
 .project__description {
-    background-color: white;
     margin-bottom: 20px;
     min-height: 100px;
+    padding: 5px 10px;
 }
 
 .project__link {
-    background-color: white;
     cursor: pointer;
     width: fit-content;
 }
@@ -34,6 +35,6 @@
 .project__secondary-image {
     position: absolute;
     top: 20vh;
-    left: 60vw;
+    left: 63vw;
     width: 30vw;
 }

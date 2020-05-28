@@ -7,14 +7,25 @@
         "hasSecondaryImage": true,
         "secondaryImageFormat": "jpg",
         "projectImageFormat": "png",
-        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+        "skills": [
+            "UX Design",
+            "Interaction Design",
+            "Fullstack Web Development"
+        ],
         "fullCaseStudy": false,
         "primaryColor": "#b82015",
         "description": "This was a fun personal project I embarked on during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work online. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than to maximise rendering speed and quality.",
         "time": "Spring 2020",
         "duration": null,
         "hasLink": true,
-        "link": "https://www.mondrian.fun"
+        "link": "https://www.mondrian.fun",
+        "slides": [
+            {
+                "type": "Text",
+                "text": "Showers are the biggest consumer of water in the home.",
+                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water."
+            }
+        ]
     },
     {
         "name": "Shower Tune",
@@ -24,15 +35,151 @@
         "hasSecondaryImage": true,
         "secondaryImageFormat": "png",
         "projectImageFormat": "svg",
-        "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+        "skills": [
+            "UX Design",
+            "Interaction Design",
+            "Fullstack Web Development"
+        ],
         "fullCaseStudy": false,
-        "primaryColor": "#40aac2",
+        "primaryColor": "#327b8f",
+        "backgroundColor": "#f6f6f6ff",
         "description": "I took on this project to meet a brief from Creative Conscience, an organisation encourage creatives to take on socially valuable projects. The brief was to design something to help create conciousness of consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
         "time": "Spring 2020",
         "duration": null,
-        
         "hasLink": true,
-        "link": "https://www.showertune.app"
+        "link": "https://www.showertune.app",
+        "slides": [
+            {
+                "type": "Text",
+                "text": "Showers are the biggest consumer of water in the home.",
+                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water."
+            },
+            {
+                "type": "Text",
+                "text": "How might we encourage people to take shorter showers?",
+                "invert": true
+            },
+            {
+                "type": "Text",
+                "text": "Insight - People who have a clock in their shower spend on average 20-30% less time in the shower",
+                "subtext": "How might we create an enjoyable shower experience that helps people be more aware of how long they are spending in the shower?"
+            },
+            {
+                "type": "Text",
+                "text": "The shower time suggested by organisations such as WaterAid and Waterwise is around 3-5 minutes - roughly the length of a typical song.",
+                "invert": true,
+                "icon": "FaLightbulb"
+            },
+            {
+                "type": "Text",
+                "text": "How might we encourage people to listen to one song for the duration of their shower?"
+            },
+            {
+                "type": "ImageSet",
+                "text": "Some existing solutions...",
+                "images": [
+                    {
+                        "url": "/assets/projects/showertune/spotifyplaylist.jpg",
+                        "caption": "Y&R London’s “4 minute shower hits” Spotify playlist for WaterAid",
+                        "link": "https://www.markfarinha.com/wateraid"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/threelions.jpg",
+                        "caption": "WaterAid’s campaign to encourage people to listen to“Three Lions” in the shower during the 2018 World Cup",
+                        "link": "https://www.wateraid.org/uk/media/water-save-for-england-listen-to-three-lions-in-the-shower-to-save-water"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/sanlam.jpg",
+                        "caption": "Sanlam’s free album of 2 minute songs specially recorded by South African Artists.",
+                        "link": "https://2minuteshowersongs.com/"
+                    }
+                ]
+            },
+            {
+                "type": "Text",
+                "text": "Personalisation is Powerful",
+                "body": "While these existing products provide songs of appropriate length for a shorter shower, they do not provide the type of personalised experience  we have become accustomed to online today."
+            },
+            {
+                "type": "Quote",
+                "text": "The best thing about shower music is that it lets me, a morning shower-er, deliberately set the tone for the rest of my day.",
+                "source": "Chloe Bryan, Mashable",
+                "invert": true
+            },
+            {
+                "type": "Text",
+                "text": "How might we help the user find the perfect shower track for their mood?"
+            },
+            {
+                "type": "ImageSet",
+                "text": "Music recommendation algorithms",
+                "images": [
+                    {
+                        "url": "/assets/projects/showertune/recommendations.svg",
+                        "caption": "Many streaming services use recommendation algorithms to suggest tracks to their users’ based on previous listening habits"
+                    }
+                ]
+            },
+            {
+                "type": "Text",
+                "text": "Spotify Integration",
+                "body": "Spotify provides an API which allows developers to create applications that make use of their recommendation service. Users are able to securely grant access to their listening data to provide a more personal experience."
+            },
+            {
+                "type": "ImageSet",
+                "text": "The following user journey was designed for an implementation of this technology to allow a user to generate a recommended track to listen to in the shower...",
+                "images": [
+                    {
+                        "url": "/assets/projects/showertune/userjourney.svg",
+                        "caption": "Many streaming services use recommendation algorithms to suggest tracks to their users’ based on previous listening habits"
+                    }
+                ]
+            },
+            {
+                "type": "ImageSet",
+                "text": "This user journey was then imagined as a mobile app... ",
+                "images": [
+                    {
+                        "url": "/assets/projects/showertune/appspotify1.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appspotify2.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appspotify3.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appspotify4.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "ImageSet",
+                "text": "A flow was also designed for non-Spotify users to select a “Continue without Spotify option”, allowing music taste to be manually selected and playback via YouTube...",
+                "images": [
+                    {
+                        "url": "/assets/projects/showertune/appnonspotify1.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appnonspotify2.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appnonspotify3.jpg"
+                    },
+                    {
+                        "url": "/assets/projects/showertune/appnonspotify4.jpg"
+                    }
+                ]
+            },
+            {
+                "type": "Text",
+                "text": "Final Prototype",
+                "subtext": "A high-fidelity prototype of the app was developed using React which is available to try at:",
+                "link": "www.showertune.app/",
+                "image": "/assets/projects/showertune/react.png",
+                "imagePos": "left"
+            }
+        ]
     },
     {
         "name": "Better Interviews",
@@ -40,7 +187,12 @@
         "path": "/better-interviews",
         "id": "better-interviews",
         "projectImageFormat": "svg",
-        "skills": ["UX Research", "UX Design", "Design Thinking", "Rapid Prototyping"],
+        "skills": [
+            "UX Research",
+            "UX Design",
+            "Design Thinking",
+            "Rapid Prototyping"
+        ],
         "time": "Autumn 2019 - Spring 2020",
         "duration": "6 Months",
         "fullCaseStudy": false,
@@ -55,7 +207,9 @@
         "projectImageFormat": "svg",
         "time": "Summer 2019",
         "duration": "3 Months",
-        "skills": ["Fullstack Software Engineering"],
+        "skills": [
+            "Fullstack Software Engineering"
+        ],
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "description": "Case study coming soon..."
@@ -68,7 +222,11 @@
         "projectImageFormat": "svg",
         "time": "Spring 2019",
         "duration": "3 Months",
-        "skills": ["Data Visualisation", "Data Science", "Chatbot development"],
+        "skills": [
+            "Data Visualisation",
+            "Data Science",
+            "Chatbot development"
+        ],
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "description": "Case study coming soon..."
@@ -81,7 +239,12 @@
         "projectImageFormat": "svg",
         "time": "Summer 2018 - Spring 2019",
         "duration": "6 Months",
-        "skills": ["UX Research", "UX Design", "Data Visualisation", "Fullstack Web Development"],
+        "skills": [
+            "UX Research",
+            "UX Design",
+            "Data Visualisation",
+            "Fullstack Web Development"
+        ],
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "description": "Case study coming soon..."
@@ -94,7 +257,11 @@
         "projectImageFormat": "png",
         "time": "Summer 2019",
         "duration": null,
-        "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"],
+        "skills": [
+            "UX Design",
+            "Rapid Protoyping",
+            "Fullstack Web Development"
+        ],
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "description": "Case study coming soon..."
