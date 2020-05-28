@@ -6,8 +6,13 @@
         "id": "mondrian",
         "hasSecondaryImage": true,
         "secondaryImageFormat": "jpg",
+        "projectImageFormat": "png",
         "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
-        "description": "Case study coming soon...",
+        "fullCaseStudy": false,
+        "primaryColor": "#b82015",
+        "description": "This was a fun personal project I embarked on during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work online. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than to maximise rendering speed and quality.",
+        "time": "Spring 2020",
+        "duration": null,
         "hasLink": true,
         "link": "https://www.mondrian.fun"
     },
@@ -18,8 +23,14 @@
         "id": "showertune",
         "hasSecondaryImage": true,
         "secondaryImageFormat": "png",
+        "projectImageFormat": "svg",
         "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
-        "description": "Case study coming soon...",
+        "fullCaseStudy": false,
+        "primaryColor": "#40aac2",
+        "description": "I took on this project to meet a brief from Creative Conscience, an organisation encourage creatives to take on socially valuable projects. The brief was to design something to help create conciousness of consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
+        "time": "Spring 2020",
+        "duration": null,
+        
         "hasLink": true,
         "link": "https://www.showertune.app"
     },
@@ -28,7 +39,12 @@
         "type": "University Project",
         "path": "/better-interviews",
         "id": "better-interviews",
+        "projectImageFormat": "svg",
         "skills": ["UX Research", "UX Design", "Design Thinking", "Rapid Prototyping"],
+        "time": "Autumn 2019 - Spring 2020",
+        "duration": "6 Months",
+        "fullCaseStudy": false,
+        "primaryColor": "#000000",
         "description": "Case study coming soon..."
     },
     {
@@ -36,7 +52,12 @@
         "type": "Internship Project",
         "path": "/google-reliable-ux",
         "id": "google",
+        "projectImageFormat": "svg",
+        "time": "Summer 2019",
+        "duration": "3 Months",
         "skills": ["Fullstack Software Engineering"],
+        "fullCaseStudy": false,
+        "primaryColor": "#000000",
         "description": "Case study coming soon..."
     },
     {
@@ -44,7 +65,12 @@
         "type": "Internship Project",
         "path": "/method-data-science-for-design",
         "id": "method",
+        "projectImageFormat": "svg",
+        "time": "Spring 2019",
+        "duration": "3 Months",
         "skills": ["Data Visualisation", "Data Science", "Chatbot development"],
+        "fullCaseStudy": false,
+        "primaryColor": "#000000",
         "description": "Case study coming soon..."
     },
     {
@@ -52,7 +78,12 @@
         "type": "Internship Project",
         "path": "/amazon-transportation",
         "id": "amazon",
+        "projectImageFormat": "svg",
+        "time": "Summer 2018 - Spring 2019",
+        "duration": "6 Months",
         "skills": ["UX Research", "UX Design", "Data Visualisation", "Fullstack Web Development"],
+        "fullCaseStudy": false,
+        "primaryColor": "#000000",
         "description": "Case study coming soon..."
     },
     {
@@ -60,7 +91,12 @@
         "type": "Internship Project",
         "path": "/buzzfeed-news-offline-experience",
         "id": "buzzfeed-news",
+        "projectImageFormat": "png",
+        "time": "Summer 2019",
+        "duration": null,
         "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"],
+        "fullCaseStudy": false,
+        "primaryColor": "#000000",
         "description": "Case study coming soon..."
     }
 ]
