@@ -29,6 +29,9 @@ class ProjectCard extends Component {
                     <Card.Text  className="projects__project-type">
                         {project.type}
                     </Card.Text>
+                    <Card.Text  className="projects__project-time">
+                        {project.time}
+                    </Card.Text>
                 </Card.Body>
                 <Card.Footer>
                     {project.skills.map(skill => <div className="projects__project-skill" style={{ padding: "0 5px" }}>{skill}</div>)}

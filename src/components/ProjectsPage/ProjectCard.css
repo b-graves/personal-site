@@ -7,14 +7,14 @@
 }
 
 .card-deck {
-    padding: 17px 0 !important;
+    padding: 0 !important;
     width: 100% !important;
 }
 
 .projects__card {
     background-color: transparent !important;
     border: none;
-    margin: 0 17px !important;
+    margin: 17px !important;
  }
 
 
@@ -32,6 +32,13 @@
  .projects__project-type {
     text-align: initial !important;
     color: grey !important;
+    margin-bottom: 0px !important;
+ }
+
+ .projects__project-time {
+    text-align: initial !important;
+    color: grey !important;
+    font-size: 0.8em !important;
  }
 
 .projects__card  > .card-body {

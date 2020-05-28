@@ -30,11 +30,152 @@
 .project__link {
     cursor: pointer;
     width: fit-content;
+    padding-left: 10px;
 }
 
 .project__secondary-image {
     position: absolute;
-    top: 20vh;
+    top: 35vh;
     left: 63vw;
     width: 30vw;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    text-align: initial;
+   position: relative;
+}
+
+  h1 {
+      font-size: 3.5em;
+  }
+
+  h2 {
+      margin-top: 1.5em;
+    font-size: 2.5em;
+}
+
+@media (max-width: 199px) {
+    h1 { font-size: 1.2em !important; }
+    h2 { font-size: 0.7em !important; }
+    .project__name {font-size: 0.9em;}
+  }
+  
+  @media (min-width: 200px) and  (max-width: 249px) {
+    h1 { font-size: 1.4em !important; }
+    h2 { font-size: 0.9em !important; }
+    .project__name {font-size: 1.1em;}
+    
+  }
+  
+  @media (min-width: 250px) and  (max-width: 299px) {
+    h1 { font-size: 1.6em !important; }
+    h2 { font-size: 1.1em !important; }
+    .project__name {font-size: 1.4em;}
+  }
+  
+  @media (min-width: 300px) and  (max-width: 349px) {
+    h1 { font-size: 1.8em !important; }
+    h2 { font-size: 1.3em !important; }
+    .project__name {font-size: 1.7em;}
+  }
+  
+  @media (min-width: 350px) and  (max-width: 399px) {
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.5em !important; }
+    .project__name {font-size: 2em;}
+  }
+
+  @media (min-width: 400px) and  (max-width: 449px) {
+    h1 { font-size: 2.2em !important; }
+    h2 { font-size: 1.7em !important; }
+    .project__name {font-size: 2.3em;}
+  }
+  
+  @media (min-width: 450px) and  (max-width: 499px) {
+    h1 { font-size: 2.4em !important; }
+    h2 { font-size: 1.9em !important; }
+    .project__name {font-size: 2.6em;}
+  }
+
+  @media  (max-width: 1000px) {
+    .project__info {
+        width: 100%;
+        margin-top: 20vh;
+    }
+    .project__secondary-image {
+        display: none;
+    }
+  }
+
+  .slide__image-set {
+      width: 100%
+  }
+
+.slide__image-set > .col {
+    min-width: 200px;
+    padding: 0px !important;
+}
+
+  .slide__image-set__container {
+    padding: 5% 2%;
+  }
+
+  .slide__image-set__image {
+    width: 100%;
+}
+
+.slide__image-set__caption {
+    margin-top: 1em;
+}
+
+.slide__side-image {
+    width: 100%;
+}
+
+.slide__link {
+    font-size: 2em;
+    margin-top: 1.5rem;
+}
+
+.slide__quote-text {
+    text-align: center;
+}
+
+.slide__quote-source {
+    text-align: end;
+    width: 100%;
+}
+
+.project-page__project-skill{
+  background-color: #ebebeb;
+  color: grey;
+  padding: 5px !important;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.project-page__type, .project-page__time, .project-page__duration  {
+  padding: 5px 0px !important;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.slide__image-set__caption {
+  text-align: center;
+}
+
+.slide__icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 7em;
 }

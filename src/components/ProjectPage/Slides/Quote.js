@@ -13,15 +13,23 @@ class BigText extends Component {
     render() {
 
 
-        const { slide } = this.props;
+        const { slide, project } = this.props;
+
+        let style = {}
+
+        if (slide.invert) {
+            style.backgroundColor = project.invertBackgroundColor
+            style.color = project.invertColor
+        } else {
+            style.backgroundColor = project.backgroundColor
+            style.color = project.primaryColor
+        }
 
         return (
-                <FullHeight canExceed>
-                    <Container>
-                        <h1>{slide.text}</h1>
-                        <h2>{slide.source}</h2>
-                    </Container>
-                </FullHeight>
+            <FullHeight canExceed style={style} className="slide">
+                <h1 className="slide__quote-text">"{slide.text}"</h1>
+                <h2 className="slide__quote-source">-{slide.source}</h2>
+            </FullHeight>
 
 
         );
