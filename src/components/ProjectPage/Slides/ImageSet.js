@@ -22,6 +22,9 @@ class ImageSet extends Component {
         if (slide.invert) {
             style.backgroundColor = project.invertBackgroundColor
             style.color = project.invertColor
+        }  else if (slide.highlight) {
+            style.backgroundColor = project.highlightBackgroundColor
+            style.color = project.highlightColor
         } else {
             style.backgroundColor = project.backgroundColor
             style.color = project.primaryColor

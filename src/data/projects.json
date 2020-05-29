@@ -12,21 +12,16 @@
             "Interaction Design",
             "Fullstack Web Development"
         ],
-        "fullCaseStudy": false,
+        "fullCaseStudy": true,
         "primaryColor": "#000000",
         "secondaryColor": "#b82015",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
         "description": "This was a fun personal project I embarked on during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work online. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than to maximise rendering speed and quality.",
         "time": "Spring 2020",
         "duration": null,
         "hasLink": true,
         "link": "https://www.mondrian.fun",
         "slides": [
-            {
-                "type": "Text",
-                "text": "Showers are the biggest consumer of water in the home.",
-                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water."
-            }
         ]
     },
     {
@@ -47,7 +42,9 @@
         "secondaryColor": "#40aac2",
         "backgroundColor": "#f6f6f6ff",
         "invertBackgroundColor": "#40aac2",
-        "invertColor": "#ffffff",
+        "highlightBackgroundColor": "#ffffff",
+        "highlightColor": "#000000",
+        "invertColor": "#f3f3f3",
         "description": "I took on this project to meet a brief from Creative Conscience, an organisation encourage creatives to take on socially valuable projects. The brief was to design something to help create conciousness of consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
         "time": "Spring 2020",
         "duration": null,
@@ -73,7 +70,7 @@
             {
                 "type": "Text",
                 "text": "The shower time suggested by organisations such as WaterAid and Waterwise is around 3-5 minutes - roughly the length of a typical song.",
-                "invert": true,
+                "highlight": true,
                 "icon": "FaLightbulb"
             },
             {
@@ -158,7 +155,8 @@
                     {
                         "url": "/assets/projects/showertune/appspotify4.svg"
                     }
-                ]
+                ],
+                "highlight": true
             },
             {
                 "type": "ImageSet",
@@ -176,7 +174,8 @@
                     {
                         "url": "/assets/projects/showertune/appnonspotify4.svg"
                     }
-                ]
+                ],
+                "highlight": true
             },
             {
                 "type": "Text",
@@ -203,11 +202,198 @@
         ],
         "time": "Autumn 2019 - Spring 2020",
         "duration": "6 Months",
-        "fullCaseStudy": false,
+        "fullCaseStudy": true,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
-        "description": "Case study coming soon..."
+        "backgroundColor": "#f3f3f3",
+        "invertBackgroundColor": "#40aac2",
+        "invertColor": "#f3f3f3",
+        "highlightBackgroundColor": "#ffffff",
+        "highlightColor": "#000000",
+        "description": "Case study coming soon...",
+        "slides": [
+            {
+                "type": "Text",
+                "text": "How might we create digital tools to improve the effectiveness of interviews?"
+            },
+            {
+                "type": "ImageSet",
+                "text": "Process",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/process.svg"
+                    }
+                ]
+            },
+            {
+                "type": "Text",
+                "text": "Discover",
+                "invert": true
+            },
+            {
+                "type": "ImageSet",
+                "text": "Empathy Development Interviews",
+                "subtext": "Empathy Interviews - “understand a person’s thoughts, emotions, and motivations, so that you can determine how to innovate for him or her.”",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/interview-questions.svg"
+                    }
+                ]
+            },
+            {
+                "type": "Text",
+                "text": "Participants",
+                "list": [
+                    "Participant A - Hiring Manager at large financial company",
+                    "Participant B - Mental Health Social Worker in the NHS",
+                    "Participant C - Researcher at academic institution",
+                    "Participant D - Editor of a homes magazine",
+                    "Participant E - Creative director at strategic design consultancy","Participant F - Freelance recruiter in design"
+                ],
+                "image": "/assets/projects/better-interviews/participants.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Insights",
+                "small": true
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Helping the interviewee feel at ease is important",
+                "bodytext": "All participants begin the interview by trying to build rapport and create a relaxed atmosphere.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, starts by attempting to chat with the service-user about topics unrelated to the arranged appointment.",
+                    "Participant D, a Magazine Editor, reassures the interviewee that this is a very informal chat and that there are no right or wrong answers.",
+                    "Participant E, a Creative Director of a design consultancy, when delivering user research interviews uses techniques to make sure that the user is feeling comfortable as they feel this is essential for them to give their honest opinion of the product being tested.",
+                    "Participant F, a Recruitment Consultant, said that the flow is very important and that a successful interview is one that becomes a dialogue where both interviewer and interviewee are made comfortable to have a conversation. Additionally, they want to reflect the company culture they are recruiting for, to help the interviewee feel that if they come to work for this company, it’s going to be a place they are helped to feel relaxed and natural so they can perform to the best of their ability."
+                ],
+                "image": "/assets/projects/better-interviews/ease.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Note-taking is avoided when trying to build rapport",
+                "bodytext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, is very conscious of ensuring the service-user feels they are someone who can be trusted, that they can open up to, and feels that note-taking can be a barrier to achieving this. This can be challenging since often the times when note-taking is most important coincides with the time it is necessary to be most present and focused on the interaction.",
+                    "Participant C, an Academic Researcher who deals with sensitive cases regarding past experiences, often talks with a participant for around an hour without any note-taking or recording to help them feel at ease before the more formal interview begins.",
+                    "Participant E, a Creative Director, spoke of the importance of “active listening”, they said that when you are interviewing you “want to do eye-contact, you want to make them feel comfortable and you can't do that if you are taking notes at the same time.",
+                    "Participant F, a Recruitment Consultant, said “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection.”"
+                ],
+                "image": "/assets/projects/better-interviews/note-taking.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Structured form completion can create challenges",
+                "bodytext": "In cases where interviewers are required to obtain specific information to complete structured forms, they expressed how this made it more difficult to maintain rapport.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant A, a Hiring Manager, is required to score the interviewee on a set of abilities that they are not allowed to reveal. They explained how it makes it difficult to have a natural conversation when you are trying to encourage someone to say something without explicitly declaring it.",
+                    "Participant B, a Social Worker, is required to fill in five online forms during the first meeting with a service-user. They feel it can be hard to build trust when you are required to elicit specific information."
+                ],
+                "image": "/assets/projects/better-interviews/form.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Processing recordings is time-consuming",
+                "bodytext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant A and B, a Hiring Manager and a Social Worker respectively, both said that although recording the interview would help them be less reliant on noting down all the information during the proceedings, they would not have the time to listen back to or transcribe the interview in order to extract the useful information.",
+                    "Participant D, a Magazine Editor, does use audio recording to capture interviews however tries to process the information as quickly as possible to produce an article while they can still remember it. If they have to revisit the recording, they may have to listen back “three or four times” or fully transcribe it which is very time-consuming. They have also found transcription software to be very unreliable."
+                ],
+                "image": "/assets/projects/better-interviews/time.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Transparency is important",
+                "bodytext": "Some participants felt it was important not to hide anything from the interviewee.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, prefers to make handwritten notes since a computer screen would create a barrier between themselves and the service-user and they would not be able to see what was on the screen.",
+                    "Participant C, an Academic Researcher, ensures that the interviewee can read everything that is being noted down to ensure a sense of trust is maintained when conducting interviews into sensitive issues. Additionally, when conducting requirements-capture interviews, they often give a pen and post-its to the interviewee to allow them to write down the key information."
+                ],
+                "image": "/assets/projects/better-interviews/transparency.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Encouraging anecdotes is beneficial",
+                "bodytext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
+                "listHeader": "Examples",
+                "list": [
+                    "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
+                    "Participant D, a Magazine Editor, encourages people to tell anecdotes to paint a better picture of their character and provide a more interesting read. They also mentioned that when people are more relaxed and “chatty” they are more likely to provide these insights."
+                ],
+                "image": "/assets/projects/better-interviews/anecdotes.svg",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "It is important to be aware of personal bias",
+                "bodytext": "Some participants stressed how going into any interview you always have a personal bias that you should be mindful of.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant E,  a Creative Director at a design consultancy, explained how “everybody’s got bias coming into something” and that is important to reflect on how what the interviewee is saying may be different from what you were expecting.",
+                    "Participant C, an Academic Researcher, explained how they prefer to be underprepared for an interview in terms of researching the topic of discussion since they feel that the less influenced they are by their own personal bias the more open their questioning will be, leading to better information being obtained."
+                ],
+                "image": "/assets/projects/better-interviews/bias.jpg",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Both parties should gain something",
+                "bodytext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, spoke about the therapeutic benefit of an interview because it provides an opportunity for the interviewee to feel listened to and supported through sharing difficult thoughts and experiences.",
+                    "Participant F, a Recruitment Consultant, said that in order for the interview to be successful, they try to break away from the more traditional scenario where the employer is asking questions to judge the potential employee. They aim for it to be more of a “two-way conversation” where both parties are able to come away from the interview feeling like “they have gained something after the interview and that they have learned about each other, about the subject matter and there should be some sense of reflection”"
+                ],
+                "image": "/assets/projects/better-interviews/thumb.svg",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Capturing direct quotes is useful",
+                "bodytext": "Some participants mentioned the importance of capturing direct quotes from interviewees, however, this can sometimes be difficult to do.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, described how when providing evidence for decisions, it is very important to be able to provide direct quotes from the service-user. However, this can often be difficult since audio-recording is not an option and they feel that taking notes while a service-user is disclosing something important may be damaging to rapport and trust.",
+                    "Participant E, a Creative Director, always has a second person who is taking notes, in order to ensure that direct quotes can be written down without damaging the flow of the interaction and allows the interviewer to continue active listening. Ideally, they said that the note-taker should be behind a one-way mirror, as they worry that the second person in the room can be distracting and damage the rapport between the interviewer and interviewee. However, this is not always possible as it requires a specialist set up."
+                ],
+                "image": "/assets/projects/better-interviews/quote.png",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "highlight": true,
+                "text": "Audio recording is inappropriate in some cases",
+                "bodytext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
+                "listHeader": "Examples",
+                "list": [
+                    "Participant B, a Social Worker, said that they would not feel comfortable asking the service-user if they could record the discussion. They felt that recording the interaction would damage the sense of trust between the two parties.",
+                    "Participant C, an Academic Researcher, never audio-records, partly because some of the environments they work in do not allow it but also to ensure that the interviewee is aware of all records that are being made since they can read notes being taken."
+                ],
+                "image": "/assets/projects/better-interviews/norecord.png",
+                "imagePos": "right"
+            }
+        ]
     },
     {
         "name": "Google Reliable UX",
@@ -223,7 +409,7 @@
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
         "description": "Case study coming soon..."
     },
     {
@@ -242,7 +428,7 @@
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
         "description": "Case study coming soon..."
     },
     {
@@ -262,7 +448,7 @@
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
         "description": "Case study coming soon..."
     },
     {
@@ -281,7 +467,7 @@
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#f3f3f3",
         "description": "Case study coming soon..."
     }
 ]

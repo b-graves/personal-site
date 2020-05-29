@@ -38,12 +38,12 @@
     top: 35vh;
     left: 63vw;
     width: 30vw;
+    z-index: 99999999;
 }
 
 .slide {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     padding: 5%;
     text-align: initial;
@@ -52,6 +52,7 @@
 
   h1 {
       font-size: 3.5em;
+      margin-bottom: 1em;
   }
 
   h2 {
@@ -116,7 +117,7 @@
       width: 100%
   }
 
-.slide__image-set > .col {
+.col {
     min-width: 200px;
     padding: 0px !important;
 }
@@ -134,7 +135,8 @@
 }
 
 .slide__side-image {
-    width: 100%;
+    width: 80%;
+    margin: 10%;
 }
 
 .slide__link {
@@ -178,4 +180,20 @@
   top: 25px;
   right: 25px;
   font-size: 7em;
+}
+
+.slide__col {
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.slide__list-item {
+  margin: 10px 0;
 }
