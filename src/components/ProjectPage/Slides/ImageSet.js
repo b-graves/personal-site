@@ -52,7 +52,7 @@ class ImageSet extends Component {
                     {slide.images.map(image =>
                         <Col>
                             <div className="slide__image-set__container" style={style}>
-                                <img style={{ paddingTop: slide.topBottomPadding, paddingBottom: slide.topBottomPadding, paddingLeft: slide.sidePadding, paddingRight: slide.sidePadding }} className="slide__image-set__image" src={image.url} alt="project" />
+                                <img style={slide.images.length > 1 ? { paddingTop: slide.topBottomPadding, paddingBottom: slide.topBottomPadding, paddingLeft: slide.sidePadding, paddingRight: slide.sidePadding } : {padding: 0}} className="slide__image-set__image" src={image.url} alt="project" />
                                 <div className="slide__image-set__caption">
                                     {image.caption}
                                 </div>
@@ -60,9 +60,11 @@ class ImageSet extends Component {
                         </Col>
                     )}
                 </Row>
-                <div className="slide__footnote">
+                {slide.footnote ? <Col className="slide__col" style={{ width: "100%" }}>
+                    <div className="slide__footnote">
                         {slide.footnote ? <p>{slide.footnote}</p> : null}
                     </div>
+                </Col> : null}
             </FullHeight>
 
 

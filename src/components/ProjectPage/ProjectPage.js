@@ -11,6 +11,7 @@ import FullHeight from "react-full-height";
 import ImageSet from "./Slides/ImageSet";
 import Text from "./Slides/Text";
 import Quote from "./Slides/Quote";
+import Video from "./Slides/Video";
 
 const slideComponents = {
     "ImageSet": ImageSet,
@@ -35,7 +36,7 @@ class ProjectPage extends Component {
 
         return (
             <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
-                <FullHeight style={{ backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)" }} canExceed>
+                <FullHeight style={{ backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)" }} canExceed>
 
                     {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
                     <Container>
@@ -68,7 +69,8 @@ class ProjectPage extends Component {
                     project.slides.map(slide =>
                         slide.type === "Text" ? <Text slide={slide} project={project} /> :
                             slide.type === "Quote" ? <Quote slide={slide} project={project} /> :
-                                slide.type === "ImageSet" ? <ImageSet slide={slide} project={project} /> : null
+                                slide.type === "ImageSet" ? <ImageSet slide={slide} project={project} /> :
+                                    slide.type === "Video" ? <Video slide={slide} project={project} /> : null
                     ) : <div className="project__description">Full case study coming soon...</div>}
 
             </div>

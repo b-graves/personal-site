@@ -679,6 +679,199 @@
                 "notoppadding": true,
                 "small": true,
                 "footnote": "Overall, Participant B felt that this would be useful in their work to keep track of sessions and also mentioned how having a structure of sessions, which could be defined by NHS policymakers, could be beneficial in providing a better quality of care by standardising the approaches used by practitioners."
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 2 - Segmented Note Taking",
+                "subsubtext": "User Story: As a hiring manager, I want a note-taking tool that helps me collect and manage my interview data more easily.",
+                "body": "Participant A, a hiring manager, takes written notes during job-fit interviews to allow them to provide feedback afterwards. They expressed that they often found it difficult to ensure that these notes were complete and well organised whilst also maintaining a natural conversation with the interviewee and building a rapport. Additionally, Participant F, a recruitment lead, explained “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection”. In these cases, it seems that building a rapport and ensuring the conversation flows naturally is prioritised over producing an account of the interview that is going to be easy to process afterwards.",
+                "small": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "body": "Building on top of the progress tracking tool developed in sprint one, it was explored how note-taking could be added to the tool. The participants, who currently mostly take notes on paper, largely ruled out the use of a laptop, because of the noise the keyboard would make and felt that the upright screen would form a barrier between themselves and the interviewee. However, they were comfortable with the use of a small tablet such as an iPad with an on-screen keyboard to take notes electronically because interactions would be silent and the smaller size of the device would be less intrusive. Various ideas were experimented with such as typing notes in pop-up boxes that appeared when a component is selected or thinking about component objects as being 3D cards that can be flipped and responses written on the other side. However, participants found these concepts to be unnecessarily complex and they did not like how notes were hidden after they had been taken. The preferred design was a more simple chronological account of the completed components with notes appended beside each one. The design made use of negative space to remove any sense of restriction in the length of notes that could be taken, with some participants explaining how it felt close to taking notes on paper.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/tabs.gif",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "body": "The initial design challenge that led to the development of the rejected pop-up box and flip cards solutions was due to a lack of screen space on a small tablet display meaning notes were hidden away when not in use. This was overcome by introducing two separate tabs to the display, one showing the components and the other showing the notes. When a component was selected from the component tab, the focus was automatically shifted to the notes tab with the new component appended to the end of the chronology, ready for the user to add notes. While the users appreciated the amount of screen space being dedicated to note-taking, they felt that it was distracting and laborious for them to have to switch between tabs each time they wanted to start a new component. To combat this, a set of three suggested components was added to the bottom of the notes tab to allow for fast access to the predicted next component. The suggestions were determined based upon the current stage of the interview and the priority given to the upcoming components.",
+                "footnote": "In terms of the structure of the notes that were taken, initial implementations included a full rich text editor that would allow the interviewer to format their notes, changing font size, changing font weight, adding lists etc. However, this was observed to be redundant with many participants preferring the use of a simple bullet-pointed list. Therefore, the rich text options were removed, in favour of a bullet-pointed list of individual notes that can be indented to create a hierarchy.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true
+            },
+            {
+                "type": "Text",
+                "body": "Finally, it was suggested by Participant C that it would be useful to be able to link a note taken for a particular component to a different component since respondents will often mention information relating to topics which may have already been discussed or are yet to be discussed. This was added by allowing notes to be added to other components via a link button. This was found to be useful particularly when linking questions together, which is a skill many interviewers employ to help the conversation to feel more natural. For example, as show in the image, the user has linked a note taken for a question about the interviewee’s strengths to a question about an achievement the interviewee is proud of. This could serve as an aid to linking their phrasing of questions since they could say something like “You mentioned you are very ambitious and quite an over-achiever, please can you tell me about an achievement you are proud of?”",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/figure14.png",
+                "imagePos": "left"
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 3 - Segmented Audio-Recording",
+                "subsubtext": "User Story: As a magazine editor, I want an audio recording tool that helps me find the information I’m looking for more easily.",
+                "body": "Participant D, a homes editor of a magazine, conducts interviews with homeowners to create features. They take an audio recording of the conversation using a digital recorder as well as taking brief handwritten notes. However, they find processing the recording very time-consuming. They explained how they sometimes relisten to the recording of the interview three or four times to familiarise themselves with what was said, using their commute in the car to do so via a USB stick. When they come to write up the piece, they “usually remember the essence of what they said, but finding the exact words in a recording that can sometimes be more than an hour long is quite hard and time-consuming”.",
+                "footnote": "In a similar way to segmenting the notes into corresponding components, audio recording was integrated into the component tracking tool, using the information generated by the user when they tap a component to automatically timestamp the recording with the start times of each component. This meant that when reviewing the recording, this metadata could be used to allow the user to find specific information more easily.",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "body": "Firstly, some participants who dealt with more sensitive issues ruled out the use of audio recording because they felt it would be inappropriate and damage trust. Therefore, an option was created to completely disable audio recording features for a particular session plan. Additionally, all participants who currently use audio recording felt that it was important to ask the interviewee’s permission to record the conversation and explain how the recording would be used before they started recording. Therefore, the decision was taken that even when audio recording is enabled, the default option would be that the recording would not be started automatically when the session starts. Instead, the interviewer is able to start the recording manually, by pressing a button on the session screen. This also meant that the interviewer was able to take multiple recordings throughout the conversation, meaning it could be used as a tool for relieving note-taking requirements in specific moments.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/firgures1718.svg",
+                "imagePos": "left",
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "body": "Due to the focus placed on trust and transparency, it was felt it was important to provide strong visual indicators and feedback regarding whether or not the conversation is currently being recorded. Learning from the Apple iOS UI design pattern of changing the colour of the status bar at the top of the screen to unobtrusively indicate current background processes such as the use of location (blue),  on a call (green) and screen/sound recording (red), the decision was taken to change the bar at the top of the UI to red to indicate recording has been started. When showing this to participants, they also felt it would give them the peace of mind that the recording was working and they could focus on the conversation instead of taking notes. Additionally, it was felt that feedback regarding the audio levels being recorded would be useful, to allow the interviewer to be sure both parties could be heard when the recording was played back. To cater for this, a waveform was added, taking the place of the start recording button that gives real-time feedback of the audio levels being recorded. Given more time and based on the feedback that was received, it could be beneficial to dynamically provide an indication of the optimality of the levels, i.e. whether they are too quiet or too loud.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/figure18.png",
+                "imagePos": "right",
+                "highlight": true
+            },
+            {
+                "subsubtext": "The following video shows audio being captured in an example interview",
+                "type": "Video",
+                "id": "3pED7ftZAjw",
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "body": "In order to allow the user to listen back to recordings, the documentation review screen was extended to include an audio player. It was felt by participants that it was important to be able to see corresponding components and notes alongside the audio currently being played, therefore, the favoured design for the audio player was a vertical progress bar alongside the notes with colour-coded markers where each component begins. To reduce the interaction required to review the recording and notes, the notes section of the interface was adapted to automatically scroll in time with the audio meaning the notes displayed would always correspond to the audio being played. The participants were impressed by this feature and felt it would be useful in allowing them to focus on the audio then check the notes when necessary. Additionally, to facilitate skipping the audio to a particular component, the component cards and markers could be clicked to automatically seek the audio to the moment that component began. Participant D, a magazine editor, particularly liked this feature and explained how “it would be so handy to be able to fast forward to a section of the interview so I could use an exact direct quote in my feature”.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/figure19.png",
+                "imagePos": "left",
+                "highlight": true
+            },
+            {
+                "subsubtext": "The following video shows the example audio being reviewed",
+                "type": "Video",
+                "id": "nk4CS6SlJ3U",
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 4 - Open Questioning Analysis",
+                "subsubtext": "User Story: As an academic researcher, I want to ensure that when interviewing I am mindful that my line of questioning does not lead the interviewee into confirming my own bias.",
+                "body": "Participant C, an academic researcher, feels that it is very important to ensure that their line of questioning remains open in order to ensure that the interviewer does not lead the interviewee into confirming their personal bias. They try to ask very high-level, “almost abstract” questions to gain insights rather than asking specific questions.",
+                "footnote": "With this in mind, providing assistance in ensuring that planned questions were open was explored. After researching online, a publicly available dataset was found containing around 1.4 million questions taken from amazon.com, each labelled as being either open or closed. This was then used to create an NLP algorithm that used the Python parts-of-speech library, spacy, to identify patterns of auxiliary verbs, adverbs and other key signifying words in open questions and closed questions. In order to implement this, a training sample of 210,000 questions was taken from the dataset, which was processed, grouping by the pattern of keywords in the first 6 words of the question. Then, for each pattern, the proportion of open questions was calculated. For example, the pattern \"did * have * * *\" (where * represents a word that is not an identified keyword) has a proportion of open questions of 0.3, whereas the pattern \"how would * * * *\" has a much higher proportion of 0.98. This shows how the model would favour the rephrasing of a closed question such as “Did you have a good experience?” to a more open question such as “How would you describe your experience?”. In order to generate a prediction for a given question, the pattern which matches the most keywords is found, giving the corresponding proportion of open questions in the dataset as the confidence the question should be classified as open. This achieved an accuracy of 78.5% on a testing sample of  21,000 questions. 74.7% of open questions were given an open confidence value of more than 0.5 while 82.8% of closed questions had an open confidence of less than 0.5.",
+                "small": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "body": "In order to integrate this into the prototype, it was added to the component creation screen to ensure that bias mitigation is considered during the initial planning stages of the session. It was felt that the assistance should be fairly unobtrusive and unrestrictive in terms of indicating to the user the prediction, however, allowing them to dismiss this and proceed, even if the question was deemed to be closed, since in some cases it may be necessary to ask closed questions. Additionally, it was felt that it was important to present the prediction with an air of uncertainty so it was made clear the prediction was a best guess and may be incorrect. Based on this, the phrasing of the messages to the user was decided to be “This looks like it could be a closed question.” and “This looks like an open question.”.  The confidence value was also displayed to give the user an indication of how certain the prediction was, which was also colour coded to allow the user to understand the sentiment behind the message, i.e. closed is negative, open is positive.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/figure20.svg",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 5 - Bias Reflection",
+                "subsubtext": "User Story: As a qualitative researcher, I want to ensure that I am mindful of my own bias when interviewing.",
+                "body": "Participants C, E and F who all conduct qualitative research interviews, spoke of the importance of being aware of their own bias throughout the process. Participant E explained how “everybody’s got bias coming into something, whether you think you have or not, you have, and you want to be reflective of what you're hearing fully”. Participant C explained how they “don’t like over-preparing for interviews” since they feel that too much preparation biases their thinking.",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "ImageSet",
+                "subsubtext": "With the goal of altering the perception of personal bias from something that researchers attempt to suppress, into a feature of the data that is acknowledged and reflected upon, the following methodology was devised:",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/bias cartoon.svg"
+                    }
+                ],
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "small": true
+            },
+            {
+                "type": "Text",
+                "body": "Using this method, the researcher would declare what they expect the interviewee to say for specific parts of the interview, i.e. explicitly declaring their bias. Then, following the interview, they would be presented with their expectations alongside the actual data in order to allow them to reflect on whether their bias was confirmed by the interviewee. This was integrated into the prototype by allowing the user the append expectations to individual components for a particular session. These expectations are then hidden while the interview is carried out, before allowing the researcher to compare their data to their expectations and reflect on any differences by answering some simple questions",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/figure24.png",
+                "imagePos": "right",
+                "highlight": true,
+                "small": true
+            },
+            {
+                "type": "ImageSet",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/figure23.png"
+                    }
+                ],
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "small": true,
+                "footnote": "When receiving feedback on this framework, participants felt that while it could be a useful tool in acknowledging their personal bias they were sceptical about the feasibility of declaring expectations for each individual session they carried out. Participant F suggested archetypes could be used to generalise expectations, assigning an archetype to individual sessions. Additionally, they felt that the tool could be reframed as a tool for hypothesis evaluation, meaning the expectations become a hypothesis that is to be proven or disproven by a set of interviews. They felt this could be useful in “ensuring the original angle is maintained” while acknowledging where preconceived ideas may have been incorrect."
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 6 - Systematic Insight Surfacing",
+                "body": "When discussing the evaluation stage of a set of qualitative research interviews, Participant E described this as the “the messy bit”. They explained how it can be overwhelming to be presented with large quantities of subjective data and attempt to process it into something concise and usable. Additionally, it was felt that if a systematic approach is not taken, the researcher can be led into confirming their own bias by selecting insights that support it. Therefore, it was decided that the tool should facilitate a more objective, systematic approach to synthesising data to surface insights. Thematic analysis was selected as the analysis method to implement since it is seen as “a foundational method for qualitative analysis” and it provides the necessary flexibility to be applied to a variety of use cases.",
+                "small": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "body": "In their 2006 paper, Braun and Clarke set out a step-by-step guide for doing thematic analysis.  The first phase is to familiarise yourself with the data; it was felt this was enabled by the documentation review interface produced in sprints 2 and 3 that shows the user segmented notes and audio recordings. The second phase is to generate initial codes which represent a feature of the data, systematically going through the entire dataset. This was integrated into the documentation review interface by adding an expandable “thematic analysis codings'' tab below each component, where codings can be appended and previously added codings enabled and disabled (Figure 25). Based on the application of qualitative research, codings are defined at a session plan level, meaning that parallels can be drawn between sessions. However, in future it may be useful to allow the user to perform analysis for individual sessions or specific groups of sessions.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/themes.gif",
+                "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "body": "Following the generation of codes, the researcher should have a long list of codes that have been identified. Braun and Clarke explain how they should now begin “sorting the different codes into potential themes''. They explain how “it may be helpful at this phase to use visual representations”, suggesting writing the name of each code on a piece of paper and experiment with sorting them into overarching themes [49]. Therefore, it was decided to design a user interface to reflect this. A drag and drop interface was used, where the user can create new themes which appear as coloured areas of the screen then fluidly move codes between themes, reflecting sorting pieces of paper into piles (Figure 26). Additionally, a count was given for each theme, so the researcher could see how prevalent a particular theme is. This can be used to facilitate the next phase of the process, reviewing themes, by allowing them to consider removing themes that do not have sufficient data to support them. Additionally, at this stage, the researcher should consider collapsing themes into each other, where “two apparently separate themes might form one theme” [49]. In order to facilitate this, it is felt that a future enhancement could be to allow the user to explore the underlying data for a particular theme rather than going back to the notes and looking for corresponding codes. This could be done by displaying a subset of the data that applies to the theme so it can be reviewed more easily.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/themesorting.gif",
+                "imagePos": "left"
+            },
+            {
+                "type": "Text",
+                "body": "Once the researcher has reviewed the themes, they should “define and refine” each theme, identifying the essence of what each theme is about. This is enabled in the prototype by allowing the user to update the description of the theme as it is refined, however, again, a view to examine the data for a specific theme would be beneficial to this phase. Finally, the researcher should produce a report of their themes. The final arrangement of codes into themes can be extracted from the interface, however, it was felt it would be useful to provide an automated generation of a visualisation of the themes and codes. A word cloud was selected since it provides a “straightforward and visually appealing visualisation method for text”[50]. This was integrated into the prototype by adding a button below the thematic analysis theme exploration to generate a word cloud. When clicked, this takes the current configuration of codes and themes and generates a word cloud with the names of the themes and codes sized by their frequency in the data. Participants liked how this instantly provided a visual, easily understandable overview of the parallels of a set of findings. It was mentioned how removing the chronology of the data allowed them to interpret the data more objectively since the immediately noticeable information was now the most prevalent rather than the first topic covered by the interviewer.",
+                "small": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "image": "/assets/projects/better-interviews/wordcloud.png",
+                "imagePos": "right",
+                "footnote": "While this feature was designed with a focus on qualitative research, Participant A, a social worker, also felt this would be beneficial to them in identifying the key themes discussed in a session. Throughout the process they mentioned how they have very little time to do extra preparation or analysis of their sessions but felt this would provide them with a quick method of reflecting on a session, using recurring codes and themes to connect ideas that have been developing between sessions. They gave the example of identifying a service user’s “rules for living” in cognitive behavioural therapy and felt that this method could help them to process all the information collected more systematically. They also felt that the word cloud could be an empowering tool for service-users to see the themes they discussed in a session and felt it could be useful in identifying a  progression from session to session as language changes and themes become more/less prominent."
+            },
+            {
+                "type": "Text",
+                "text": "Final Prototype",
+                "subsubtext": "Following the completion of the sixth sprint, a final working prototype had been produced with a functional front and back end that aimed to meet all the requirements of the solution. It is available to try online. Here you can either log in to the demo account with the following credentials: (Username: a Password: a) where there is some example data or register a new account.",
+                "link": "http://bengraves-interview-tool.herokuapp.com/",
+                "linkText": "Go to the prototype ->",
+                "highlight": true
             }
         ]
     },
