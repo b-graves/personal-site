@@ -23,7 +23,7 @@ class Text extends Component {
         if (slide.invert) {
             style.backgroundColor = project.invertBackgroundColor
             style.color = project.invertColor
-        }  else if (slide.highlight) {
+        } else if (slide.highlight) {
             style.backgroundColor = project.highlightBackgroundColor
             style.color = project.highlightColor
         } else {
@@ -31,27 +31,39 @@ class Text extends Component {
             style.color = project.primaryColor
         }
 
-       
-        
+        if (slide.nobottompadding) {
+            style.paddingBottom = "0px"
+        }
 
-        const content =[ 
+        if (slide.notoppadding) {
+            style.paddingTop = "0px"
+        }
+
+
+
+
+        const content = [
+            slide.text ? <Row>
+                <h1>{slide.text}</h1>
+            </Row> : null,
             <Row>
-                        <h1>{slide.text}</h1>
-                    </Row>,
-            <Row>
 
-            {slide.icon === "FaLightbulb" ? <FaLightbulb className="slide__icon" /> : null}
-            {slide.image && slide.imagePos === "left" ? <Col className="slide__col"><img className="slide__side-image" src={slide.image} /></Col> : null}
-            <Col className="slide__col" style={{ width: "100%" }}>
+                {slide.icon === "FaLightbulb" ? <FaLightbulb className="slide__icon" /> : null}
+                {slide.image && slide.imagePos === "left" ? <Col className="slide__col"><img className="slide__side-image" src={slide.image} /></Col> : null}
+                <Col className="slide__col" style={{ width: "100%" }}>
 
-                {slide.subtext ? <h2>{slide.subtext}</h2> : null}
-                {slide.body ? <p>{slide.body}</p> : null}
-                {slide.link ? <a style={{ color: project.secondaryColor }} className="slide__link" target="_blank" href={slide.link}>{slide.linkText}</a> : null}
-                <h3>{slide.listHeader}</h3>
-                {slide.list ? slide.list.map(item => <div className="slide__list-item">- {item}</div>) : null}
-            </Col>
-            {slide.image && slide.imagePos === "right" ? <Col className="slide__col"><img className="slide__side-image" src={slide.image} /></Col> : null}
-        </Row>]
+                    {slide.subtext ? <h2>{slide.subtext}</h2> : null}
+                    {slide.subsubtext ? <h3>{slide.subsubtext}</h3> : null}
+                    {slide.body ? <p>{slide.body}</p> : null}
+                    {slide.link ? <a style={{ color: project.secondaryColor }} className="slide__link" target="_blank" href={slide.link}>{slide.linkText}</a> : null}
+                    <h4>{slide.listHeader}</h4>
+                    {slide.list ? slide.list.map(item => <div className="slide__list-item">- {item}</div>) : null}
+                    <div className="slide__footnote">
+                        {slide.footnote ? <p>{slide.footnote}</p> : null}
+                    </div>
+                </Col>
+                {slide.image && slide.imagePos === "right" ? <Col className="slide__col"><img className="slide__side-image" src={slide.image} /></Col> : null}
+            </Row>]
 
         return (
             slide.small ?

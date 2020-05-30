@@ -56,7 +56,8 @@
   }
 
   h2 {
-      margin-top: 1.5em;
+      margin-top: 0.25em;
+      margin-bottom: 0.75em;
     font-size: 2.5em;
 }
 
@@ -117,17 +118,29 @@
       width: 100%
   }
 
+  .slide__col {
+    max-width: 700px;
+  }
 .col {
     min-width: 200px;
     padding: 0px !important;
 }
 
+h3 {
+  margin-bottom: 3rem;
+}
+
+.slide__footnote {
+  margin-top: 15px
+}
+
   .slide__image-set__container {
-    padding: 5% 2%;
+    padding: 5% 0%;
   }
 
   .slide__image-set__image {
     width: 100%;
+    padding: 0% 2%;
 }
 
 .slide__image-set__caption {

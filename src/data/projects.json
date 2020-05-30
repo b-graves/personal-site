@@ -263,7 +263,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Helping the interviewee feel at ease is important",
-                "bodytext": "All participants begin the interview by trying to build rapport and create a relaxed atmosphere.",
+                "subsubtext": "All participants begin the interview by trying to build rapport and create a relaxed atmosphere.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, starts by attempting to chat with the service-user about topics unrelated to the arranged appointment.",
@@ -278,7 +278,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Note-taking is avoided when trying to build rapport",
-                "bodytext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
+                "subsubtext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, is very conscious of ensuring the service-user feels they are someone who can be trusted, that they can open up to, and feels that note-taking can be a barrier to achieving this. This can be challenging since often the times when note-taking is most important coincides with the time it is necessary to be most present and focused on the interaction.",
@@ -293,7 +293,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Structured form completion can create challenges",
-                "bodytext": "In cases where interviewers are required to obtain specific information to complete structured forms, they expressed how this made it more difficult to maintain rapport.",
+                "subsubtext": "In cases where interviewers are required to obtain specific information to complete structured forms, they expressed how this made it more difficult to maintain rapport.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant A, a Hiring Manager, is required to score the interviewee on a set of abilities that they are not allowed to reveal. They explained how it makes it difficult to have a natural conversation when you are trying to encourage someone to say something without explicitly declaring it.",
@@ -306,7 +306,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Processing recordings is time-consuming",
-                "bodytext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
+                "subsubtext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant A and B, a Hiring Manager and a Social Worker respectively, both said that although recording the interview would help them be less reliant on noting down all the information during the proceedings, they would not have the time to listen back to or transcribe the interview in order to extract the useful information.",
@@ -319,7 +319,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Transparency is important",
-                "bodytext": "Some participants felt it was important not to hide anything from the interviewee.",
+                "subsubtext": "Some participants felt it was important not to hide anything from the interviewee.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, prefers to make handwritten notes since a computer screen would create a barrier between themselves and the service-user and they would not be able to see what was on the screen.",
@@ -332,7 +332,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Encouraging anecdotes is beneficial",
-                "bodytext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
+                "subsubtext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
                 "listHeader": "Examples",
                 "list": [
                     "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
@@ -345,7 +345,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "It is important to be aware of personal bias",
-                "bodytext": "Some participants stressed how going into any interview you always have a personal bias that you should be mindful of.",
+                "subsubtext": "Some participants stressed how going into any interview you always have a personal bias that you should be mindful of.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant E,  a Creative Director at a design consultancy, explained how “everybody’s got bias coming into something” and that is important to reflect on how what the interviewee is saying may be different from what you were expecting.",
@@ -358,7 +358,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Both parties should gain something",
-                "bodytext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
+                "subsubtext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, spoke about the therapeutic benefit of an interview because it provides an opportunity for the interviewee to feel listened to and supported through sharing difficult thoughts and experiences.",
@@ -371,7 +371,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Capturing direct quotes is useful",
-                "bodytext": "Some participants mentioned the importance of capturing direct quotes from interviewees, however, this can sometimes be difficult to do.",
+                "subsubtext": "Some participants mentioned the importance of capturing direct quotes from interviewees, however, this can sometimes be difficult to do.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, described how when providing evidence for decisions, it is very important to be able to provide direct quotes from the service-user. However, this can often be difficult since audio-recording is not an option and they feel that taking notes while a service-user is disclosing something important may be damaging to rapport and trust.",
@@ -384,7 +384,7 @@
                 "type": "Text",
                 "highlight": true,
                 "text": "Audio recording is inappropriate in some cases",
-                "bodytext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
+                "subsubtext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
                 "listHeader": "Examples",
                 "list": [
                     "Participant B, a Social Worker, said that they would not feel comfortable asking the service-user if they could record the discussion. They felt that recording the interaction would damage the sense of trust between the two parties.",
@@ -392,6 +392,293 @@
                 ],
                 "image": "/assets/projects/better-interviews/norecord.png",
                 "imagePos": "right"
+            },
+            {
+                "type": "Text",
+                "text": "Define",
+                "invert": true
+            },
+            {
+                "type": "Text",
+                "text": "Points of View Statements",
+                "body": "In order to develop an actionable problem statement, Stanford d.school encourages the design thinker to form their “Point of View” based on their understanding of users and their environments. “More than simply defining the problem, your Point of View is a unique design vision that is framed by your specific users”. In order to do this, they recommend using “Point of View Statements” which take the following structure",
+                "list": [
+                    "We met… (a user/stakeholder you were inspired by)",
+                    "We were struck by… (something telling, surprising or in tension)",
+                    "We wonder if this means… (a potential insight -  that gives you meaningful direction)", 
+                    "It would be game-changing to…(a potential direction, assuming your insight is correct, without dictating a particular solution)"
+                ],
+                "small": true,
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "subtext": "The following Point of View statements were developed:",
+                "small": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant A",
+                "list": [
+                    "We met Participant A, a Hiring Manager for a large financial company, who carries out interviews with potential employees to decide if they are a good cultural fit for the company. The output of the interview is a set of scores for criteria that the company values.", 
+                    "We were struck by how they often felt overwhelmed with the number of tasks they were required to carry out during the interview and how this made it difficult to converse naturally with the interviewee.", 
+                    "We wonder if this means a high cognitive load on the interviewer damages rapport with the interviewee.", 
+                    "It would be game-changing to help reduce the cognitive load on the interviewer."
+                ],
+                "small": true,
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant B",
+                "list": [
+                    "We met Participant B, a Mental Health Social Worker in the NHS, who carries out assessments with service-users.", 
+                    "We were struck by how the times they were required to be most engaged with what the service-user was saying coincided with the times where note-taking was most important, since capturing direct quotes in these situations can be vital. Despite this, they never record conversations as they feel it would damage trust.", 
+                    "We wonder if this means audio-recording is too intrusive for some more sensitive situations and would damage rapport, despite allowing the interviewer to be more engaged.", 
+                    "It would be game-changing to help the user capture direct quotes more easily without the use of audio recording"
+                ],
+                "small": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant C",
+                "list": [
+                    "We met Participant C, an Academic Researcher, who carries out interviews to explore people’s critical thinking in past situations as well as to capture requirements.", 
+                    "We were struck by how they preferred not to be over-prepared for an interview as they felt that if they already had an idea of what they expected the interviewee to say, their own bias would guide their line of questioning along that path. They prefer to keep to a very high level of almost abstract questioning so as not to lead the interviewee.", 
+                    "We wonder if this means that personal bias as a result of knowledge or experience in an area can be damaging to the information that is elicited as the interviewer may be tempted to confirm their own beliefs about the situation.", 
+                    "It would be game-changing to encourage interviewers to be mindful of their own bias and help them to be more objective in their line of questioning."
+                ],
+                "small": true,
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant D",
+                "list": [
+                    "We met Participant D, an Editor of a magazine, who interviews homeowners to write articles about their homes.", 
+                    "We were struck by how they would relisten to the recording of the interview 3 or 4 times to familiarise themselves with what was said, using their commute to do so via a USB stick in the car.", 
+                    "We wonder if this means listening to an audio-recording of the interview is an ineffective way of going over the interview since it is so time-consuming.", 
+                    "It would be game-changing to help the user surface the information they are looking for more quickly."
+                ],
+                "small": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant E",
+                "list": [
+                    "We met Participant E, a Creative Director of a design consultancy, who carries out user research interviews.", 
+                    "We were struck by their explanation of how it is much harder to avoid being influenced by your own bias in qualitative research than in quantitative research. They felt that in quantitative research where answers are often binary or categorical, it is easier to overcome bias. However, when subjective data is collected via note-taking followed by searching for insights within those notes, it can be harder not to follow your bias.", 
+                    "We wonder if this means that existing methodologies for collecting qualitative data and surfacing insights are prone to allowing the researcher to follow their own bias.", 
+                    "It would be game-changing to help the user surface insights in qualitative data in a more objective way."
+                ],
+                "small": true,
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "listHeader": "Participant F",
+                "list": [
+                    "We met Participant F, a Recruitment Lead, who carries out interviews with candidates to access if they have the skills required and are the right fit for a job.",
+                    "We were struck by how they explained that they tried to avoid making notes as they felt their primary focus should be on building a personal relationship with the interviewee.",
+                    "We wonder if this means that note-taking is seen as a barrier to building rapport and therefore avoided.",
+                    "It would be game-changing to allow the interviewer to effectively document the interview without damaging their ability to build a rapport."
+                ],
+                "small": true
+            },
+            {
+                "type": "Text",
+                "text": "Problem Definition",
+                "body": "It was observed that a common theme mentioned by everyone spoken to was the importance of making the interviewee feel at ease. However, the participants mentioned various barriers to this. Note-taking and form completion were mentioned as requirements that made building rapport more difficult. Additionally, keeping track of what had been covered in order to ensure the required information is elicited, and probing the interviewee for more information, were also commonly stated as reasons why having a natural human interaction may be difficult. All participants also expressed the importance of the two-sidedness of the interaction. Many mentioned how they wanted it to “feel more like a chat” and expressed the importance of being transparent and open with the interviewee. Due to the strong feelings expressed by participants about ensuring the conversation feels natural, it was decided that any solution should have minimal impact on the flow of the interaction between interviewer and interviewee. The focus should be placed on making it easier for the interviewer to be present on a human level, displaying positive body language and actively listening to what is being said. Therefore, interactions with the system should be minimised, subtle and unintrusive of the conversation. It was also felt that taking too many notes, particularly where the interviewee would be unable to see the notes, can be damaging to rapport. This can also be the case if an interview is structured in a way that feels regimented and too much like a one-sided question and answer session. Additionally, some participants mentioned the danger of bias in interviewing, particularly in research interviews. They felt that if the questions are not sufficiently open-ended or if the interviewer leads the questioning along a path of confirming their own beliefs, then there is a danger the output of the interview will become biased. Furthermore, due to the nature of data collected from quantitative research interviews, it can be difficult to ensure all data is documented and insights are surfaced without being influenced by personal bias. Taking a recording of the interview to overcome these problems was met with a mixed reaction. Some felt it was a good way to alleviate the difficulties of note-taking and ensure direct quotes can be documented. Nonetheless, others felt it was too intrusive and would damage the sense of trust in the interaction as well as being very time consuming to process.",
+                "listHeader": "Key Pain-points",
+                "list": [
+                    "Overcoming the cognitive load to effectively elicit and document information whilst maintaining a natural two-way conversation and building a rapport with the interviewee.", 
+                    "Mitigating personal bias when preparing, delivering and evaluating an interview."
+                ],
+                "footnote": "A key constraint to addressing these pain points is that audio recording can create challenges, since it is felt that it may make the interviewee feel uncomfortable and dealing with raw audio-recorded data takes too long."
+            },
+            {
+                "type": "ImageSet",
+                "text": "User Journey",
+                "subtext": "Based on the identified pain-points, the following user journey was created:",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/User Journey 1.svg"
+                    }
+                ],
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "text": "Develop",
+                "invert": true
+            },
+            {
+                "type": "Text",
+                "text": "Ideation",
+                "body": "In order to spark ideation, \"how might we \" questions were generated to frame the problem in different ways to help explore possible solutions. Following the generation of these questions, brainstorming began. In order to carry out effective brainstorming, Stanford d.school recommends that you focus on generating a large number of broad ideas, reserving judgement and imposing constraints where necessary. The “how might we” questions were used as a guide, breaking them down into more focused questions until a question that could be answered was reached.",
+                "footnote": "The following ideas were formed as a result of analysing brainstorming data:",
+                "small": true
+            },
+            {
+                "type": "ImageSet",
+                "subtext": "Progress Tracking",
+                "body": "A feature that allows the interviewer to define a structure for the interview beforehand, then, during the interview, helps them to keep track of the completion of components and timing by providing visual cues. Additionally, the next component to be covered could be suggested to the interviewer based on the previously completed components and the plan that has been defined. This aims to reduce cognitive load by simplifying the task of determining the path of the interview as well as to mitigate bias by helping the interviewer keep to a predetermined line of questioning.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Progress Tracking Diagram.svg"
+                    }
+                ],
+                "highlight": true
+            },
+            {
+                "type": "ImageSet",
+                "subtext": "Segmented Documentation",
+                "body": "A feature that allows notes and recordings taken during the interview to be automatically segmented into corresponding interview components (e.g. questions, topics, form sections) creating a more structured and uniform account of the proceedings that facilitates faster access to specific information. This aims to reduce cognitive load by taking care of the structuring of notes, mitigate bias by helping the interviewer capture a more indiscriminate account of the interview, and reduce the time taken to process and search audio recordings.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Segmented Documentations Diagram.svg"
+                    }
+                ]
+            },
+            {
+                "type": "ImageSet",
+                "subtext": "Open Questioning Analysis",
+                "body": "A feature that automatically determines if a question an interviewer plans to ask is open or closed. This aims to mitigate bias since it has been found that the line of questioning chosen by the interviewer is a common source of bias.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Open Questioning Analysis Diagram.svg"
+                    }
+                ],
+                "highlight": true,
+                "small": true
+            },
+            {
+                "type": "ImageSet",
+                "subtext": "Bias Reflection",
+                "body": "A feature that aims to help interviewers be more mindful of their own bias, by asking them to predict what they think the participant might say in response to a given question, i.e. explicitly stating their bias, then reflecting on how their answer may be surprising and if it has changed their point of view.  This feature would not be appropriate for all types of interviews but, based on empathetic data, it is felt it may be useful in areas such as qualitative research. This aims to mitigate bias by transforming personal bias from being something in the interviewer's mind that they try to suppress to something that is acknowledged and forms part of the data itself.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Bias reflection Diagram.svg"
+                    }
+                ],
+                "small": true
+            },
+            {
+                "type": "ImageSet",
+                "subtext": "Systematic Insight Surfacing",
+                "body": "A feature that facilitates a systematic approach to analysing qualitative data such as Thematic Analysis to allow the user to surface insights more objectively. This aims to mitigate bias by allowing the user to ensure that all data is taken into account when surfacing insights and that they are not influenced by their own bias in selecting pieces of information.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Systematic Insight Surfacing Diagram.svg"
+                    }
+                ],
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "text": "Deliver",
+                "invert": true
+            },
+            {
+                "type": "ImageSet",
+                
+                "subsubtext": "To explore how the generated ideas could be combined, they were mapped onto the user journey like this:",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/User Journey 2.svg"
+                    }
+                ]
+            },
+            {
+                "type": "ImageSet",
+                
+                "subsubtext": "Based upon the empathetic data, the following flow diagram showing how information is passed along current processes was determined. This is a generalisation of all the types of interviews explored, with items that did not apply in all cases shown in brackets.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Information Flow 1.svg"
+                    }
+                ]
+            },
+            {
+                "type": "ImageSet",
+                
+                "subsubtext": "These existing processes should be considered when designing the tool, in order to ensure the tool can be integrated into workflows and is non-specific to particular use-cases. Based on this, the following user journey was established, incorporating the ideas into a single user experience:",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/Flow Diagram 2.svg"
+                    }
+                ],
+                "highlight": true
+            },
+            {
+                "type": "Text",
+                "text": "Prototyping",
+                "body": "In order to test these ideas, a high fidelity prototype was developed using React. It was decided to structure the development of the prototype in sprints, focusing each sprint on a particular feature and defining a user story based on empathetic data, to ensure that the development was grounded in solving real user problems. User stories are a concept borrowed from Agile methodologies that provide “short, specific and goal-oriented” statements that tend to take the form “As a..., I want..., so that...”"
+                
+            },
+            {
+                "type": "Text",
+                "subtext": "Sprint 1 - Progress Tracking",
+                "subsubtext": "User Story: As a social worker, I want a tool for organising and monitoring the progress of my assessments so that I can focus on being present with the service-user.",
+                "body": "Participant B, a social worker, is required to complete a structured form for each of their assessments with service-users. They expressed how it was important to them that the session feels“more like a chat” to help the service-user feel comfortable discussing sensitive issues. Because of this, they do not tend to complete the form in order, instead, completing it in the order that feels most appropriate to the flow of discussion in each case. However, this creates difficulties in identifying sections that still need to be completed and confirming that everything has been covered, since the form is many pages long and requires them to go through each page checking each section. Due to the strict time limits and the importance of ensuring all information is covered during the session this creates additional stress, increasing the cognitive load and making it more difficult to build the rapport that is vital in situations such as social work.",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "body": "The key pain point established in this situation was the difficulty in identifying components of the session that were yet to be covered, and by extension concluding that all components had been covered. Working closely with Participant B, the idea of using a touch screen device to allow the user to discreetly dismiss components as they are covered was experimented with. Following the definition of a set of components, the user is able to start a session using the predefined components. The components are then displayed on-screen as large buttons and the user is able to tap each one when the component is covered. It then fades or disappears, depending on the user’s preference, meaning identifying components yet to be covered can be achieved through glancing at the screen. The components can also be colour-coded by the interviewer to provide instantaneous visual information about the type of component.",
+                "image": "/assets/projects/better-interviews/figure8.png",
+                "imagePos": "left",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true
+            },
+            {
+                "type": "Text",
+                "body": "As an extension to this idea, an additional view was added which displayed components as a set of rendered bubbles, which were sized according to which component should most likely come next based upon the predefined plan. This was an exploration into the incorporation of playful design into the tool, which aims to “make existing activities and systems more engaging by infusing them with the engaging qualities of games and toys. When discussing his three levels of emotional design, Don Norman explains how products that perform well on the reflective level should be fun to use and provide the user with a story they can tell about it’s novelty. The idea of using bubbles was developed by considering the action of the interviewer tapping a component to complete it, then it disappearing or fading as being similar to popping a bubble. It was also felt that the unordered nature of a group of bubbles could accentuate the sense of fluidity in allowing components to be completed in any order. Participants generally liked this idea and while they felt it may not be appropriate in all cases, some mentioned how it could be useful in making the interview more collaborative and transparent by altering the roles of the interviewer and interviewee to allow them to work together to pop all of the bubbles. Participant F spoke about the potential benefits of introducing a sense of motivation and achievement into the process and agreed it could be useful in conducting research interviews with children. Exploring the effects on rapport of reimagining interviews in this way could be a future area of research.",
+                "image": "/assets/projects/better-interviews/figure9.png",
+                "imagePos": "right",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true
+            },
+            {
+                "type": "Text",
+                "body": "Participant E described how they make use of a  TimeTimer™ during their interviews, which provides a simple visual representation of time remaining. The concept is widely celebrated in the design world for its fast interpretability compared to using clocks or stopwatches.  It was therefore decided to add a similar style of countdown timer to the UI to allow the interviewer to keep track of time remaining without disrupting the discussion.",
+                "image": "/assets/projects/better-interviews/Figure 10.png",
+                "imagePos": "left",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true
+            },
+            {
+                "type": "Text",
+                "body": "In order to evaluate the feasibility of this part of the prototype, user trials were carried out in which participants were to complete tasks using the system. The technique of “Show, don’t tell” was used meaning the facilitator should only give the participant “the basic context they need to understand what to do” and refrain from “correcting” misunderstandings. Additionally, the participants were encouraged to “Think aloud” to help empathise with their understanding of the system. These techniques are all outlined as part of the methodology for design thinking user testing by Stanford d.school. While the facilitator observed the proceedings, they completed a “Feedback capture matrix”. As defined by Stanford d.school, “feedback capture matrices facilitate real-time capture of feedback on presentations and prototypes”. The matrix helps the design thinker arrange thoughts into four categories: likes, wishes, questions raised and ideas spurred on.",
+                "small": true,
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true
+            },
+            {
+                "type": "ImageSet",
+                "body": "During the trials for the component tracking tool, the users were able to complete the task with relative ease. They expressed a liking of the use of colour as well as the timer to give quick visual cues. The option of fading the components when they are completed was preferred over hiding them as it allowed them to keep a record of what had been previously covered. While they liked the colour coding, they expressed a desire to split components into more distinct categories to represent the stages of the interview, as well as the ability to make some components higher priority for completion than others. Therefore, the ability to group components into stages was added and components could be given importance of “Highest”, “High”, “Medium”, “Low” or  “Lowest”`.",
+                "images": [
+                    {
+                        "url": "/assets/projects/better-interviews/figure11b.png"
+                    },
+                    {
+                        "url": "/assets/projects/better-interviews/figure11a.png"
+                    }
+                ],
+                "highlight": true,
+                "nobottompadding": true,
+                "notoppadding": true,
+                "small": true,
+                "footnote": "Overall, Participant B felt that this would be useful in their work to keep track of sessions and also mentioned how having a structure of sessions, which could be defined by NHS policymakers, could be beneficial in providing a better quality of care by standardising the approaches used by practitioners."
             }
         ]
     },
@@ -457,7 +744,7 @@
         "path": "/buzzfeed-news-offline-experience",
         "id": "buzzfeed-news",
         "projectImageFormat": "png",
-        "time": "Summer 2019",
+        "time": "Summer 2018",
         "duration": null,
         "skills": [
             "UX Design",
