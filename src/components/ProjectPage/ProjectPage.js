@@ -29,6 +29,10 @@ class ProjectPage extends Component {
 
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
 
 
@@ -36,7 +40,7 @@ class ProjectPage extends Component {
 
         return (
             <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
-                <FullHeight style={{ backgroundSize: "auto 100vh", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center"}} canExceed>
+                <FullHeight style={{ backgroundSize: "auto 100vh", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center" }} canExceed>
 
                     {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
                     <Container>
