@@ -210,20 +210,27 @@
         "invertColor": "#f3f3f3",
         "highlightBackgroundColor": "#ffffff",
         "highlightColor": "#000000",
-        "description": "Case study coming soon...",
+        "description": "This was an exploritory project for my Computer Science bachelors final project. With the goal of developing a high-fidelity prototype of a tool that could be used in a variety of interview settings, I applied design thinking methodologies working closely with a set of participants. The participants carried out a variety of types of interviews, such as medical consultation, journalistic interviews, qualitative research interviews as well as recruitment interviews. I was able to identify some key challenges faced by interviewers as being a high cognitive load, building rapport and mitigating confirmation bias. I then ideated around, prototyped and tested tools to ease these pain-points. The final prototype incorporates various ideas into a single end-to-end tool for use before, during and after the interview, taking the form of a web application designed for use on a mobile touchscreen tablet.",
         "slides": [
-            {
-                "type": "Text",
-                "text": "How might we create digital tools to improve the effectiveness of interviews?"
-            },
             {
                 "type": "ImageSet",
                 "text": "Process",
+                "subsubtext": "The design process was defined around the double diamond model. Stanford d.school's Design Thinking bootleg was also used as a reference to provide guidance on activities to facilitate a user-centred design thinking process.",
                 "images": [
                     {
-                        "url": "/assets/projects/better-interviews/process.svg"
+                        "url": "/assets/projects/better-interviews/doublediamond.svg"
                     }
                 ]
+            },
+            {
+                "type": "Text",
+                "link": "https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf",
+                "linkText": "Stanford d.school's Design Thinking bootleg",
+                "image": "/assets/projects/better-interviews/bootleg4.png",
+                "imagePos": "right",
+                "small": true,
+                "notoppadding": true,
+                "smallImage": true
             },
             {
                 "type": "Text",
@@ -236,9 +243,10 @@
                 "subtext": "Empathy Interviews - “understand a person’s thoughts, emotions, and motivations, so that you can determine how to innovate for him or her.”",
                 "images": [
                     {
-                        "url": "/assets/projects/better-interviews/interview-questions.svg"
+                        "url": "/assets/projects/better-interviews/questions.svg"
                     }
-                ]
+                ],
+                "nobottompadding": true
             },
             {
                 "type": "Text",
@@ -248,16 +256,18 @@
                     "Participant B - Mental Health Social Worker in the NHS",
                     "Participant C - Researcher at academic institution",
                     "Participant D - Editor of a homes magazine",
-                    "Participant E - Creative director at strategic design consultancy","Participant F - Freelance recruiter in design"
+                    "Participant E - Creative director at strategic design consultancy","Participant F - Recruitment lead at strategic design consultancy"
                 ],
                 "image": "/assets/projects/better-interviews/participants.png",
-                "imagePos": "right"
+                "imagePos": "right",
+                "notoppadding": true
             },
             {
                 "type": "Text",
-                "highlight": true,
+                "invert": true,
                 "text": "Insights",
-                "small": true
+                "small": true,
+                "nobottompadding": true
             },
             {
                 "type": "Text",
@@ -276,7 +286,6 @@
             },
             {
                 "type": "Text",
-                "highlight": true,
                 "text": "Note-taking is avoided when trying to build rapport",
                 "subsubtext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
                 "listHeader": "Examples",
@@ -304,7 +313,6 @@
             },
             {
                 "type": "Text",
-                "highlight": true,
                 "text": "Processing recordings is time-consuming",
                 "subsubtext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
                 "listHeader": "Examples",
@@ -313,7 +321,8 @@
                     "Participant D, a Magazine Editor, does use audio recording to capture interviews however tries to process the information as quickly as possible to produce an article while they can still remember it. If they have to revisit the recording, they may have to listen back “three or four times” or fully transcribe it which is very time-consuming. They have also found transcription software to be very unreliable."
                 ],
                 "image": "/assets/projects/better-interviews/time.png",
-                "imagePos": "right"
+                "imagePos": "right",
+                "smallImage": true
             },
             {
                 "type": "Text",
@@ -330,7 +339,6 @@
             },
             {
                 "type": "Text",
-                "highlight": true,
                 "text": "Encouraging anecdotes is beneficial",
                 "subsubtext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
                 "listHeader": "Examples",
@@ -339,7 +347,8 @@
                     "Participant D, a Magazine Editor, encourages people to tell anecdotes to paint a better picture of their character and provide a more interesting read. They also mentioned that when people are more relaxed and “chatty” they are more likely to provide these insights."
                 ],
                 "image": "/assets/projects/better-interviews/anecdotes.svg",
-                "imagePos": "right"
+                "imagePos": "right",
+                "smallImage": true
             },
             {
                 "type": "Text",
@@ -356,7 +365,6 @@
             },
             {
                 "type": "Text",
-                "highlight": true,
                 "text": "Both parties should gain something",
                 "subsubtext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
                 "listHeader": "Examples",
@@ -382,7 +390,6 @@
             },
             {
                 "type": "Text",
-                "highlight": true,
                 "text": "Audio recording is inappropriate in some cases",
                 "subsubtext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
                 "listHeader": "Examples",
@@ -391,7 +398,8 @@
                     "Participant C, an Academic Researcher, never audio-records, partly because some of the environments they work in do not allow it but also to ensure that the interviewee is aware of all records that are being made since they can read notes being taken."
                 ],
                 "image": "/assets/projects/better-interviews/norecord.png",
-                "imagePos": "right"
+                "imagePos": "right",
+                "smallImage": true
             },
             {
                 "type": "Text",
@@ -400,7 +408,7 @@
             },
             {
                 "type": "Text",
-                "text": "Points of View Statements",
+                "text": "Point of View Statements",
                 "body": "In order to develop an actionable problem statement, Stanford d.school encourages the design thinker to form their “Point of View” based on their understanding of users and their environments. “More than simply defining the problem, your Point of View is a unique design vision that is framed by your specific users”. In order to do this, they recommend using “Point of View Statements” which take the following structure",
                 "list": [
                     "We met… (a user/stakeholder you were inspired by)",
@@ -488,7 +496,7 @@
             {
                 "type": "Text",
                 "text": "Problem Definition",
-                "body": "It was observed that a common theme mentioned by everyone spoken to was the importance of making the interviewee feel at ease. However, the participants mentioned various barriers to this. Note-taking and form completion were mentioned as requirements that made building rapport more difficult. Additionally, keeping track of what had been covered in order to ensure the required information is elicited, and probing the interviewee for more information, were also commonly stated as reasons why having a natural human interaction may be difficult. All participants also expressed the importance of the two-sidedness of the interaction. Many mentioned how they wanted it to “feel more like a chat” and expressed the importance of being transparent and open with the interviewee. Due to the strong feelings expressed by participants about ensuring the conversation feels natural, it was decided that any solution should have minimal impact on the flow of the interaction between interviewer and interviewee. The focus should be placed on making it easier for the interviewer to be present on a human level, displaying positive body language and actively listening to what is being said. Therefore, interactions with the system should be minimised, subtle and unintrusive of the conversation. It was also felt that taking too many notes, particularly where the interviewee would be unable to see the notes, can be damaging to rapport. This can also be the case if an interview is structured in a way that feels regimented and too much like a one-sided question and answer session. Additionally, some participants mentioned the danger of bias in interviewing, particularly in research interviews. They felt that if the questions are not sufficiently open-ended or if the interviewer leads the questioning along a path of confirming their own beliefs, then there is a danger the output of the interview will become biased. Furthermore, due to the nature of data collected from quantitative research interviews, it can be difficult to ensure all data is documented and insights are surfaced without being influenced by personal bias. Taking a recording of the interview to overcome these problems was met with a mixed reaction. Some felt it was a good way to alleviate the difficulties of note-taking and ensure direct quotes can be documented. Nonetheless, others felt it was too intrusive and would damage the sense of trust in the interaction as well as being very time consuming to process.",
+                "body": "It was observed that a common theme mentioned by everyone spoken to was the importance of making the interviewee feel at ease. However, the participants mentioned various barriers to this. Note-taking and form completion were mentioned as requirements that made building rapport more difficult. Additionally, keeping track of what had been covered in order to ensure the required information is elicited, and probing the interviewee for more information, were also commonly stated as reasons why having a natural human interaction may be difficult. All participants also expressed the importance of the two-sidedness of the interaction. Many mentioned how they wanted it to “feel more like a chat” and expressed the importance of being transparent and open with the interviewee. Due to the strong feelings expressed by participants about ensuring the conversation feels natural, it was decided that any solution should have minimal impact on the flow of the interaction between interviewer and interviewee. The focus should be placed on making it easier for the interviewer to be present on a human level, displaying positive body language and actively listening to what is being said. Therefore, interactions with the system should be minimised, subtle and unintrusive of the conversation. It was also felt that taking too many notes, particularly where the interviewee would be unable to see the notes, can be damaging to rapport. This can also be the case if an interview is structured in a way that feels regimented and too much like a one-sided question and answer session. Additionally, some participants mentioned the danger of bias in interviewing, particularly in research interviews. They felt that if the questions are not sufficiently open-ended or if the interviewer leads the questioning along a path of confirming their own beliefs, then there is a danger the output of the interview will become biased. Furthermore, due to the nature of data collected from quantitative research interviews, it can be difficult to ensure all data is documented and insights are surfaced without being influenced by personal bias. Taking a recording of the interview to overcome these problems was met with a mixed reaction. Some felt it was a good way to alleviate the difficulties of note-taking and ensure direct quotes can be documented. Nonetheless, others felt it was too intrusive and would damage the sense of trust in the interaction as well as being very time-consuming to process.",
                 "listHeader": "Key Pain-points",
                 "list": [
                     "Overcoming the cognitive load to effectively elicit and document information whilst maintaining a natural two-way conversation and building a rapport with the interviewee.", 
@@ -802,7 +810,6 @@
                     }
                 ],
                 "highlight": true,
-                "nobottompadding": true,
                 "notoppadding": true,
                 "small": true
             },
@@ -810,7 +817,6 @@
                 "type": "Text",
                 "body": "Using this method, the researcher would declare what they expect the interviewee to say for specific parts of the interview, i.e. explicitly declaring their bias. Then, following the interview, they would be presented with their expectations alongside the actual data in order to allow them to reflect on whether their bias was confirmed by the interviewee. This was integrated into the prototype by allowing the user the append expectations to individual components for a particular session. These expectations are then hidden while the interview is carried out, before allowing the researcher to compare their data to their expectations and reflect on any differences by answering some simple questions",
                 "small": true,
-                "nobottompadding": true,
                 "notoppadding": true,
                 "image": "/assets/projects/better-interviews/figure24.png",
                 "imagePos": "right",
@@ -841,7 +847,6 @@
                 "type": "Text",
                 "body": "In their 2006 paper, Braun and Clarke set out a step-by-step guide for doing thematic analysis.  The first phase is to familiarise yourself with the data; it was felt this was enabled by the documentation review interface produced in sprints 2 and 3 that shows the user segmented notes and audio recordings. The second phase is to generate initial codes which represent a feature of the data, systematically going through the entire dataset. This was integrated into the documentation review interface by adding an expandable “thematic analysis codings'' tab below each component, where codings can be appended and previously added codings enabled and disabled (Figure 25). Based on the application of qualitative research, codings are defined at a session plan level, meaning that parallels can be drawn between sessions. However, in future it may be useful to allow the user to perform analysis for individual sessions or specific groups of sessions.",
                 "small": true,
-                "nobottompadding": true,
                 "notoppadding": true,
                 "image": "/assets/projects/better-interviews/themes.gif",
                 "imagePos": "right"

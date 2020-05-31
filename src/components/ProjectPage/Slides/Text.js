@@ -49,7 +49,7 @@ class Text extends Component {
             <Row>
 
                 {slide.icon === "FaLightbulb" ? <FaLightbulb className="slide__icon" /> : null}
-                {slide.image && slide.imagePos === "left" ? <Col className="slide__col"><img className="slide__side-image slide__side-image--left" src={slide.image} /></Col> : null}
+                {slide.image && slide.imagePos === "left" ? <Col className="slide__col"><img className={slide.smallImage ?  "slide__side-image--small slide__side-image--left" : "slide__side-image slide__side-image--left"} src={slide.image} /></Col> : null}
                 <Col className="slide__col" style={{ width: "100%", margin: slide.centre ? "0 auto" : null }}>
 
                     {slide.subtext ? <h2>{slide.subtext}</h2> : null}
@@ -59,7 +59,7 @@ class Text extends Component {
                     <h4>{slide.listHeader}</h4>
                     {slide.list ? slide.list.map(item => <div className="slide__list-item">- {item}</div>) : null}
                 </Col>
-                {slide.image && slide.imagePos === "right" ? <Col className="slide__col"><img className="slide__side-image slide__side-image--right" src={slide.image} /></Col> : null}
+                {slide.image && slide.imagePos === "right" ? <Col className="slide__col"><img  className={slide.smallImage ?  "slide__side-image--small slide__side-image--right" : "slide__side-image slide__side-image--right"} src={slide.image} /></Col> : null}
             </Row>,
             slide.footnote ? <Col className="slide__col" style={{ width: "100%" }}>
                 <div className="slide__footnote">

@@ -149,8 +149,13 @@ h3 {
 
 .slide__side-image {
     width: 90%;
-    margin: 10%
-    
+    margin: 0 10%;
+}
+
+.slide__side-image--small {
+  width: 60%;
+  margin: 0 20%;
+  
 }
 
 .slide__side-image--left {
