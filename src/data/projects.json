@@ -864,7 +864,6 @@
                 "type": "Text",
                 "body": "Once the researcher has reviewed the themes, they should “define and refine” each theme, identifying the essence of what each theme is about. This is enabled in the prototype by allowing the user to update the description of the theme as it is refined, however, again, a view to examine the data for a specific theme would be beneficial to this phase. Finally, the researcher should produce a report of their themes. The final arrangement of codes into themes can be extracted from the interface, however, it was felt it would be useful to provide an automated generation of a visualisation of the themes and codes. A word cloud was selected since it provides a “straightforward and visually appealing visualisation method for text”[50]. This was integrated into the prototype by adding a button below the thematic analysis theme exploration to generate a word cloud. When clicked, this takes the current configuration of codes and themes and generates a word cloud with the names of the themes and codes sized by their frequency in the data. Participants liked how this instantly provided a visual, easily understandable overview of the parallels of a set of findings. It was mentioned how removing the chronology of the data allowed them to interpret the data more objectively since the immediately noticeable information was now the most prevalent rather than the first topic covered by the interviewer.",
                 "small": true,
-                "nobottompadding": true,
                 "notoppadding": true,
                 "image": "/assets/projects/better-interviews/wordcloud.png",
                 "imagePos": "right",
@@ -881,7 +880,7 @@
         ]
     },
     {
-        "name": "Google Reliable UX",
+        "name": "Google - Site Reliability Engineering for UX",
         "type": "Internship Project",
         "path": "/google-reliable-ux",
         "id": "google",
@@ -889,16 +888,16 @@
         "time": "Summer 2019",
         "duration": "3 Months",
         "skills": [
-            "Fullstack Software Engineering"
+            "UX Analysis", "Site Reliability Engineering", "Fullstack Software Engineering"
         ],
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#f3f3f3",
+        "backgroundColor": "#ffffff",
         "description": "Case study coming soon..."
     },
     {
-        "name": "Method Data Science for Design",
+        "name": "Method - Data Science for Design",
         "type": "Internship Project",
         "path": "/method-data-science-for-design",
         "id": "method",
@@ -913,8 +912,8 @@
         "fullCaseStudy": false,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
-        "backgroundColor": "#f3f3f3",
-        "description": "Case study coming soon..."
+        "backgroundColor": "#ffffff",
+        "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as develop a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project."
     },
     {
         "name": "Amazon Transportation",
