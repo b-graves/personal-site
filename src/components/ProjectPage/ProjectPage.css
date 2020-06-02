@@ -138,15 +138,19 @@ h3 {
 
   .slide__image-set__container {
     padding: 5% 0%;
+    width: 100%;
+    text-align: center;
   }
 
   .slide__image-set__image {
-    width: 100%;
     padding: 0% 2%;
+    max-height: 90vh;
+
 }
 
 .slide__image-set__caption {
     margin-top: 1em;
+    margin: 1em;
 }
 
 .slide__side-image {

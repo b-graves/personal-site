@@ -15,13 +15,56 @@
         "fullCaseStudy": true,
         "primaryColor": "#000000",
         "secondaryColor": "#b82015",
-        "backgroundColor": "#f3f3f3",
+        "backgroundColor": "#ffffff",
         "description": "This was a fun personal project I embarked on during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work online. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than to maximise rendering speed and quality.",
         "time": "Spring 2020",
         "duration": null,
         "hasLink": true,
         "link": "https://www.mondrian.fun",
         "slides": [
+            {
+                "type": "ImageSet",
+                "text": "Example Studio Interaction",
+                "body": "Paintings are composed by creating a serious of vertical/horizontal splits, then tapping/clicking and dragging to adjust split position. Then the created segments can be painted in the primary colours used by Mondrian in his work. Finally the painting can be hung in the virtual gallery",
+                "images": [
+                    {
+                        "url": "/assets/projects/mondrian/studio.gif"
+                    }
+                ],
+                "highlight": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "ImageSet",
+                "text": "",
+                "images": [
+                    {
+                        "url": "/assets/projects/mondrian/studio mobile.gif"
+                    }
+                ],
+                "highlight": true,
+                "notoppadding": true,
+                "nobottompadding": true
+            },
+            {
+                "type": "Text",
+                "link": "https://www.mondrian.fun/",
+                "linkText": "Try it out ->",
+                "notoppadding": true,
+                "small": true
+            },
+            {
+                "type": "ImageSet",
+                "text": "Binary Tree Representation",
+                "images": [
+                    {
+                        "url": "/assets/projects/mondrian/process.gif"
+                    }
+                ],
+                "highlight": true,
+                "footnote": "Storing the paintings as binary trees instead of images dramatically reduces the file size and render time. The json file used to store a painting is roughly 50x smaller than if it was stored as a png. This means that paintings can be loaded and rendered into the gallery almost instantly. Additionally, due to the fact the paintings are represented as blocks of colour rather than pixels they can be scaled up without pixelation."
+            }
+            
         ]
     },
     {
@@ -77,8 +120,8 @@
                 "type": "ImageSet",
                 "text": "How might we encourage people to listen to one song for the duration of their shower?",
                 "subtext": "Some existing solutions...",
-                "sidePadding": "50px",
-                "topBottomPadding": "50px",
+                "sidePadding": 5,
+                "topBottomPadding": 5,
                 "images": [
                     {
                         "url": "/assets/projects/showertune/spotifyplaylist.svg",
@@ -909,11 +952,36 @@
             "Data Science",
             "Chatbot development"
         ],
-        "fullCaseStudy": false,
+        "fullCaseStudy": true,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
         "backgroundColor": "#ffffff",
-        "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as develop a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project."
+        "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as develop a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project.",
+        "slides": [
+            {
+                "type": "ImageSet",
+                "text": "Read about the project on Medium",
+                "sidePadding": "20px",
+                "topBottomPadding": "20px",
+                "images": [
+                    {
+                        "url": "/assets/projects/method/rsz_datadesign.jpg",
+                        "caption": "Data Science for Design",
+                        "link": "https://medium.com/method-perspectives/data-science-for-design-4bd23c2a957e"
+                    },
+                    {
+                        "url": "/assets/projects/method/rsz_customers1.jpg",
+                        "caption": "Using data design to understand your customers (Part 1)",
+                        "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-1-f9ddaf65bc42"
+                    },
+                    {
+                        "url": "/assets/projects/method/rsz_customers2.jpg",
+                        "caption": "Using data design to understand your customers (Part 2)",
+                        "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-2-f87dafc08d5d"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Amazon Transportation",
