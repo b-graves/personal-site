@@ -184,38 +184,21 @@
             },
             {
                 "type": "ImageSet",
-                "text": "This user journey was then imagined as a mobile app... ",
+                "subtext": "This user journey was then imagined as a mobile app... ",
                 "images": [
                     {
-                        "url": "/assets/projects/showertune/appspotify1.png"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appspotify2.svg"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appspotify3.svg"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appspotify4.svg"
+                        "url": "/assets/projects/showertune/spotify.gif"
                     }
                 ],
-                "highlight": true
+                "highlight": true,
+                "nobottompadding": true
             },
             {
                 "type": "ImageSet",
-                "text": "A flow was also designed for non-Spotify users to select a “Continue without Spotify option”, allowing music taste to be manually selected and playback via YouTube...",
+                "subtext": "A flow was also designed for non-Spotify users to select a “Continue without Spotify option”, allowing music taste to be manually selected and playback via YouTube...",
                 "images": [
                     {
-                        "url": "/assets/projects/showertune/appnonspotify1.png"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appnonspotify2.svg"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appnonspotify3.svg"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/appnonspotify4.svg"
+                        "url": "/assets/projects/showertune/nonspotify.gif"
                     }
                 ],
                 "highlight": true
