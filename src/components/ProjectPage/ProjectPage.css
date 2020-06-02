@@ -155,7 +155,7 @@ h3 {
   .slide__image-set__image {
     padding: 0% 2%;
     max-height: 90vh;
-    max-width: 90vw;
+    max-width: 100%;
 
 }
 

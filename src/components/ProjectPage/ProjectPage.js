@@ -13,6 +13,8 @@ import Text from "./Slides/Text";
 import Quote from "./Slides/Quote";
 import Video from "./Slides/Video";
 
+import Navigation from "../Navigation/Navigation"
+
 const slideComponents = {
     "ImageSet": ImageSet,
     "Text": Text,
@@ -40,6 +42,7 @@ class ProjectPage extends Component {
 
         return (
             <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
+                {project.ownNav ? <Navigation color={project.invertColor}/> : null }
                 <FullHeight style={{ backgroundSize: "100vw auto", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center" }} canExceed>
 
                     {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}

@@ -17,15 +17,15 @@ class Navigation extends Component {
 
     render() {
 
-
+        console.log(this.props.color)
         return (
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand className="fancy" as={Link} to="/">Ben Graves</Navbar.Brand>
+                <Navbar.Brand style={{color: this.props.color}} className="fancy" as={Link} to="/">Ben Graves</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto">
-                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                    <Nav className="ml-auto" >
+                        <Nav.Link style={{color: this.props.color}} as={Link} to="/projects">Projects</Nav.Link>
+                        <Nav.Link style={{color: this.props.color}} as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
