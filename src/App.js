@@ -15,12 +15,14 @@ import ContactPage from "./components/ContactPage/ContactPage";
 import Navigation from "./components/Navigation/Navigation"
 
 import projects from "./data/projects.json"
+import GA from './utils/GoogleAnalytics'
 
 function App() {
   return (
     <HttpsRedirect>
       <div className="App">
         <BrowserRouter>
+          {GA.init() && <GA.RouteTracker />}
           <Navigation />
           <Switch>
             <Route exact path='/' component={HomePage} />
@@ -28,7 +30,7 @@ function App() {
             <Route path='/contact' component={ContactPage} />
 
             {projects.map(project =>
-              <Route path={"/project/"+project.id}>
+              <Route path={"/project/" + project.id}>
                 <ProjectPage project={project} />
               </Route>
             )}

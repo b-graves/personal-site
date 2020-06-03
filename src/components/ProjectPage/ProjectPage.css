@@ -40,7 +40,7 @@
     left: 63vw;
     max-width: 30vw;
     max-height: 100vh;
-    z-index: 99999999;
+    z-index: 1;
 }
 
 .slide {
