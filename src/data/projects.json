@@ -916,11 +916,23 @@
         "skills": [
             "UX Analysis", "Site Reliability Engineering", "Fullstack Software Engineering"
         ],
-        "fullCaseStudy": false,
+        "fullCaseStudy": true,
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
         "backgroundColor": "#ffffff",
-        "description": "Case study coming soon..."
+        "description": "In Summer 2019 I joined a Site Reliability Engineering (SRE) team at Google, tasked with developing a way of helping engineers prioritise their time on maintaining a positive user experience. The team wanted to improve their measures of latency to better refelect the latency as perceived by the user. A key principal of SRE is to measure reliability as close to how it is experienced by the user as possible. This required full stack software engineering to create various microservices required to gather, process and store data and working to integrate the process into user interfaces to capture the latency experienced the user. This placement was an interesting insight into the world of operations and taught me a lot about the complexities of running great user experiences at scale.",
+        "slides": [
+            {
+                "type": "ImageSet",
+                "text": "User-Perceived Latency",
+                "body": "As can be seen in the diagram below, measuring the \"User-Percieved Latency\" rather than the \"Server-Side Latency\" is vital in ensuring that metrics refelect the actual latency experienced by the user. Giving SREs access to this data allows them to prioritise spending time on weaknesses that damage UX.",
+                "images": [
+                    {
+                        "url": "/assets/projects/google/latency.svg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Method - Data Science for Design",
