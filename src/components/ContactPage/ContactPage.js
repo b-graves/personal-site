@@ -22,6 +22,9 @@ class ContactPage extends Component {
                 <div className="contact__info">
                     Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:btgraves1997@gmail.com">Email</a>
                 </div>
+                <div className="contact__extra">
+                    Currently looking for opportunities in UX Design/Engineering from July 2020.
+            </div>
 
 
             </Container>
