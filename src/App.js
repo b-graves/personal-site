@@ -17,6 +17,7 @@ import Navigation from "./components/Navigation/Navigation"
 import projects from "./data/projects.json"
 import GA from './utils/GoogleAnalytics'
 
+
 function App() {
   return (
     <HttpsRedirect>

@@ -10,6 +10,8 @@ import Container from 'react-bootstrap/Container'
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 
+import FadeIn from 'react-fade-in';
+
 
 class ProjectsPage extends Component {
 
@@ -20,7 +22,7 @@ class ProjectsPage extends Component {
     }
 
     render() {
-        
+
 
         const rows = []
 
@@ -35,7 +37,9 @@ class ProjectsPage extends Component {
 
         return (
             <Container className="projects">
-                {rows}
+                <FadeIn>
+                    {rows}
+                </FadeIn>
             </Container>
 
         );

@@ -12,6 +12,8 @@ import Card from 'react-bootstrap/Card'
 
 import "./HomePage.css"
 
+import FadeIn from 'react-fade-in';
+
 
 class HomePage extends Component {
 
@@ -22,7 +24,7 @@ class HomePage extends Component {
     }
 
     render() {
-        
+
 
         const rows = []
 
@@ -37,11 +39,13 @@ class HomePage extends Component {
 
         return (
             <Container className="projects">
-                <div className="intro">
-            I'm Ben, a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
+                <FadeIn >
+                    <div className="intro">
+                        I'm Ben, a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
                 </div>
-                <div className="home__project-header">Projects</div>
-                {rows}
+                    <div className="home__project-header">Projects</div>
+                    {rows}
+                </FadeIn>
             </Container>
 
         );
