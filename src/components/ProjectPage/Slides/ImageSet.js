@@ -55,7 +55,7 @@ class ImageSet extends Component {
                 </Row>
                 <Row className="slide__image-set">
                     {slide.images.map(image =>
-                        <Col md={image.width}>
+                        <Col className="slide__image-set__col" md={image.width}>
                             <div className="slide__image-set__container" style={{cursor: image.link ? "pointer" : null}} onClick={() => image.link ? this.openLink(image.link) : null}>
                                 <img style={slide.images.length > 1 ? { paddingTop: slide.topBottomPadding+"%", paddingBottom: slide.topBottomPadding+"%", paddingLeft: slide.sidePadding+"%", paddingRight: slide.sidePadding+"%", width: 100-2*slide.sidePadding+"%" } : { padding: 0 }} className="slide__image-set__image" src={image.url} alt="project" />
                                 <div className="slide__image-set__caption">

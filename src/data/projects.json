@@ -984,6 +984,8 @@
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
         "backgroundColor": "#f3f3f3",
+        "hasSecondaryImage": true,
+        "secondaryImageFormat": "jpg",
         "description": "Case study coming soon..."
     },
     {

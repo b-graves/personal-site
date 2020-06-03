@@ -133,7 +133,7 @@
   .slide__col {
     max-width: 800px;
   }
-.col {
+.col, .slide__col  {
     min-width: 200px;
     padding: 0px !important;
 }
@@ -166,7 +166,12 @@ h3 {
 
 .slide__side-image {
     width: 90%;
+    padding: 5% 0;
     margin: 0 10%;
+}
+
+.slide__image-set__col {
+  padding: 0 !important;
 }
 
 .slide__side-image--small {
