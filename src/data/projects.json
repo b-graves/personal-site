@@ -88,7 +88,7 @@
         "highlightBackgroundColor": "#ffffff",
         "highlightColor": "#000000",
         "invertColor": "#f3f3f3",
-        "description": "I took on this project to meet a brief from Creative Conscience, an organisation encourage creatives to take on socially valuable projects. The brief was to design something to help create conciousness of consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
+        "description": "I took on this project to meet a brief from Creative Conscience, an organisation that encourages creatives to take on socially valuable projects. The brief was to design something to help create conciousness around consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
         "time": "Spring 2020",
         "duration": null,
         "hasLink": true,
@@ -986,7 +986,7 @@
         "backgroundColor": "#f3f3f3",
         "hasSecondaryImage": true,
         "secondaryImageFormat": "jpg",
-        "description": "Case study coming soon..."
+        "description": "I spent 6 months working in the Amazon Transportation EU scheduling team, a team responsible for scheduling truck deliveries between Amazon warehouses across Europe. My role was initially focused on front-end software engineering of a system which uses machine learning to predictively schedule trucks "
     },
     {
         "name": "BuzzFeed News Offline Experience",
