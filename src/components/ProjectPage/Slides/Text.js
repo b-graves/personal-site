@@ -26,7 +26,10 @@ class Text extends Component {
         } else if (slide.highlight) {
             style.backgroundColor = project.highlightBackgroundColor
             style.color = project.highlightColor
-        } else {
+        } else if (slide.transparent) {
+            style.backgroundColor = "transparent"
+            style.color =project.primaryColor
+        }else {
             style.backgroundColor = project.backgroundColor
             style.color = project.primaryColor
         }

@@ -99,7 +99,8 @@
             {
                 "type": "Text",
                 "text": "Showers are the biggest consumer of water in the home.",
-                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water."
+                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water.",
+                "transparent": true
             },
             {
                 "type": "Text",
