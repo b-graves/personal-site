@@ -40,6 +40,13 @@ class ProjectsPage extends Component {
                 <FadeIn>
                     {rows}
                 </FadeIn>
+                {projects.map(project =>
+                    <div className="preload">
+                    <img rel="preload" src={"/assets/" + project.id + "-project-image."+project.projectImageFormat} as="image" />
+                    <img rel="preload" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} as="image" />
+                    
+                    </div>
+                  )}
             </Container>
 
         );
