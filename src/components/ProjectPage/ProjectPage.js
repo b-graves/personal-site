@@ -52,9 +52,11 @@ class ProjectPage extends Component {
                                 width: "100vw",
                                 height: "100vh",
                                 backgroundColor: project.invertBackgroundColor,
-                                position: "absolute"
+                                position: "absolute",
+                                backgroundImage: "url(/assets/" + project.id + "-header-image.svg)",
+                                backgroundSize: "cover"
                             }}></div>
-                            <FullHeight style={{backgroundColor: "transparent", backgroundSize: "100vw 100vh", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center" }} canExceed>
+                            <FullHeight  canExceed>
 
                                 {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
                                 <Container>
