@@ -54,7 +54,8 @@ class ProjectPage extends Component {
                                 backgroundColor: project.invertBackgroundColor,
                                 position: "absolute",
                                 backgroundImage: "url(/assets/" + project.id + "-header-image.svg)",
-                                backgroundSize: "cover"
+                                backgroundSize: "cover",
+                                backgroundPositionX: "30%"
                             }}></div>
                             <FullHeight  canExceed>
 
