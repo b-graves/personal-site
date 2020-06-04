@@ -47,45 +47,53 @@ class ProjectPage extends Component {
                 {project.ownNav ? <Navigation color={project.invertColor} /> : null}
                 <FadeIn>
                     <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
-                        <FullHeight style={{ backgroundSize: "100vw auto", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center" }} canExceed>
-
-                            {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
-                            <Container>
-                                <FadeIn>
-                                    <div className="project__info">
-                                        <div style={{ backgroundColor: project.backgroundColor }} className="project__name fancy">{project.name}</div>
-                                        <div style={{ backgroundColor: project.backgroundColor }} className="project__description">
-                                            <div>
-                                                <div className="project-page__type">
-                                                    {project.type}
-                                                </div>
-                                                <div className="project-page__time">
-                                                    {project.time}
-                                                </div>
-                                                <div className="project-page__duration">
-                                                    {project.duration}
-                                                </div>
-                                            </div>
-                                            {project.skills.map(skill => <div className="project-page__project-skill" >{skill}</div>)}
-                                            <div>
-                                                {project.description}
-                                            </div>
-                                        </div>
-                                        {project.hasLink ? <div onClick={() => window.open(project.link, "_blank")} style={{ color: project.secondaryColor }} className="project__link">View project online -></div> : null}
-
-
-                                    </div>
-                                </FadeIn>
-                            </Container>
-                        </FullHeight>
                         <FadeIn>
-                            {project.fullCaseStudy ?
-                                project.slides.map(slide =>
-                                    slide.type === "Text" ? <Text slide={slide} project={project} /> :
-                                        slide.type === "Quote" ? <Quote slide={slide} project={project} /> :
-                                            slide.type === "ImageSet" ? <ImageSet slide={slide} project={project} /> :
-                                                slide.type === "Video" ? <Video slide={slide} project={project} /> : null
-                                ) : <div className="project__description">Full case study coming soon...</div>}
+                            <div style={{
+                                width: "100vw",
+                                height: "100vh",
+                                backgroundColor: project.invertBackgroundColor,
+                                position: "absolute"
+                            }}></div>
+                            <FullHeight style={{backgroundColor: "transparent", backgroundSize: "100vw 100vh", backgroundRepeat: "no-repeat", backgroundImage: "url(/assets/" + project.id + "-header-image.svg)", backgroundPositionX: "center" }} canExceed>
+
+                                {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
+                                <Container>
+                                    <FadeIn>
+                                        <div className="project__info">
+                                            <div style={{ backgroundColor: project.backgroundColor }} className="project__name fancy">{project.name}</div>
+                                            <div style={{ backgroundColor: project.backgroundColor }} className="project__description">
+                                                <div>
+                                                    <div className="project-page__type">
+                                                        {project.type}
+                                                    </div>
+                                                    <div className="project-page__time">
+                                                        {project.time}
+                                                    </div>
+                                                    <div className="project-page__duration">
+                                                        {project.duration}
+                                                    </div>
+                                                </div>
+                                                {project.skills.map(skill => <div className="project-page__project-skill" >{skill}</div>)}
+                                                <div>
+                                                    {project.description}
+                                                </div>
+                                            </div>
+                                            {project.hasLink ? <div onClick={() => window.open(project.link, "_blank")} style={{ color: project.secondaryColor }} className="project__link">View project online -></div> : null}
+
+
+                                        </div>
+                                    </FadeIn>
+                                </Container>
+                            </FullHeight>
+                            <FadeIn>
+                                {project.fullCaseStudy ?
+                                    project.slides.map(slide =>
+                                        slide.type === "Text" ? <Text slide={slide} project={project} /> :
+                                            slide.type === "Quote" ? <Quote slide={slide} project={project} /> :
+                                                slide.type === "ImageSet" ? <ImageSet slide={slide} project={project} /> :
+                                                    slide.type === "Video" ? <Video slide={slide} project={project} /> : null
+                                    ) : <div className="project__description">Full case study coming soon...</div>}
+                            </FadeIn>
                         </FadeIn>
                     </div>
                 </FadeIn>

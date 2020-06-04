@@ -16,6 +16,8 @@
         "primaryColor": "#000000",
         "secondaryColor": "#b82015",
         "backgroundColor": "#ffffff",
+        "invertBackgroundColor": "#f8cb05",
+        "invertColor": "#000000",
         "description": "This was a fun personal project I embarked on during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work online. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than to maximise rendering speed and quality.",
         "time": "Spring 2020",
         "duration": null,
@@ -920,6 +922,8 @@
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
         "backgroundColor": "#ffffff",
+        "invertBackgroundColor": "#ffffff",
+        "invertColor": "#000000",
         "description": "In Summer 2019 I joined a Site Reliability Engineering (SRE) team at Google, tasked with developing a way of helping engineers prioritise their time on maintaining a positive user experience. The team wanted to improve their measures of latency to better refelect the latency as perceived by the user. A key principal of SRE is to measure reliability as close to how it is experienced by the user as possible. This required full stack software engineering to create various microservices required to gather, process and store data and working to integrate the process into user interfaces to capture the latency experienced the user. This placement was an interesting insight into the world of operations and taught me a lot about the complexities of running great user experiences at scale.",
         "slides": [
             {
@@ -951,6 +955,8 @@
         "primaryColor": "#000000",
         "secondaryColor": "#327b8f",
         "backgroundColor": "#ffffff",
+        "invertBackgroundColor": "#ffffff",
+        "invertColor": "#000000",
         "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as develop a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project.",
         "slides": [
             {
@@ -998,6 +1004,8 @@
         "backgroundColor": "#f3f3f3",
         "hasSecondaryImage": true,
         "secondaryImageFormat": "jpg",
+        "invertBackgroundColor": "#ff9a00",
+        "invertColor": "#000000",
         "description": "I spent 6 months working in the Amazon Transportation EU scheduling team, a team responsible for scheduling truck deliveries between Amazon warehouses across Europe. I was placed into a team working on a system which uses machine learning to predictively schedule around ten thousand journeys a week between hundreds of sites. My role was initially focused on front-end software engineering, however after observing the use of the system and talking to users I identified the opportunity for significant improvements to the UI and took on additional UI/UX design responsibilities. The users of our system were producing week-by-week plans of truck schedules. Particularly during \"Peak\" season (the build up to Christmas) this was a very complex, stressful and time-pressured task. I focused on identifying the pain-points that existed within the system that were causing frustration to users and wasteing precious time. I worked closely with users to help improve the usability of the system and ensure that new features were intuitive, working closely to the Semantic UI design system. I also worked with users to help streamline other processes they carried out, often using time consuming, error-prone techniques such as cross-referencing excel spreadsheets. I worked to develop a set of dashboards that allow users to access an instant visualisation of various metrics. Previously accessing these metrics would require complex data analysis and coding. Providing these dashboards gave the users across the company a window into the data behind the process so they could focus their time on optimisation. I designed the implementation of the dashboards to be very easily scalable. I created a model of a skeleton dashboard allowing new dashboards to be configured made with minimal coding. The key design challenges I faced were presenting large amounts of data and many complex options to the user in a clean, simple user experience."
     },
     {
