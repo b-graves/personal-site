@@ -41,7 +41,7 @@ class HomePage extends Component {
             <Container className="projects">
                 <FadeIn >
                     <div className="intro">
-                        I'm Ben, a creative coder who enjoys designing and prototyping digital products and experiences that work for people.
+                        I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
                 </div>
                     <div className="home__project-header">Projects</div>
                     {rows}
