@@ -43,16 +43,19 @@ class HomePage extends Component {
                     <div className="intro">
                         I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
                 </div>
+                    <div className="intro__extra">
+                        Former intern at Google, Method, Amazon & BuzzFeed, actively looking for new opportunities.
+            </div>
                     <div className="home__project-header">Projects</div>
                     {rows}
                 </FadeIn>
                 {projects.map(project =>
                     <div className="preload">
-                    <img rel="preload" src={"/assets/" + project.id + "-project-image."+project.projectImageFormat} as="image" />
-                    <img rel="preload" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} as="image" />
-                    
+                        <img rel="preload" src={"/assets/" + project.id + "-project-image." + project.projectImageFormat} as="image" />
+                        <img rel="preload" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} as="image" />
+
                     </div>
-                  )}
+                )}
             </Container>
 
         );

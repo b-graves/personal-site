@@ -4,8 +4,45 @@
     margin: 5rem 0;
 }
 
+.intro__extra {
+    font-size: 1.5em;
+    text-align: initial;
+    margin: 0;
+}
+
 .home__project-header {
     font-size: 2em;
     text-align: initial;
     margin: 5rem 0;
 }
+
+@media (max-width: 199px) {
+    .intro, .home__project-header { font-size: 0.5em; margin: 2rem 0;}
+    .intro__extra { font-size: 0.4em;}
+  }
+  
+  @media (min-width: 200px) and  (max-width: 249px) {
+    .intro, .home__project-header { font-size: 0.75em; margin: 2.5rem 0; }
+    .intro__extra { font-size: 0.6em}
+  }
+  
+  @media (min-width: 250px) and  (max-width: 299px) {
+    .intro, .home__project-header { font-size: 1.0em; margin: 3rem 0;}
+    .intro__extra { font-size: 0.7em}
+  }
+  
+  @media (min-width: 300px) and  (max-width: 349px) {
+    .intro, .home__project-header { font-size: 1.25em; margin: 3.5rem 0;}
+    .intro__extra { font-size: 0.9em}
+  }
+  
+  @media (min-width: 350px) and  (max-width: 399px) {
+    .intro, .home__project-header { font-size: 1.5em; margin: 4rem 0;}
+    .intro__extra { font-size: 1.1em}
+    /* * { font-size: 96%} */
+  }
+  
+  @media (min-width: 400px) and  (max-width: 449px) {
+    .intro, .home__project-header { font-size: 1.75em; margin: 4.5rem 0;}
+    .intro__extra { font-size: 1.3em}
+  }
