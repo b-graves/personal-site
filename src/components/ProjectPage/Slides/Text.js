@@ -47,7 +47,7 @@ class Text extends Component {
 
         const content = [
             slide.text ? <Row>
-                <h1 style={{ width: "100%", margin: slide.centre ? "0 auto" : null, marginBottom: slide.subtext ? null : "0" }}>{slide.text}</h1>
+                <h1 style={{ width: "100%", margin: slide.centre ? "0 auto" : null, marginBottom: slide.subtext || slide.subsubtext || slide.body ? null : "0" }}>{slide.text}</h1>
             </Row> : null,
             <Row>
 
