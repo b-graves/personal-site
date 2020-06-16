@@ -38,34 +38,6 @@
   }
 }
 
-@media (max-width: 199px) {
-  .scale { font-size: 88%;}
-}
-
-@media (min-width: 200px) and  (max-width: 249px) {
-  .scale { font-size: 90%;  }
-}
-
-@media (min-width: 250px) and  (max-width: 299px) {
-  .scale { font-size: 92%;}
-}
-
-@media (min-width: 300px) and  (max-width: 349px) {
-  .scale { font-size: 94%}
-}
-
-@media (min-width: 350px) and  (max-width: 399px) {
-  .scale { font-size: 96%}
-}
-
-@media (min-width: 400px) and  (max-width: 449px) {
-  .scale { font-size: 98%}
-}
-
-@media (min-width: 450px) and  (max-width: 499px) {
-  .scale { font-size: 100%}
-}
-
 
 .preload {
   display: none;
