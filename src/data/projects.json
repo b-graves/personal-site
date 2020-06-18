@@ -295,8 +295,7 @@
                 "type": "Text",
                 "invert": true,
                 "text": "Insights",
-                "small": true,
-                "nobottompadding": true
+                "small": true
             },
             {
                 "type": "Text",
