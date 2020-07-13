@@ -13,7 +13,8 @@
 .home__project-header {
     font-size: 2em;
     text-align: initial;
-    margin: 5rem 0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 @media (max-width: 199px) {
