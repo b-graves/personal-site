@@ -43,9 +43,14 @@ class HomePage extends Component {
                     <div className="intro">
                         I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
                 </div>
-                    {/*<div className="intro__extra">
-                        Former intern at Google, Method, Amazon & BuzzFeed, actively looking for new opportunities.
-        </div>*/}
+                    <div className="intro__extra">
+                        <div>
+                            Currently working as a User Experience Engineer at <a target="_blank" href="https://five.ai"> Five AI</a> in London.
+                            </div>
+                        <div>
+                            Former intern at Google, Method, Amazon & BuzzFeed.
+                        </div>
+                    </div>
                     <div className="home__project-header">Projects</div>
                     {rows}
                 </FadeIn>
