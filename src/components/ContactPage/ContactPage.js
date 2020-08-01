@@ -32,7 +32,7 @@ class ContactPage extends Component {
                         </div>
                     </div>
                     <div className="contact__info">
-                        Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:btgraves1997@gmail.com">Email</a>
+                        Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:bengravessss@gmail.com">Email - bengravessss@gmail.com</a>
                     </div>
                 </FadeIn>
 
