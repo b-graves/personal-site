@@ -1,1125 +1,1116 @@
 [
-    {
-        "name": "mondrian.fun",
-        "type": "Personal Project",
-        "path": "/mondrian",
-        "id": "mondrian",
-        "hasSecondaryImage": true,
-        "secondaryImageFormat": "jpg",
-        "projectImageFormat": "png",
-        "skills": [
-            "UX Design",
-            "Interaction Design",
-            "Fullstack Web Development"
+  {
+    "name": "mondrian.fun",
+    "type": "Personal Project",
+    "path": "/mondrian",
+    "id": "mondrian",
+    "hasSecondaryImage": true,
+    "secondaryImageFormat": "jpg",
+    "projectImageFormat": "png",
+    "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+    "fullCaseStudy": true,
+    "primaryColor": "#000000",
+    "secondaryColor": "#b82015",
+    "backgroundColor": "#ffffff",
+    "invertBackgroundColor": "#f8cb05",
+    "invertColor": "#000000",
+    "description": "This was a fun personal project I completed during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than images to maximise rendering speed and quality.",
+    "time": "Spring 2020",
+    "duration": null,
+    "hasLink": true,
+    "link": "https://www.mondrian.fun",
+    "slides": [
+      {
+        "type": "ImageSet",
+        "text": "Example Studio Interaction",
+        "body": "Paintings are composed by creating a serious of vertical/horizontal splits, then tapping/clicking and dragging to adjust split position. Then the created segments can be painted in the primary colours used by Mondrian in his work. Finally the painting can be hung in the virtual gallery",
+        "images": [
+          {
+            "url": "/assets/projects/mondrian/studio.gif"
+          }
         ],
-        "fullCaseStudy": true,
-        "primaryColor": "#000000",
-        "secondaryColor": "#b82015",
-        "backgroundColor": "#ffffff",
-        "invertBackgroundColor": "#f8cb05",
-        "invertColor": "#000000",
-        "description": "This was a fun personal project I completed during the COVID-19 lockdown. I wanted to create a virtual art studio and gallery space where people could create artwork and enjoy other people's work. I wanted to explore the idea of limiting the set of tools available to the user to encourage creativity whilst giving the works a sense of continuity. I used the artistic style of Piet Mondrian, a 20th Century dutch artist best known for his work with perpendicular lines and use of the primary colours to create an online space celebrating this iconic artistic style. This project created challenges in both design and engineering. I enjoyed the interaction design challenge of recreating the painting process digitally and exploring how this could be scaled down to mobile devices. I also devised an interesting method of storing the paintings people produced as binary trees rather than images to maximise rendering speed and quality.",
-        "time": "Spring 2020",
-        "duration": null,
-        "hasLink": true,
-        "link": "https://www.mondrian.fun",
-        "slides": [
-            {
-                "type": "ImageSet",
-                "text": "Example Studio Interaction",
-                "body": "Paintings are composed by creating a serious of vertical/horizontal splits, then tapping/clicking and dragging to adjust split position. Then the created segments can be painted in the primary colours used by Mondrian in his work. Finally the painting can be hung in the virtual gallery",
-                "images": [
-                    {
-                        "url": "/assets/projects/mondrian/studio.gif"
-                    }
-                ],
-                "highlight": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "ImageSet",
-                "text": "",
-                "images": [
-                    {
-                        "url": "/assets/projects/mondrian/studio mobile.gif"
-                    }
-                ],
-                "highlight": true,
-                "notoppadding": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "link": "https://www.mondrian.fun/",
-                "linkText": "Try it out ->",
-                "notoppadding": true,
-                "small": true
-            },
-            {
-                "type": "ImageSet",
-                "text": "Binary Tree Representation",
-                "images": [
-                    {
-                        "url": "/assets/projects/mondrian/process.gif"
-                    }
-                ],
-                "highlight": true,
-                "footnote": "Storing the paintings as binary trees instead of images dramatically reduces the file size and render time. The json file used to store a painting is roughly 50x smaller than if it was stored as a png. This means that paintings can be loaded and rendered into the gallery almost instantly. Additionally, due to the fact the paintings are represented as blocks of colour rather than pixels they can be scaled up without pixelation."
-            }
-            
+        "highlight": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "ImageSet",
+        "text": "",
+        "images": [
+          {
+            "url": "/assets/projects/mondrian/studio mobile.gif"
+          }
+        ],
+        "highlight": true,
+        "notoppadding": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "link": "https://www.mondrian.fun/",
+        "linkText": "Try it out ->",
+        "notoppadding": true,
+        "small": true
+      },
+      {
+        "type": "ImageSet",
+        "text": "Binary Tree Representation",
+        "images": [
+          {
+            "url": "/assets/projects/mondrian/process.gif"
+          }
+        ],
+        "highlight": true,
+        "footnote": "Storing the paintings as binary trees instead of images dramatically reduces the file size and render time. The json file used to store a painting is roughly 50x smaller than if it was stored as a png. This means that paintings can be loaded and rendered into the gallery almost instantly. Additionally, due to the fact the paintings are represented as blocks of colour rather than pixels they can be scaled up without pixelation."
+      }
+    ]
+  },
+  {
+    "name": "Shower Tune",
+    "type": "Personal Project",
+    "path": "/showertune",
+    "id": "showertune",
+    "hasSecondaryImage": true,
+    "secondaryImageFormat": "png",
+    "projectImageFormat": "svg",
+    "skills": ["UX Design", "Interaction Design", "Fullstack Web Development"],
+    "fullCaseStudy": true,
+    "primaryColor": "#337b8f",
+    "secondaryColor": "#40aac2",
+    "backgroundColor": "#f6f6f6ff",
+    "invertBackgroundColor": "#40aac2",
+    "highlightBackgroundColor": "#ffffff",
+    "highlightColor": "#337b8f",
+    "invertColor": "#f3f3f3",
+    "description": "I took on this project to meet a brief from Creative Conscience, an organisation that encourages creatives to take on socially valuable projects. The brief was to design something to help create conciousness around consumption. My design received a commendation in the 2020 Creative Conscience awards. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
+    "time": "Spring 2020",
+    "duration": null,
+    "hasLink": true,
+    "link": "https://www.showertune.app",
+    "slides": [
+      {
+        "type": "Text",
+        "text": "Showers are the biggest consumer of water in the home.",
+        "subtext": "The average shower lasts around eight minutes and uses 65 litres of water.",
+        "transparent": true
+      },
+      {
+        "type": "Text",
+        "text": "How might we encourage people to take shorter showers?",
+        "invert": true,
+        "small": true
+      },
+      {
+        "type": "Text",
+        "text": "Insight - People who have a clock in their shower spend on average 20-30% less time in the shower",
+        "subtext": "How might we create an enjoyable shower experience that helps people be more aware of how long they are spending in the shower?"
+      },
+      {
+        "type": "Text",
+        "text": "The shower time suggested by organisations such as WaterAid and Waterwise is around 3-5 minutes - roughly the length of a typical song.",
+        "highlight": true,
+        "icon": "FaLightbulb"
+      },
+      {
+        "type": "ImageSet",
+        "text": "How might we encourage people to listen to one song for the duration of their shower?",
+        "subtext": "Some existing solutions...",
+        "sidePadding": 5,
+        "topBottomPadding": 5,
+        "images": [
+          {
+            "url": "/assets/projects/showertune/spotifyplaylist.svg",
+            "caption": "Y&R London’s “4 minute shower hits” Spotify playlist for WaterAid",
+            "link": "https://www.markfarinha.com/wateraid"
+          },
+          {
+            "url": "/assets/projects/showertune/threelions.svg",
+            "caption": "WaterAid’s campaign to encourage people to listen to “Three Lions” in the shower during the 2018 World Cup",
+            "link": "https://www.wateraid.org/uk/media/water-save-for-england-listen-to-three-lions-in-the-shower-to-save-water"
+          },
+          {
+            "url": "/assets/projects/showertune/sanlam.svg",
+            "caption": "Sanlam’s free album of 2 minute songs specially recorded by South African Artists.",
+            "link": "https://2minuteshowersongs.com/"
+          }
         ]
-    },
-    {
-        "name": "Shower Tune",
-        "type": "Personal Project",
-        "path": "/showertune",
-        "id": "showertune",
-        "hasSecondaryImage": true,
-        "secondaryImageFormat": "png",
-        "projectImageFormat": "svg",
-        "skills": [
-            "UX Design",
-            "Interaction Design",
-            "Fullstack Web Development"
-        ],
-        "fullCaseStudy": true,
-        "primaryColor": "#337b8f",
-        "secondaryColor": "#40aac2",
-        "backgroundColor": "#f6f6f6ff",
-        "invertBackgroundColor": "#40aac2",
-        "highlightBackgroundColor": "#ffffff",
-        "highlightColor": "#337b8f",
-        "invertColor": "#f3f3f3",
-        "description": "I took on this project to meet a brief from Creative Conscience, an organisation that encourages creatives to take on socially valuable projects. The brief was to design something to help create conciousness around consumption. I decided to focus on consumption of water and energy in the home. I found that showers are the biggest consumer of water in the home and also burn through a lot of energy. I explored ways of creating a digital product that could enhance the shower experience while raising the user's awareness of the time they were spending in the shower, helping them work towards a shorter shower. My final submission was a mobile application which aims to encourage the user to take a shower for the duration of one perfect shower tune. The app integrates with the user's Spotify account to generate recommendations based on their tastes which can be tweaked based on the user's current mood.",
-        "time": "Spring 2020",
-        "duration": null,
-        "hasLink": true,
-        "link": "https://www.showertune.app",
-        "slides": [
-            {
-                "type": "Text",
-                "text": "Showers are the biggest consumer of water in the home.",
-                "subtext": "The average shower lasts around eight minutes and uses 65 litres of water.",
-                "transparent": true
-            },
-            {
-                "type": "Text",
-                "text": "How might we encourage people to take shorter showers?",
-                "invert": true,
-                "small": true
-            },
-            {
-                "type": "Text",
-                "text": "Insight - People who have a clock in their shower spend on average 20-30% less time in the shower",
-                "subtext": "How might we create an enjoyable shower experience that helps people be more aware of how long they are spending in the shower?"
-            },
-            {
-                "type": "Text",
-                "text": "The shower time suggested by organisations such as WaterAid and Waterwise is around 3-5 minutes - roughly the length of a typical song.",
-                "highlight": true,
-                "icon": "FaLightbulb"
-            },
-            {
-                "type": "ImageSet",
-                "text": "How might we encourage people to listen to one song for the duration of their shower?",
-                "subtext": "Some existing solutions...",
-                "sidePadding": 5,
-                "topBottomPadding": 5,
-                "images": [
-                    {
-                        "url": "/assets/projects/showertune/spotifyplaylist.svg",
-                        "caption": "Y&R London’s “4 minute shower hits” Spotify playlist for WaterAid",
-                        "link": "https://www.markfarinha.com/wateraid"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/threelions.svg",
-                        "caption": "WaterAid’s campaign to encourage people to listen to “Three Lions” in the shower during the 2018 World Cup",
-                        "link": "https://www.wateraid.org/uk/media/water-save-for-england-listen-to-three-lions-in-the-shower-to-save-water"
-                    },
-                    {
-                        "url": "/assets/projects/showertune/sanlam.svg",
-                        "caption": "Sanlam’s free album of 2 minute songs specially recorded by South African Artists.",
-                        "link": "https://2minuteshowersongs.com/"
-                    }
-                ]
-            },
-            {
-                "type": "Text",
-                "text": "Personalisation is Powerful",
-                "body": "While these existing products provide songs of appropriate length for a shorter shower, they do not provide the type of personalised experience  we have become accustomed to online today.",
-                "small": true
-            },
-            {
-                "type": "Quote",
-                "text": "The best thing about shower music is that it lets me, a morning shower-er, deliberately set the tone for the rest of my day.",
-                "source": "Chloe Bryan, Mashable",
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "text": "How might we help the user find the perfect shower track for their mood?"
-            },
-            {
-                "type": "ImageSet",
-                "text": "Music recommendation algorithms",
-                "subtext": "Many streaming services use recommendation algorithms to suggest tracks to their users’ based on previous listening habits",
-                "images": [
-                    {
-                        "url": "/assets/projects/showertune/recommendations.svg"
-                    }
-                ]
-            },
-            {
-                "type": "Text",
-                "text": "Spotify Integration",
-                "body": "Spotify provides an API which allows developers to create applications that make use of their recommendation service. Users are able to securely grant access to their listening data to provide a more personal experience.",
-                "small": true,
-                "invert": true
-            },
-            {
-                "type": "ImageSet",
-                "text": "The following user journey was designed for an implementation of this technology to allow a user to generate a recommended track to listen to in the shower...",
-                "images": [
-                    {
-                        "url": "/assets/projects/showertune/userjourney.svg"
-                    }
-                ]
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "This user journey was then imagined as a mobile app... ",
-                "images": [
-                    {
-                        "url": "/assets/projects/showertune/spotify.gif"
-                    }
-                ],
-                "highlight": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "A flow was also designed for non-Spotify users to select a “Continue without Spotify option”, allowing music taste to be manually selected and playback via YouTube...",
-                "images": [
-                    {
-                        "url": "/assets/projects/showertune/nonspotify.gif"
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "text": "Final Prototype",
-                "subtext": "A high-fidelity prototype of the app was developed using React which is available to try at:",
-                "link": "https://www.showertune.app/",
-                "linkText": "www.showertune.app",
-                "image": "/assets/projects/showertune/reactlogo.png",
-                "imagePos": "left"
-            }
+      },
+      {
+        "type": "Text",
+        "text": "Personalisation is Powerful",
+        "body": "While these existing products provide songs of appropriate length for a shorter shower, they do not provide the type of personalised experience  we have become accustomed to online today.",
+        "small": true
+      },
+      {
+        "type": "Quote",
+        "text": "The best thing about shower music is that it lets me, a morning shower-er, deliberately set the tone for the rest of my day.",
+        "source": "Chloe Bryan, Mashable",
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "text": "How might we help the user find the perfect shower track for their mood?"
+      },
+      {
+        "type": "ImageSet",
+        "text": "Music recommendation algorithms",
+        "subtext": "Many streaming services use recommendation algorithms to suggest tracks to their users’ based on previous listening habits",
+        "images": [
+          {
+            "url": "/assets/projects/showertune/recommendations.svg"
+          }
         ]
-    },
-    {
-        "name": "Better Interviews",
-        "type": "University Project",
-        "path": "/better-interviews",
-        "id": "better-interviews",
-        "projectImageFormat": "svg",
-        "skills": [
-            "UX Research",
-            "UX Design",
-            "Design Thinking",
-            "Rapid Prototyping"
-        ],
-        "time": "Autumn 2019 - Spring 2020",
-        "duration": "6 Months",
-        "fullCaseStudy": true,
-        "primaryColor": "#000000",
-        "secondaryColor": "#009901",
-        "backgroundColor": "#f3f3f3",
-        "invertBackgroundColor": "#009901",
-        "invertColor": "#f3f3f3",
-        "highlightBackgroundColor": "#ffffff",
-        "highlightColor": "#000000",
-        "description": "This was an exploritory project for my Computer Science bachelors final project. With the goal of developing a high-fidelity prototype of a tool that could be used in a variety of interview settings, I applied design thinking methodologies working closely with a set of participants. The participants carried out a variety of types of interviews, such as medical consultation, journalistic interviews, qualitative research interviews as well as recruitment interviews. I was able to identify some key challenges faced by interviewers as being a high cognitive load, building rapport and mitigating confirmation bias. I then ideated around, prototyped and tested tools to ease these pain-points. The final prototype incorporates various ideas into a single end-to-end tool for use before, during and after the interview, taking the form of a web application designed for use on a mobile touchscreen tablet.",
-        "slides": [
-            {
-                "type": "ImageSet",
-                "text": "Process",
-                "subsubtext": "The design process was defined around the double diamond model. Stanford d.school's Design Thinking bootleg was also used as a reference to provide guidance on activities to facilitate a user-centred design thinking process.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/doublediamond.svg"
-                    }
-                ]
-            },
-            {
-                "type": "Text",
-                "link": "https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf",
-                "linkText": "Stanford d.school's Design Thinking bootleg",
-                "image": "/assets/projects/better-interviews/bootleg4.png",
-                "imagePos": "right",
-                "small": true,
-                "notoppadding": true,
-                "smallImage": true
-            },
-            {
-                "type": "Text",
-                "text": "Discover",
-                "invert": true
-            },
-            {
-                "type": "ImageSet",
-                "text": "Empathy Development Interviews",
-                "subtext": "Empathy Interviews - “understand a person’s thoughts, emotions, and motivations, so that you can determine how to innovate for him or her.”",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/questions.svg"
-                    }
-                ],
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "text": "Participants",
-                "list": [
-                    "Participant A - Hiring Manager at large financial company",
-                    "Participant B - Mental Health Social Worker in the NHS",
-                    "Participant C - Researcher at academic institution",
-                    "Participant D - Editor of a homes magazine",
-                    "Participant E - Creative director at strategic design consultancy","Participant F - Recruitment lead at strategic design consultancy"
-                ],
-                "image": "/assets/projects/better-interviews/participants.png",
-                "imagePos": "right",
-                "notoppadding": true
-            },
-            {
-                "type": "Text",
-                "invert": true,
-                "text": "Insights",
-                "small": true
-            },
-            {
-                "type": "Text",
-                "highlight": true,
-                "text": "Helping the interviewee feel at ease is important",
-                "subsubtext": "All participants begin the interview by trying to build rapport and create a relaxed atmosphere.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, starts by attempting to chat with the service-user about topics unrelated to the arranged appointment.",
-                    "Participant D, a Magazine Editor, reassures the interviewee that this is a very informal chat and that there are no right or wrong answers.",
-                    "Participant E, a Creative Director of a design consultancy, when delivering user research interviews uses techniques to make sure that the user is feeling comfortable as they feel this is essential for them to give their honest opinion of the product being tested.",
-                    "Participant F, a Recruitment Consultant, said that the flow is very important and that a successful interview is one that becomes a dialogue where both interviewer and interviewee are made comfortable to have a conversation. Additionally, they want to reflect the company culture they are recruiting for, to help the interviewee feel that if they come to work for this company, it’s going to be a place they are helped to feel relaxed and natural so they can perform to the best of their ability."
-                ],
-                "image": "/assets/projects/better-interviews/ease.png",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "text": "Note-taking is avoided when trying to build rapport",
-                "subsubtext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, is very conscious of ensuring the service-user feels they are someone who can be trusted, that they can open up to, and feels that note-taking can be a barrier to achieving this. This can be challenging since often the times when note-taking is most important coincides with the time it is necessary to be most present and focused on the interaction.",
-                    "Participant C, an Academic Researcher who deals with sensitive cases regarding past experiences, often talks with a participant for around an hour without any note-taking or recording to help them feel at ease before the more formal interview begins.",
-                    "Participant E, a Creative Director, spoke of the importance of “active listening”, they said that when you are interviewing you “want to do eye-contact, you want to make them feel comfortable and you can't do that if you are taking notes at the same time.",
-                    "Participant F, a Recruitment Consultant, said “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection.”"
-                ],
-                "image": "/assets/projects/better-interviews/note-taking.png",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "highlight": true,
-                "text": "Structured form completion can create challenges",
-                "subsubtext": "In cases where interviewers are required to obtain specific information to complete structured forms, they expressed how this made it more difficult to maintain rapport.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant A, a Hiring Manager, is required to score the interviewee on a set of abilities that they are not allowed to reveal. They explained how it makes it difficult to have a natural conversation when you are trying to encourage someone to say something without explicitly declaring it.",
-                    "Participant B, a Social Worker, is required to fill in five online forms during the first meeting with a service-user. They feel it can be hard to build trust when you are required to elicit specific information."
-                ],
-                "image": "/assets/projects/better-interviews/form.png",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "text": "Processing recordings is time-consuming",
-                "subsubtext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant A and B, a Hiring Manager and a Social Worker respectively, both said that although recording the interview would help them be less reliant on noting down all the information during the proceedings, they would not have the time to listen back to or transcribe the interview in order to extract the useful information.",
-                    "Participant D, a Magazine Editor, does use audio recording to capture interviews however tries to process the information as quickly as possible to produce an article while they can still remember it. If they have to revisit the recording, they may have to listen back “three or four times” or fully transcribe it which is very time-consuming. They have also found transcription software to be very unreliable."
-                ],
-                "image": "/assets/projects/better-interviews/time.png",
-                "imagePos": "right",
-                "smallImage": true
-            },
-            {
-                "type": "Text",
-                "highlight": true,
-                "text": "Transparency is important",
-                "subsubtext": "Some participants felt it was important not to hide anything from the interviewee.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, prefers to make handwritten notes since a computer screen would create a barrier between themselves and the service-user and they would not be able to see what was on the screen.",
-                    "Participant C, an Academic Researcher, ensures that the interviewee can read everything that is being noted down to ensure a sense of trust is maintained when conducting interviews into sensitive issues. Additionally, when conducting requirements-capture interviews, they often give a pen and post-its to the interviewee to allow them to write down the key information."
-                ],
-                "image": "/assets/projects/better-interviews/transparency.png",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "text": "Encouraging anecdotes is beneficial",
-                "subsubtext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
-                "listHeader": "Examples",
-                "list": [
-                    "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
-                    "Participant D, a Magazine Editor, encourages people to tell anecdotes to paint a better picture of their character and provide a more interesting read. They also mentioned that when people are more relaxed and “chatty” they are more likely to provide these insights."
-                ],
-                "image": "/assets/projects/better-interviews/anecdotes.svg",
-                "imagePos": "right",
-                "smallImage": true
-            },
-            {
-                "type": "Text",
-                "highlight": true,
-                "text": "It is important to be aware of personal bias",
-                "subsubtext": "Some participants stressed how going into any interview you always have a personal bias that you should be mindful of.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant E,  a Creative Director at a design consultancy, explained how “everybody’s got bias coming into something” and that is important to reflect on how what the interviewee is saying may be different from what you were expecting.",
-                    "Participant C, an Academic Researcher, explained how they prefer to be underprepared for an interview in terms of researching the topic of discussion since they feel that the less influenced they are by their own personal bias the more open their questioning will be, leading to better information being obtained."
-                ],
-                "image": "/assets/projects/better-interviews/bias.jpg",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "text": "Both parties should gain something",
-                "subsubtext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, spoke about the therapeutic benefit of an interview because it provides an opportunity for the interviewee to feel listened to and supported through sharing difficult thoughts and experiences.",
-                    "Participant F, a Recruitment Consultant, said that in order for the interview to be successful, they try to break away from the more traditional scenario where the employer is asking questions to judge the potential employee. They aim for it to be more of a “two-way conversation” where both parties are able to come away from the interview feeling like “they have gained something after the interview and that they have learned about each other, about the subject matter and there should be some sense of reflection”"
-                ],
-                "image": "/assets/projects/better-interviews/thumb.svg",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "highlight": true,
-                "text": "Capturing direct quotes is useful",
-                "subsubtext": "Some participants mentioned the importance of capturing direct quotes from interviewees, however, this can sometimes be difficult to do.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, described how when providing evidence for decisions, it is very important to be able to provide direct quotes from the service-user. However, this can often be difficult since audio-recording is not an option and they feel that taking notes while a service-user is disclosing something important may be damaging to rapport and trust.",
-                    "Participant E, a Creative Director, always has a second person who is taking notes, in order to ensure that direct quotes can be written down without damaging the flow of the interaction and allows the interviewer to continue active listening. Ideally, they said that the note-taker should be behind a one-way mirror, as they worry that the second person in the room can be distracting and damage the rapport between the interviewer and interviewee. However, this is not always possible as it requires a specialist set up."
-                ],
-                "image": "/assets/projects/better-interviews/quote.png",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "text": "Audio recording is inappropriate in some cases",
-                "subsubtext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
-                "listHeader": "Examples",
-                "list": [
-                    "Participant B, a Social Worker, said that they would not feel comfortable asking the service-user if they could record the discussion. They felt that recording the interaction would damage the sense of trust between the two parties.",
-                    "Participant C, an Academic Researcher, never audio-records, partly because some of the environments they work in do not allow it but also to ensure that the interviewee is aware of all records that are being made since they can read notes being taken."
-                ],
-                "image": "/assets/projects/better-interviews/norecord.png",
-                "imagePos": "right",
-                "smallImage": true
-            },
-            {
-                "type": "Text",
-                "text": "Define",
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "text": "Point of View Statements",
-                "body": "In order to develop an actionable problem statement, Stanford d.school encourages the design thinker to form their “Point of View” based on their understanding of users and their environments. “More than simply defining the problem, your Point of View is a unique design vision that is framed by your specific users”. In order to do this, they recommend using “Point of View Statements” which take the following structure",
-                "list": [
-                    "We met… (a user/stakeholder you were inspired by)",
-                    "We were struck by… (something telling, surprising or in tension)",
-                    "We wonder if this means… (a potential insight -  that gives you meaningful direction)", 
-                    "It would be game-changing to…(a potential direction, assuming your insight is correct, without dictating a particular solution)"
-                ],
-                "small": true,
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "subtext": "The following Point of View statements were developed:",
-                "small": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant A",
-                "list": [
-                    "We met Participant A, a Hiring Manager for a large financial company, who carries out interviews with potential employees to decide if they are a good cultural fit for the company. The output of the interview is a set of scores for criteria that the company values.", 
-                    "We were struck by how they often felt overwhelmed with the number of tasks they were required to carry out during the interview and how this made it difficult to converse naturally with the interviewee.", 
-                    "We wonder if this means a high cognitive load on the interviewer damages rapport with the interviewee.", 
-                    "It would be game-changing to help reduce the cognitive load on the interviewer."
-                ],
-                "small": true,
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant B",
-                "list": [
-                    "We met Participant B, a Mental Health Social Worker in the NHS, who carries out assessments with service-users.", 
-                    "We were struck by how the times they were required to be most engaged with what the service-user was saying coincided with the times where note-taking was most important, since capturing direct quotes in these situations can be vital. Despite this, they never record conversations as they feel it would damage trust.", 
-                    "We wonder if this means audio-recording is too intrusive for some more sensitive situations and would damage rapport, despite allowing the interviewer to be more engaged.", 
-                    "It would be game-changing to help the user capture direct quotes more easily without the use of audio recording"
-                ],
-                "small": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant C",
-                "list": [
-                    "We met Participant C, an Academic Researcher, who carries out interviews to explore people’s critical thinking in past situations as well as to capture requirements.", 
-                    "We were struck by how they preferred not to be over-prepared for an interview as they felt that if they already had an idea of what they expected the interviewee to say, their own bias would guide their line of questioning along that path. They prefer to keep to a very high level of almost abstract questioning so as not to lead the interviewee.", 
-                    "We wonder if this means that personal bias as a result of knowledge or experience in an area can be damaging to the information that is elicited as the interviewer may be tempted to confirm their own beliefs about the situation.", 
-                    "It would be game-changing to encourage interviewers to be mindful of their own bias and help them to be more objective in their line of questioning."
-                ],
-                "small": true,
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant D",
-                "list": [
-                    "We met Participant D, an Editor of a magazine, who interviews homeowners to write articles about their homes.", 
-                    "We were struck by how they would relisten to the recording of the interview 3 or 4 times to familiarise themselves with what was said, using their commute to do so via a USB stick in the car.", 
-                    "We wonder if this means listening to an audio-recording of the interview is an ineffective way of going over the interview since it is so time-consuming.", 
-                    "It would be game-changing to help the user surface the information they are looking for more quickly."
-                ],
-                "small": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant E",
-                "list": [
-                    "We met Participant E, a Creative Director of a design consultancy, who carries out user research interviews.", 
-                    "We were struck by their explanation of how it is much harder to avoid being influenced by your own bias in qualitative research than in quantitative research. They felt that in quantitative research where answers are often binary or categorical, it is easier to overcome bias. However, when subjective data is collected via note-taking followed by searching for insights within those notes, it can be harder not to follow your bias.", 
-                    "We wonder if this means that existing methodologies for collecting qualitative data and surfacing insights are prone to allowing the researcher to follow their own bias.", 
-                    "It would be game-changing to help the user surface insights in qualitative data in a more objective way."
-                ],
-                "small": true,
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "listHeader": "Participant F",
-                "list": [
-                    "We met Participant F, a Recruitment Lead, who carries out interviews with candidates to access if they have the skills required and are the right fit for a job.",
-                    "We were struck by how they explained that they tried to avoid making notes as they felt their primary focus should be on building a personal relationship with the interviewee.",
-                    "We wonder if this means that note-taking is seen as a barrier to building rapport and therefore avoided.",
-                    "It would be game-changing to allow the interviewer to effectively document the interview without damaging their ability to build a rapport."
-                ],
-                "small": true
-            },
-            {
-                "type": "Text",
-                "text": "Problem Definition",
-                "body": "It was observed that a common theme mentioned by everyone spoken to was the importance of making the interviewee feel at ease. However, the participants mentioned various barriers to this. Note-taking and form completion were mentioned as requirements that made building rapport more difficult. Additionally, keeping track of what had been covered in order to ensure the required information is elicited, and probing the interviewee for more information, were also commonly stated as reasons why having a natural human interaction may be difficult. All participants also expressed the importance of the two-sidedness of the interaction. Many mentioned how they wanted it to “feel more like a chat” and expressed the importance of being transparent and open with the interviewee. Due to the strong feelings expressed by participants about ensuring the conversation feels natural, it was decided that any solution should have minimal impact on the flow of the interaction between interviewer and interviewee. The focus should be placed on making it easier for the interviewer to be present on a human level, displaying positive body language and actively listening to what is being said. Therefore, interactions with the system should be minimised, subtle and unintrusive of the conversation. It was also felt that taking too many notes, particularly where the interviewee would be unable to see the notes, can be damaging to rapport. This can also be the case if an interview is structured in a way that feels regimented and too much like a one-sided question and answer session. Additionally, some participants mentioned the danger of bias in interviewing, particularly in research interviews. They felt that if the questions are not sufficiently open-ended or if the interviewer leads the questioning along a path of confirming their own beliefs, then there is a danger the output of the interview will become biased. Furthermore, due to the nature of data collected from quantitative research interviews, it can be difficult to ensure all data is documented and insights are surfaced without being influenced by personal bias. Taking a recording of the interview to overcome these problems was met with a mixed reaction. Some felt it was a good way to alleviate the difficulties of note-taking and ensure direct quotes can be documented. Nonetheless, others felt it was too intrusive and would damage the sense of trust in the interaction as well as being very time-consuming to process.",
-                "listHeader": "Key Pain-points",
-                "list": [
-                    "Overcoming the cognitive load to effectively elicit and document information whilst maintaining a natural two-way conversation and building a rapport with the interviewee.", 
-                    "Mitigating personal bias when preparing, delivering and evaluating an interview."
-                ],
-                "footnote": "A key constraint to addressing these pain points is that audio recording can create challenges, since it is felt that it may make the interviewee feel uncomfortable and dealing with raw audio-recorded data takes too long."
-            },
-            {
-                "type": "ImageSet",
-                "text": "User Journey",
-                "subtext": "Based on the identified pain-points, the following user journey was created:",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/User Journey 1.svg"
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "text": "Develop",
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "text": "Ideation",
-                "body": "In order to spark ideation, \"how might we \" questions were generated to frame the problem in different ways to help explore possible solutions. Following the generation of these questions, brainstorming began. In order to carry out effective brainstorming, Stanford d.school recommends that you focus on generating a large number of broad ideas, reserving judgement and imposing constraints where necessary. The “how might we” questions were used as a guide, breaking them down into more focused questions until a question that could be answered was reached.",
-                "footnote": "The following ideas were formed as a result of analysing brainstorming data:",
-                "small": true
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "Progress Tracking",
-                "body": "A feature that allows the interviewer to define a structure for the interview beforehand, then, during the interview, helps them to keep track of the completion of components and timing by providing visual cues. Additionally, the next component to be covered could be suggested to the interviewer based on the previously completed components and the plan that has been defined. This aims to reduce cognitive load by simplifying the task of determining the path of the interview as well as to mitigate bias by helping the interviewer keep to a predetermined line of questioning.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Progress Tracking Diagram.svg"
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "Segmented Documentation",
-                "body": "A feature that allows notes and recordings taken during the interview to be automatically segmented into corresponding interview components (e.g. questions, topics, form sections) creating a more structured and uniform account of the proceedings that facilitates faster access to specific information. This aims to reduce cognitive load by taking care of the structuring of notes, mitigate bias by helping the interviewer capture a more indiscriminate account of the interview, and reduce the time taken to process and search audio recordings.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Segmented Documentations Diagram.svg"
-                    }
-                ]
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "Open Questioning Analysis",
-                "body": "A feature that automatically determines if a question an interviewer plans to ask is open or closed. This aims to mitigate bias since it has been found that the line of questioning chosen by the interviewer is a common source of bias.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Open Questioning Analysis Diagram.svg"
-                    }
-                ],
-                "highlight": true,
-                "small": true
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "Bias Reflection",
-                "body": "A feature that aims to help interviewers be more mindful of their own bias, by asking them to predict what they think the participant might say in response to a given question, i.e. explicitly stating their bias, then reflecting on how their answer may be surprising and if it has changed their point of view.  This feature would not be appropriate for all types of interviews but, based on empathetic data, it is felt it may be useful in areas such as qualitative research. This aims to mitigate bias by transforming personal bias from being something in the interviewer's mind that they try to suppress to something that is acknowledged and forms part of the data itself.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Bias reflection Diagram.svg"
-                    }
-                ],
-                "small": true
-            },
-            {
-                "type": "ImageSet",
-                "subtext": "Systematic Insight Surfacing",
-                "body": "A feature that facilitates a systematic approach to analysing qualitative data such as Thematic Analysis to allow the user to surface insights more objectively. This aims to mitigate bias by allowing the user to ensure that all data is taken into account when surfacing insights and that they are not influenced by their own bias in selecting pieces of information.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Systematic Insight Surfacing Diagram.svg"
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "text": "Deliver",
-                "invert": true
-            },
-            {
-                "type": "ImageSet",
-                
-                "subsubtext": "To explore how the generated ideas could be combined, they were mapped onto the user journey like this:",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/User Journey 2.svg"
-                    }
-                ]
-            },
-            {
-                "type": "ImageSet",
-                
-                "subsubtext": "Based upon the empathetic data, the following flow diagram showing how information is passed along current processes was determined. This is a generalisation of all the types of interviews explored, with items that did not apply in all cases shown in brackets.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Information Flow 1.svg"
-                    }
-                ]
-            },
-            {
-                "type": "ImageSet",
-                
-                "subsubtext": "These existing processes should be considered when designing the tool, in order to ensure the tool can be integrated into workflows and is non-specific to particular use-cases. Based on this, the following user journey was established, incorporating the ideas into a single user experience:",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/Flow Diagram 2.svg"
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "text": "Prototyping",
-                "body": "In order to test these ideas, a high fidelity prototype was developed using React. It was decided to structure the development of the prototype in sprints, focusing each sprint on a particular feature and defining a user story based on empathetic data, to ensure that the development was grounded in solving real user problems. User stories are a concept borrowed from Agile methodologies that provide “short, specific and goal-oriented” statements that tend to take the form “As a..., I want..., so that...”"
-                
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 1 - Progress Tracking",
-                "subsubtext": "User Story: As a social worker, I want a tool for organising and monitoring the progress of my assessments so that I can focus on being present with the service-user.",
-                "body": "Participant B, a social worker, is required to complete a structured form for each of their assessments with service-users. They expressed how it was important to them that the session feels“more like a chat” to help the service-user feel comfortable discussing sensitive issues. Because of this, they do not tend to complete the form in order, instead, completing it in the order that feels most appropriate to the flow of discussion in each case. However, this creates difficulties in identifying sections that still need to be completed and confirming that everything has been covered, since the form is many pages long and requires them to go through each page checking each section. Due to the strict time limits and the importance of ensuring all information is covered during the session this creates additional stress, increasing the cognitive load and making it more difficult to build the rapport that is vital in situations such as social work.",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "The key pain point established in this situation was the difficulty in identifying components of the session that were yet to be covered, and by extension concluding that all components had been covered. Working closely with Participant B, the idea of using a touch screen device to allow the user to discreetly dismiss components as they are covered was experimented with. Following the definition of a set of components, the user is able to start a session using the predefined components. The components are then displayed on-screen as large buttons and the user is able to tap each one when the component is covered. It then fades or disappears, depending on the user’s preference, meaning identifying components yet to be covered can be achieved through glancing at the screen. The components can also be colour-coded by the interviewer to provide instantaneous visual information about the type of component.",
-                "image": "/assets/projects/better-interviews/figure8.png",
-                "imagePos": "left",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true
-            },
-            {
-                "type": "Text",
-                "body": "As an extension to this idea, an additional view was added which displayed components as a set of rendered bubbles, which were sized according to which component should most likely come next based upon the predefined plan. This was an exploration into the incorporation of playful design into the tool, which aims to “make existing activities and systems more engaging by infusing them with the engaging qualities of games and toys. When discussing his three levels of emotional design, Don Norman explains how products that perform well on the reflective level should be fun to use and provide the user with a story they can tell about it’s novelty. The idea of using bubbles was developed by considering the action of the interviewer tapping a component to complete it, then it disappearing or fading as being similar to popping a bubble. It was also felt that the unordered nature of a group of bubbles could accentuate the sense of fluidity in allowing components to be completed in any order. Participants generally liked this idea and while they felt it may not be appropriate in all cases, some mentioned how it could be useful in making the interview more collaborative and transparent by altering the roles of the interviewer and interviewee to allow them to work together to pop all of the bubbles. Participant F spoke about the potential benefits of introducing a sense of motivation and achievement into the process and agreed it could be useful in conducting research interviews with children. Exploring the effects on rapport of reimagining interviews in this way could be a future area of research.",
-                "image": "/assets/projects/better-interviews/figure9.png",
-                "imagePos": "right",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true
-            },
-            {
-                "type": "Text",
-                "body": "Participant E described how they make use of a  TimeTimer™ during their interviews, which provides a simple visual representation of time remaining. The concept is widely celebrated in the design world for its fast interpretability compared to using clocks or stopwatches.  It was therefore decided to add a similar style of countdown timer to the UI to allow the interviewer to keep track of time remaining without disrupting the discussion.",
-                "image": "/assets/projects/better-interviews/Figure 10.png",
-                "imagePos": "left",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true
-            },
-            {
-                "type": "Text",
-                "body": "In order to evaluate the feasibility of this part of the prototype, user trials were carried out in which participants were to complete tasks using the system. The technique of “Show, don’t tell” was used meaning the facilitator should only give the participant “the basic context they need to understand what to do” and refrain from “correcting” misunderstandings. Additionally, the participants were encouraged to “Think aloud” to help empathise with their understanding of the system. These techniques are all outlined as part of the methodology for design thinking user testing by Stanford d.school. While the facilitator observed the proceedings, they completed a “Feedback capture matrix”. As defined by Stanford d.school, “feedback capture matrices facilitate real-time capture of feedback on presentations and prototypes”. The matrix helps the design thinker arrange thoughts into four categories: likes, wishes, questions raised and ideas spurred on.",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true
-            },
-            {
-                "type": "ImageSet",
-                "body": "During the trials for the component tracking tool, the users were able to complete the task with relative ease. They expressed a liking of the use of colour as well as the timer to give quick visual cues. The option of fading the components when they are completed was preferred over hiding them as it allowed them to keep a record of what had been previously covered. While they liked the colour coding, they expressed a desire to split components into more distinct categories to represent the stages of the interview, as well as the ability to make some components higher priority for completion than others. Therefore, the ability to group components into stages was added and components could be given importance of “Highest”, “High”, “Medium”, “Low” or  “Lowest”`.",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/figure11b.png"
-                    },
-                    {
-                        "url": "/assets/projects/better-interviews/figure11a.png"
-                    }
-                ],
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "small": true,
-                "footnote": "Overall, Participant B felt that this would be useful in their work to keep track of sessions and also mentioned how having a structure of sessions, which could be defined by NHS policymakers, could be beneficial in providing a better quality of care by standardising the approaches used by practitioners."
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 2 - Segmented Note Taking",
-                "subsubtext": "User Story: As a hiring manager, I want a note-taking tool that helps me collect and manage my interview data more easily.",
-                "body": "Participant A, a hiring manager, takes written notes during job-fit interviews to allow them to provide feedback afterwards. They expressed that they often found it difficult to ensure that these notes were complete and well organised whilst also maintaining a natural conversation with the interviewee and building a rapport. Additionally, Participant F, a recruitment lead, explained “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection”. In these cases, it seems that building a rapport and ensuring the conversation flows naturally is prioritised over producing an account of the interview that is going to be easy to process afterwards.",
-                "small": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "Building on top of the progress tracking tool developed in sprint one, it was explored how note-taking could be added to the tool. The participants, who currently mostly take notes on paper, largely ruled out the use of a laptop, because of the noise the keyboard would make and felt that the upright screen would form a barrier between themselves and the interviewee. However, they were comfortable with the use of a small tablet such as an iPad with an on-screen keyboard to take notes electronically because interactions would be silent and the smaller size of the device would be less intrusive. Various ideas were experimented with such as typing notes in pop-up boxes that appeared when a component is selected or thinking about component objects as being 3D cards that can be flipped and responses written on the other side. However, participants found these concepts to be unnecessarily complex and they did not like how notes were hidden after they had been taken. The preferred design was a more simple chronological account of the completed components with notes appended beside each one. The design made use of negative space to remove any sense of restriction in the length of notes that could be taken, with some participants explaining how it felt close to taking notes on paper.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/tabs.gif",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "body": "The initial design challenge that led to the development of the rejected pop-up box and flip cards solutions was due to a lack of screen space on a small tablet display meaning notes were hidden away when not in use. This was overcome by introducing two separate tabs to the display, one showing the components and the other showing the notes. When a component was selected from the component tab, the focus was automatically shifted to the notes tab with the new component appended to the end of the chronology, ready for the user to add notes. While the users appreciated the amount of screen space being dedicated to note-taking, they felt that it was distracting and laborious for them to have to switch between tabs each time they wanted to start a new component. To combat this, a set of three suggested components was added to the bottom of the notes tab to allow for fast access to the predicted next component. The suggestions were determined based upon the current stage of the interview and the priority given to the upcoming components.",
-                "footnote": "In terms of the structure of the notes that were taken, initial implementations included a full rich text editor that would allow the interviewer to format their notes, changing font size, changing font weight, adding lists etc. However, this was observed to be redundant with many participants preferring the use of a simple bullet-pointed list. Therefore, the rich text options were removed, in favour of a bullet-pointed list of individual notes that can be indented to create a hierarchy.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true
-            },
-            {
-                "type": "Text",
-                "body": "Finally, it was suggested by Participant C that it would be useful to be able to link a note taken for a particular component to a different component since respondents will often mention information relating to topics which may have already been discussed or are yet to be discussed. This was added by allowing notes to be added to other components via a link button. This was found to be useful particularly when linking questions together, which is a skill many interviewers employ to help the conversation to feel more natural. For example, as show in the image, the user has linked a note taken for a question about the interviewee’s strengths to a question about an achievement the interviewee is proud of. This could serve as an aid to linking their phrasing of questions since they could say something like “You mentioned you are very ambitious and quite an over-achiever, please can you tell me about an achievement you are proud of?”",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/figure14.png",
-                "imagePos": "left"
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 3 - Segmented Audio-Recording",
-                "subsubtext": "User Story: As a magazine editor, I want an audio recording tool that helps me find the information I’m looking for more easily.",
-                "body": "Participant D, a homes editor of a magazine, conducts interviews with homeowners to create features. They take an audio recording of the conversation using a digital recorder as well as taking brief handwritten notes. However, they find processing the recording very time-consuming. They explained how they sometimes relisten to the recording of the interview three or four times to familiarise themselves with what was said, using their commute in the car to do so via a USB stick. When they come to write up the piece, they “usually remember the essence of what they said, but finding the exact words in a recording that can sometimes be more than an hour long is quite hard and time-consuming”.",
-                "footnote": "In a similar way to segmenting the notes into corresponding components, audio recording was integrated into the component tracking tool, using the information generated by the user when they tap a component to automatically timestamp the recording with the start times of each component. This meant that when reviewing the recording, this metadata could be used to allow the user to find specific information more easily.",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "Firstly, some participants who dealt with more sensitive issues ruled out the use of audio recording because they felt it would be inappropriate and damage trust. Therefore, an option was created to completely disable audio recording features for a particular session plan. Additionally, all participants who currently use audio recording felt that it was important to ask the interviewee’s permission to record the conversation and explain how the recording would be used before they started recording. Therefore, the decision was taken that even when audio recording is enabled, the default option would be that the recording would not be started automatically when the session starts. Instead, the interviewer is able to start the recording manually, by pressing a button on the session screen. This also meant that the interviewer was able to take multiple recordings throughout the conversation, meaning it could be used as a tool for relieving note-taking requirements in specific moments.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/firgures1718.svg",
-                "imagePos": "left",
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "body": "Due to the focus placed on trust and transparency, it was felt it was important to provide strong visual indicators and feedback regarding whether or not the conversation is currently being recorded. Learning from the Apple iOS UI design pattern of changing the colour of the status bar at the top of the screen to unobtrusively indicate current background processes such as the use of location (blue),  on a call (green) and screen/sound recording (red), the decision was taken to change the bar at the top of the UI to red to indicate recording has been started. When showing this to participants, they also felt it would give them the peace of mind that the recording was working and they could focus on the conversation instead of taking notes. Additionally, it was felt that feedback regarding the audio levels being recorded would be useful, to allow the interviewer to be sure both parties could be heard when the recording was played back. To cater for this, a waveform was added, taking the place of the start recording button that gives real-time feedback of the audio levels being recorded. Given more time and based on the feedback that was received, it could be beneficial to dynamically provide an indication of the optimality of the levels, i.e. whether they are too quiet or too loud.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/figure18.png",
-                "imagePos": "right",
-                "highlight": true
-            },
-            {
-                "subsubtext": "The following video shows audio being captured in an example interview",
-                "type": "Video",
-                "id": "3pED7ftZAjw",
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "body": "In order to allow the user to listen back to recordings, the documentation review screen was extended to include an audio player. It was felt by participants that it was important to be able to see corresponding components and notes alongside the audio currently being played, therefore, the favoured design for the audio player was a vertical progress bar alongside the notes with colour-coded markers where each component begins. To reduce the interaction required to review the recording and notes, the notes section of the interface was adapted to automatically scroll in time with the audio meaning the notes displayed would always correspond to the audio being played. The participants were impressed by this feature and felt it would be useful in allowing them to focus on the audio then check the notes when necessary. Additionally, to facilitate skipping the audio to a particular component, the component cards and markers could be clicked to automatically seek the audio to the moment that component began. Participant D, a magazine editor, particularly liked this feature and explained how “it would be so handy to be able to fast forward to a section of the interview so I could use an exact direct quote in my feature”.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/figure19.png",
-                "imagePos": "left",
-                "highlight": true
-            },
-            {
-                "subsubtext": "The following video shows the example audio being reviewed",
-                "type": "Video",
-                "id": "nk4CS6SlJ3U",
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 4 - Open Questioning Analysis",
-                "subsubtext": "User Story: As an academic researcher, I want to ensure that when interviewing I am mindful that my line of questioning does not lead the interviewee into confirming my own bias.",
-                "body": "Participant C, an academic researcher, feels that it is very important to ensure that their line of questioning remains open in order to ensure that the interviewer does not lead the interviewee into confirming their personal bias. They try to ask very high-level, “almost abstract” questions to gain insights rather than asking specific questions.",
-                "footnote": "With this in mind, providing assistance in ensuring that planned questions were open was explored. After researching online, a publicly available dataset was found containing around 1.4 million questions taken from amazon.com, each labelled as being either open or closed. This was then used to create an NLP algorithm that used the Python parts-of-speech library, spacy, to identify patterns of auxiliary verbs, adverbs and other key signifying words in open questions and closed questions. In order to implement this, a training sample of 210,000 questions was taken from the dataset, which was processed, grouping by the pattern of keywords in the first 6 words of the question. Then, for each pattern, the proportion of open questions was calculated. For example, the pattern \"did * have * * *\" (where * represents a word that is not an identified keyword) has a proportion of open questions of 0.3, whereas the pattern \"how would * * * *\" has a much higher proportion of 0.98. This shows how the model would favour the rephrasing of a closed question such as “Did you have a good experience?” to a more open question such as “How would you describe your experience?”. In order to generate a prediction for a given question, the pattern which matches the most keywords is found, giving the corresponding proportion of open questions in the dataset as the confidence the question should be classified as open. This achieved an accuracy of 78.5% on a testing sample of  21,000 questions. 74.7% of open questions were given an open confidence value of more than 0.5 while 82.8% of closed questions had an open confidence of less than 0.5.",
-                "small": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "In order to integrate this into the prototype, it was added to the component creation screen to ensure that bias mitigation is considered during the initial planning stages of the session. It was felt that the assistance should be fairly unobtrusive and unrestrictive in terms of indicating to the user the prediction, however, allowing them to dismiss this and proceed, even if the question was deemed to be closed, since in some cases it may be necessary to ask closed questions. Additionally, it was felt that it was important to present the prediction with an air of uncertainty so it was made clear the prediction was a best guess and may be incorrect. Based on this, the phrasing of the messages to the user was decided to be “This looks like it could be a closed question.” and “This looks like an open question.”.  The confidence value was also displayed to give the user an indication of how certain the prediction was, which was also colour coded to allow the user to understand the sentiment behind the message, i.e. closed is negative, open is positive.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/figure20.svg",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 5 - Bias Reflection",
-                "subsubtext": "User Story: As a qualitative researcher, I want to ensure that I am mindful of my own bias when interviewing.",
-                "body": "Participants C, E and F who all conduct qualitative research interviews, spoke of the importance of being aware of their own bias throughout the process. Participant E explained how “everybody’s got bias coming into something, whether you think you have or not, you have, and you want to be reflective of what you're hearing fully”. Participant C explained how they “don’t like over-preparing for interviews” since they feel that too much preparation biases their thinking.",
-                "small": true,
-                "highlight": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "ImageSet",
-                "subsubtext": "With the goal of altering the perception of personal bias from something that researchers attempt to suppress, into a feature of the data that is acknowledged and reflected upon, the following methodology was devised:",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/bias cartoon.svg"
-                    }
-                ],
-                "highlight": true,
-                "notoppadding": true,
-                "small": true
-            },
-            {
-                "type": "Text",
-                "body": "Using this method, the researcher would declare what they expect the interviewee to say for specific parts of the interview, i.e. explicitly declaring their bias. Then, following the interview, they would be presented with their expectations alongside the actual data in order to allow them to reflect on whether their bias was confirmed by the interviewee. This was integrated into the prototype by allowing the user the append expectations to individual components for a particular session. These expectations are then hidden while the interview is carried out, before allowing the researcher to compare their data to their expectations and reflect on any differences by answering some simple questions",
-                "small": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/figure24.png",
-                "imagePos": "right",
-                "highlight": true,
-                "small": true
-            },
-            {
-                "type": "ImageSet",
-                "images": [
-                    {
-                        "url": "/assets/projects/better-interviews/figure23.png"
-                    }
-                ],
-                "highlight": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "small": true,
-                "footnote": "When receiving feedback on this framework, participants felt that while it could be a useful tool in acknowledging their personal bias they were sceptical about the feasibility of declaring expectations for each individual session they carried out. Participant F suggested archetypes could be used to generalise expectations, assigning an archetype to individual sessions. Additionally, they felt that the tool could be reframed as a tool for hypothesis evaluation, meaning the expectations become a hypothesis that is to be proven or disproven by a set of interviews. They felt this could be useful in “ensuring the original angle is maintained” while acknowledging where preconceived ideas may have been incorrect."
-            },
-            {
-                "type": "Text",
-                "subtext": "Sprint 6 - Systematic Insight Surfacing",
-                "body": "When discussing the evaluation stage of a set of qualitative research interviews, Participant E described this as the “the messy bit”. They explained how it can be overwhelming to be presented with large quantities of subjective data and attempt to process it into something concise and usable. Additionally, it was felt that if a systematic approach is not taken, the researcher can be led into confirming their own bias by selecting insights that support it. Therefore, it was decided that the tool should facilitate a more objective, systematic approach to synthesising data to surface insights. Thematic analysis was selected as the analysis method to implement since it is seen as “a foundational method for qualitative analysis” and it provides the necessary flexibility to be applied to a variety of use cases.",
-                "small": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "In their 2006 paper, Braun and Clarke set out a step-by-step guide for doing thematic analysis.  The first phase is to familiarise yourself with the data; it was felt this was enabled by the documentation review interface produced in sprints 2 and 3 that shows the user segmented notes and audio recordings. The second phase is to generate initial codes which represent a feature of the data, systematically going through the entire dataset. This was integrated into the documentation review interface by adding an expandable “thematic analysis codings'' tab below each component, where codings can be appended and previously added codings enabled and disabled. Based on the application of qualitative research, codings are defined at a session plan level, meaning that parallels can be drawn between sessions. However, in future it may be useful to allow the user to perform analysis for individual sessions or specific groups of sessions.",
-                "small": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/themes.gif",
-                "imagePos": "right"
-            },
-            {
-                "type": "Text",
-                "body": "Following the generation of codes, the researcher should have a long list of codes that have been identified. Braun and Clarke explain how they should now begin “sorting the different codes into potential themes''. They explain how “it may be helpful at this phase to use visual representations”, suggesting writing the name of each code on a piece of paper and experiment with sorting them into overarching themes. Therefore, it was decided to design a user interface to reflect this. A drag and drop interface was used, where the user can create new themes which appear as coloured areas of the screen then fluidly move codes between themes, reflecting sorting pieces of paper into piles. Additionally, a count was given for each theme, so the researcher could see how prevalent a particular theme is. This can be used to facilitate the next phase of the process, reviewing themes, by allowing them to consider removing themes that do not have sufficient data to support them. Additionally, at this stage, the researcher should consider collapsing themes into each other, where “two apparently separate themes might form one theme”. In order to facilitate this, it is felt that a future enhancement could be to allow the user to explore the underlying data for a particular theme rather than going back to the notes and looking for corresponding codes. This could be done by displaying a subset of the data that applies to the theme so it can be reviewed more easily.",
-                "small": true,
-                "nobottompadding": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/themesorting.gif",
-                "imagePos": "left"
-            },
-            {
-                "type": "Text",
-                "body": "Once the researcher has reviewed the themes, they should “define and refine” each theme, identifying the essence of what each theme is about. This is enabled in the prototype by allowing the user to update the description of the theme as it is refined, however, again, a view to examine the data for a specific theme would be beneficial to this phase. Finally, the researcher should produce a report of their themes. The final arrangement of codes into themes can be extracted from the interface, however, it was felt it would be useful to provide an automated generation of a visualisation of the themes and codes. A word cloud was selected since it provides a “straightforward and visually appealing visualisation method for text”. This was integrated into the prototype by adding a button below the thematic analysis theme exploration to generate a word cloud. When clicked, this takes the current configuration of codes and themes and generates a word cloud with the names of the themes and codes sized by their frequency in the data. Participants liked how this instantly provided a visual, easily understandable overview of the parallels of a set of findings. It was mentioned how removing the chronology of the data allowed them to interpret the data more objectively since the immediately noticeable information was now the most prevalent rather than the first topic covered by the interviewer.",
-                "small": true,
-                "notoppadding": true,
-                "image": "/assets/projects/better-interviews/wordcloud.png",
-                "imagePos": "right",
-                "footnote": "While this feature was designed with a focus on qualitative research, Participant A, a social worker, also felt this would be beneficial to them in identifying the key themes discussed in a session. Throughout the process they mentioned how they have very little time to do extra preparation or analysis of their sessions but felt this would provide them with a quick method of reflecting on a session, using recurring codes and themes to connect ideas that have been developing between sessions. They gave the example of identifying a service user’s “rules for living” in cognitive behavioural therapy and felt that this method could help them to process all the information collected more systematically. They also felt that the word cloud could be an empowering tool for service-users to see the themes they discussed in a session and felt it could be useful in identifying a  progression from session to session as language changes and themes become more/less prominent."
-            },
-            {
-                "type": "Text",
-                "text": "Final Prototype",
-                "subsubtext": "Following the completion of the sixth sprint, a final working prototype had been produced with a functional front and back end that aimed to meet all the requirements of the solution. It is available to try online. Here you can either log in to the demo account with the following credentials: (Username: a Password: a) where there is some example data or register a new account.",
-                "link": "http://bengraves-interview-tool.herokuapp.com/",
-                "linkText": "Go to the prototype ->",
-                "highlight": true
-            }
+      },
+      {
+        "type": "Text",
+        "text": "Spotify Integration",
+        "body": "Spotify provides an API which allows developers to create applications that make use of their recommendation service. Users are able to securely grant access to their listening data to provide a more personal experience.",
+        "small": true,
+        "invert": true
+      },
+      {
+        "type": "ImageSet",
+        "text": "The following user journey was designed for an implementation of this technology to allow a user to generate a recommended track to listen to in the shower...",
+        "images": [
+          {
+            "url": "/assets/projects/showertune/userjourney.svg"
+          }
         ]
-    },
-    {
-        "name": "Google - Site Reliability Engineering for UX",
-        "type": "Internship Project",
-        "path": "/google-reliable-ux",
-        "id": "google",
-        "projectImageFormat": "svg",
-        "time": "Summer 2019",
-        "duration": "3 Months",
-        "skills": [
-            "UX Analysis", "Site Reliability Engineering", "Fullstack Software Engineering"
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "This user journey was then imagined as a mobile app... ",
+        "images": [
+          {
+            "url": "/assets/projects/showertune/spotify.gif"
+          }
         ],
-        "fullCaseStudy": true,
-        "primaryColor": "#000000",
-        "secondaryColor": "#fcfcfc",
-        "backgroundColor": "#f3f3f3",
-        "invertBackgroundColor": "#ffffff",
-        "invertColor": "#000000",
-        "description": "In Summer 2019 I joined a Site Reliability Engineering (SRE) team at Google, tasked with developing a way of helping engineers prioritise their time on maintaining a positive user experience. The team wanted to improve their measures of latency to better reflect the latency as perceived by the user. A key principal of SRE is to measure reliability as close to how it is experienced by the user as possible. This required full stack software engineering to create various microservices required to gather, process and store data and working to integrate the process into user interfaces to capture the latency experienced the user. This placement was an interesting insight into the world of operations and taught me a lot about the complexities of running great user experiences at scale.",
-        "slides": [
-            {
-                "type": "ImageSet",
-                "text": "User-Perceived Latency",
-                "invert": true,
-                "body": "As can be seen in the diagram below, measuring the \"User-Percieved Latency\" rather than the \"Server-Side Latency\" is vital in ensuring that metrics refelect the actual latency experienced by the user. Giving SREs access to this data allows them to prioritise spending time on weaknesses that damage UX.",
-                "images": [
-                    {
-                        "url": "/assets/projects/google/latency.svg"
-                    }
-                ]
-            }
+        "highlight": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "A flow was also designed for non-Spotify users to select a “Continue without Spotify option”, allowing music taste to be manually selected and playback via YouTube...",
+        "images": [
+          {
+            "url": "/assets/projects/showertune/nonspotify.gif"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "text": "Final Prototype",
+        "subtext": "A high-fidelity prototype of the app was developed using React which is available to try at:",
+        "link": "https://www.showertune.app/",
+        "linkText": "www.showertune.app",
+        "image": "/assets/projects/showertune/reactlogo.png",
+        "imagePos": "left"
+      },
+      {
+        "type": "Text",
+        "text": "My design received a commendation at the 2020 Creative Concience awards",
+        "link": "https://www.creative-conscience.org.uk/shortlisted-year/2020/",
+        "linkText": "creative-conscience.org.uk/shortlisted-year/2020/",
+        "highlight": true
+      }
+    ]
+  },
+  {
+    "name": "Better Interviews",
+    "type": "University Project",
+    "path": "/better-interviews",
+    "id": "better-interviews",
+    "projectImageFormat": "svg",
+    "skills": [
+      "UX Research",
+      "UX Design",
+      "Design Thinking",
+      "Rapid Prototyping"
+    ],
+    "time": "Autumn 2019 - Spring 2020",
+    "duration": "6 Months",
+    "fullCaseStudy": true,
+    "primaryColor": "#000000",
+    "secondaryColor": "#009901",
+    "backgroundColor": "#f3f3f3",
+    "invertBackgroundColor": "#009901",
+    "invertColor": "#f3f3f3",
+    "highlightBackgroundColor": "#ffffff",
+    "highlightColor": "#000000",
+    "description": "This was an exploritory project for my Computer Science bachelors final project. With the goal of developing a high-fidelity prototype of a tool that could be used in a variety of interview settings, I applied design thinking methodologies working closely with a set of participants. The participants carried out a variety of types of interviews, such as medical consultation, journalistic interviews, qualitative research interviews as well as recruitment interviews. I was able to identify some key challenges faced by interviewers as being a high cognitive load, building rapport and mitigating confirmation bias. I then ideated around, prototyped and tested tools to ease these pain-points. The final prototype incorporates various ideas into a single end-to-end tool for use before, during and after the interview, taking the form of a web application designed for use on a mobile touchscreen tablet.",
+    "slides": [
+      {
+        "type": "ImageSet",
+        "text": "Process",
+        "subsubtext": "The design process was defined around the double diamond model. Stanford d.school's Design Thinking bootleg was also used as a reference to provide guidance on activities to facilitate a user-centred design thinking process.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/doublediamond.svg"
+          }
         ]
-    },
-    {
-        "name": "Method - Data Science for Design",
-        "type": "Internship Project",
-        "path": "/method-data-science-for-design",
-        "id": "method",
-        "projectImageFormat": "svg",
-        "time": "Spring 2019",
-        "duration": "3 Months",
-        "skills": [
-            "Data Visualisation",
-            "Data Science",
-            "Chatbot development"
+      },
+      {
+        "type": "Text",
+        "link": "https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf",
+        "linkText": "Stanford d.school's Design Thinking bootleg",
+        "image": "/assets/projects/better-interviews/bootleg4.png",
+        "imagePos": "right",
+        "small": true,
+        "notoppadding": true,
+        "smallImage": true
+      },
+      {
+        "type": "Text",
+        "text": "Discover",
+        "invert": true
+      },
+      {
+        "type": "ImageSet",
+        "text": "Empathy Development Interviews",
+        "subtext": "Empathy Interviews - “understand a person’s thoughts, emotions, and motivations, so that you can determine how to innovate for him or her.”",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/questions.svg"
+          }
         ],
-        "fullCaseStudy": true,
-        "primaryColor": "#000000",
-        "secondaryColor": "#327b8f",
-        "backgroundColor": "#ffffff",
-        "invertBackgroundColor": "#ffffff",
-        "invertColor": "#000000",
-        "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project.",
-        "slides": [
-            {
-                "type": "ImageSet",
-                "text": "Read about the project on Medium",
-                "sidePadding": "20px",
-                "topBottomPadding": "20px",
-                "images": [
-                    {
-                        "url": "/assets/projects/method/rsz_datadesign.jpg",
-                        "caption": "Data Science for Design",
-                        "link": "https://medium.com/method-perspectives/data-science-for-design-4bd23c2a957e"
-                    },
-                    {
-                        "url": "/assets/projects/method/rsz_customers1.jpg",
-                        "caption": "Using data design to understand your customers (Part 1)",
-                        "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-1-f9ddaf65bc42"
-                    },
-                    {
-                        "url": "/assets/projects/method/rsz_customers2.jpg",
-                        "caption": "Using data design to understand your customers (Part 2)",
-                        "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-2-f87dafc08d5d"
-                    }
-                ]
-            }
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "text": "Participants",
+        "list": [
+          "Participant A - Hiring Manager at large financial company",
+          "Participant B - Mental Health Social Worker in the NHS",
+          "Participant C - Researcher at academic institution",
+          "Participant D - Editor of a homes magazine",
+          "Participant E - Creative director at strategic design consultancy",
+          "Participant F - Recruitment lead at strategic design consultancy"
+        ],
+        "image": "/assets/projects/better-interviews/participants.png",
+        "imagePos": "right",
+        "notoppadding": true
+      },
+      {
+        "type": "Text",
+        "invert": true,
+        "text": "Insights",
+        "small": true
+      },
+      {
+        "type": "Text",
+        "highlight": true,
+        "text": "Helping the interviewee feel at ease is important",
+        "subsubtext": "All participants begin the interview by trying to build rapport and create a relaxed atmosphere.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, starts by attempting to chat with the service-user about topics unrelated to the arranged appointment.",
+          "Participant D, a Magazine Editor, reassures the interviewee that this is a very informal chat and that there are no right or wrong answers.",
+          "Participant E, a Creative Director of a design consultancy, when delivering user research interviews uses techniques to make sure that the user is feeling comfortable as they feel this is essential for them to give their honest opinion of the product being tested.",
+          "Participant F, a Recruitment Consultant, said that the flow is very important and that a successful interview is one that becomes a dialogue where both interviewer and interviewee are made comfortable to have a conversation. Additionally, they want to reflect the company culture they are recruiting for, to help the interviewee feel that if they come to work for this company, it’s going to be a place they are helped to feel relaxed and natural so they can perform to the best of their ability."
+        ],
+        "image": "/assets/projects/better-interviews/ease.png",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "text": "Note-taking is avoided when trying to build rapport",
+        "subsubtext": "Some participants mentioned that they do not take notes until they are confident the interviewee is relaxed and there is a sense of trust.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, is very conscious of ensuring the service-user feels they are someone who can be trusted, that they can open up to, and feels that note-taking can be a barrier to achieving this. This can be challenging since often the times when note-taking is most important coincides with the time it is necessary to be most present and focused on the interaction.",
+          "Participant C, an Academic Researcher who deals with sensitive cases regarding past experiences, often talks with a participant for around an hour without any note-taking or recording to help them feel at ease before the more formal interview begins.",
+          "Participant E, a Creative Director, spoke of the importance of “active listening”, they said that when you are interviewing you “want to do eye-contact, you want to make them feel comfortable and you can't do that if you are taking notes at the same time.",
+          "Participant F, a Recruitment Consultant, said “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection.”"
+        ],
+        "image": "/assets/projects/better-interviews/note-taking.png",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "highlight": true,
+        "text": "Structured form completion can create challenges",
+        "subsubtext": "In cases where interviewers are required to obtain specific information to complete structured forms, they expressed how this made it more difficult to maintain rapport.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant A, a Hiring Manager, is required to score the interviewee on a set of abilities that they are not allowed to reveal. They explained how it makes it difficult to have a natural conversation when you are trying to encourage someone to say something without explicitly declaring it.",
+          "Participant B, a Social Worker, is required to fill in five online forms during the first meeting with a service-user. They feel it can be hard to build trust when you are required to elicit specific information."
+        ],
+        "image": "/assets/projects/better-interviews/form.png",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "text": "Processing recordings is time-consuming",
+        "subsubtext": "Participants felt that while audio recording was beneficial in relieving the requirements of note-taking, processing the recording into usable data takes a long time.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant A and B, a Hiring Manager and a Social Worker respectively, both said that although recording the interview would help them be less reliant on noting down all the information during the proceedings, they would not have the time to listen back to or transcribe the interview in order to extract the useful information.",
+          "Participant D, a Magazine Editor, does use audio recording to capture interviews however tries to process the information as quickly as possible to produce an article while they can still remember it. If they have to revisit the recording, they may have to listen back “three or four times” or fully transcribe it which is very time-consuming. They have also found transcription software to be very unreliable."
+        ],
+        "image": "/assets/projects/better-interviews/time.png",
+        "imagePos": "right",
+        "smallImage": true
+      },
+      {
+        "type": "Text",
+        "highlight": true,
+        "text": "Transparency is important",
+        "subsubtext": "Some participants felt it was important not to hide anything from the interviewee.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, prefers to make handwritten notes since a computer screen would create a barrier between themselves and the service-user and they would not be able to see what was on the screen.",
+          "Participant C, an Academic Researcher, ensures that the interviewee can read everything that is being noted down to ensure a sense of trust is maintained when conducting interviews into sensitive issues. Additionally, when conducting requirements-capture interviews, they often give a pen and post-its to the interviewee to allow them to write down the key information."
+        ],
+        "image": "/assets/projects/better-interviews/transparency.png",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "text": "Encouraging anecdotes is beneficial",
+        "subsubtext": "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
+        "listHeader": "Examples",
+        "list": [
+          "Some participants described how they try to elicit anecdotes as a good way of obtaining insights",
+          "Participant D, a Magazine Editor, encourages people to tell anecdotes to paint a better picture of their character and provide a more interesting read. They also mentioned that when people are more relaxed and “chatty” they are more likely to provide these insights."
+        ],
+        "image": "/assets/projects/better-interviews/anecdotes.svg",
+        "imagePos": "right",
+        "smallImage": true
+      },
+      {
+        "type": "Text",
+        "highlight": true,
+        "text": "It is important to be aware of personal bias",
+        "subsubtext": "Some participants stressed how going into any interview you always have a personal bias that you should be mindful of.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant E,  a Creative Director at a design consultancy, explained how “everybody’s got bias coming into something” and that is important to reflect on how what the interviewee is saying may be different from what you were expecting.",
+          "Participant C, an Academic Researcher, explained how they prefer to be underprepared for an interview in terms of researching the topic of discussion since they feel that the less influenced they are by their own personal bias the more open their questioning will be, leading to better information being obtained."
+        ],
+        "image": "/assets/projects/better-interviews/bias.jpg",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "text": "Both parties should gain something",
+        "subsubtext": "Some participants mentioned how the interview should not feel too one-sided and that it is important that both the interviewer and interviewee should gain something from taking part in the interaction.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, spoke about the therapeutic benefit of an interview because it provides an opportunity for the interviewee to feel listened to and supported through sharing difficult thoughts and experiences.",
+          "Participant F, a Recruitment Consultant, said that in order for the interview to be successful, they try to break away from the more traditional scenario where the employer is asking questions to judge the potential employee. They aim for it to be more of a “two-way conversation” where both parties are able to come away from the interview feeling like “they have gained something after the interview and that they have learned about each other, about the subject matter and there should be some sense of reflection”"
+        ],
+        "image": "/assets/projects/better-interviews/thumb.svg",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "highlight": true,
+        "text": "Capturing direct quotes is useful",
+        "subsubtext": "Some participants mentioned the importance of capturing direct quotes from interviewees, however, this can sometimes be difficult to do.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, described how when providing evidence for decisions, it is very important to be able to provide direct quotes from the service-user. However, this can often be difficult since audio-recording is not an option and they feel that taking notes while a service-user is disclosing something important may be damaging to rapport and trust.",
+          "Participant E, a Creative Director, always has a second person who is taking notes, in order to ensure that direct quotes can be written down without damaging the flow of the interaction and allows the interviewer to continue active listening. Ideally, they said that the note-taker should be behind a one-way mirror, as they worry that the second person in the room can be distracting and damage the rapport between the interviewer and interviewee. However, this is not always possible as it requires a specialist set up."
+        ],
+        "image": "/assets/projects/better-interviews/quote.png",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "text": "Audio recording is inappropriate in some cases",
+        "subsubtext": "Participants who dealt with more sensitive issues said that recording the interview could be damaging.",
+        "listHeader": "Examples",
+        "list": [
+          "Participant B, a Social Worker, said that they would not feel comfortable asking the service-user if they could record the discussion. They felt that recording the interaction would damage the sense of trust between the two parties.",
+          "Participant C, an Academic Researcher, never audio-records, partly because some of the environments they work in do not allow it but also to ensure that the interviewee is aware of all records that are being made since they can read notes being taken."
+        ],
+        "image": "/assets/projects/better-interviews/norecord.png",
+        "imagePos": "right",
+        "smallImage": true
+      },
+      {
+        "type": "Text",
+        "text": "Define",
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "text": "Point of View Statements",
+        "body": "In order to develop an actionable problem statement, Stanford d.school encourages the design thinker to form their “Point of View” based on their understanding of users and their environments. “More than simply defining the problem, your Point of View is a unique design vision that is framed by your specific users”. In order to do this, they recommend using “Point of View Statements” which take the following structure",
+        "list": [
+          "We met… (a user/stakeholder you were inspired by)",
+          "We were struck by… (something telling, surprising or in tension)",
+          "We wonder if this means… (a potential insight -  that gives you meaningful direction)",
+          "It would be game-changing to…(a potential direction, assuming your insight is correct, without dictating a particular solution)"
+        ],
+        "small": true,
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "subtext": "The following Point of View statements were developed:",
+        "small": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant A",
+        "list": [
+          "We met Participant A, a Hiring Manager for a large financial company, who carries out interviews with potential employees to decide if they are a good cultural fit for the company. The output of the interview is a set of scores for criteria that the company values.",
+          "We were struck by how they often felt overwhelmed with the number of tasks they were required to carry out during the interview and how this made it difficult to converse naturally with the interviewee.",
+          "We wonder if this means a high cognitive load on the interviewer damages rapport with the interviewee.",
+          "It would be game-changing to help reduce the cognitive load on the interviewer."
+        ],
+        "small": true,
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant B",
+        "list": [
+          "We met Participant B, a Mental Health Social Worker in the NHS, who carries out assessments with service-users.",
+          "We were struck by how the times they were required to be most engaged with what the service-user was saying coincided with the times where note-taking was most important, since capturing direct quotes in these situations can be vital. Despite this, they never record conversations as they feel it would damage trust.",
+          "We wonder if this means audio-recording is too intrusive for some more sensitive situations and would damage rapport, despite allowing the interviewer to be more engaged.",
+          "It would be game-changing to help the user capture direct quotes more easily without the use of audio recording"
+        ],
+        "small": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant C",
+        "list": [
+          "We met Participant C, an Academic Researcher, who carries out interviews to explore people’s critical thinking in past situations as well as to capture requirements.",
+          "We were struck by how they preferred not to be over-prepared for an interview as they felt that if they already had an idea of what they expected the interviewee to say, their own bias would guide their line of questioning along that path. They prefer to keep to a very high level of almost abstract questioning so as not to lead the interviewee.",
+          "We wonder if this means that personal bias as a result of knowledge or experience in an area can be damaging to the information that is elicited as the interviewer may be tempted to confirm their own beliefs about the situation.",
+          "It would be game-changing to encourage interviewers to be mindful of their own bias and help them to be more objective in their line of questioning."
+        ],
+        "small": true,
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant D",
+        "list": [
+          "We met Participant D, an Editor of a magazine, who interviews homeowners to write articles about their homes.",
+          "We were struck by how they would relisten to the recording of the interview 3 or 4 times to familiarise themselves with what was said, using their commute to do so via a USB stick in the car.",
+          "We wonder if this means listening to an audio-recording of the interview is an ineffective way of going over the interview since it is so time-consuming.",
+          "It would be game-changing to help the user surface the information they are looking for more quickly."
+        ],
+        "small": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant E",
+        "list": [
+          "We met Participant E, a Creative Director of a design consultancy, who carries out user research interviews.",
+          "We were struck by their explanation of how it is much harder to avoid being influenced by your own bias in qualitative research than in quantitative research. They felt that in quantitative research where answers are often binary or categorical, it is easier to overcome bias. However, when subjective data is collected via note-taking followed by searching for insights within those notes, it can be harder not to follow your bias.",
+          "We wonder if this means that existing methodologies for collecting qualitative data and surfacing insights are prone to allowing the researcher to follow their own bias.",
+          "It would be game-changing to help the user surface insights in qualitative data in a more objective way."
+        ],
+        "small": true,
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "listHeader": "Participant F",
+        "list": [
+          "We met Participant F, a Recruitment Lead, who carries out interviews with candidates to access if they have the skills required and are the right fit for a job.",
+          "We were struck by how they explained that they tried to avoid making notes as they felt their primary focus should be on building a personal relationship with the interviewee.",
+          "We wonder if this means that note-taking is seen as a barrier to building rapport and therefore avoided.",
+          "It would be game-changing to allow the interviewer to effectively document the interview without damaging their ability to build a rapport."
+        ],
+        "small": true
+      },
+      {
+        "type": "Text",
+        "text": "Problem Definition",
+        "body": "It was observed that a common theme mentioned by everyone spoken to was the importance of making the interviewee feel at ease. However, the participants mentioned various barriers to this. Note-taking and form completion were mentioned as requirements that made building rapport more difficult. Additionally, keeping track of what had been covered in order to ensure the required information is elicited, and probing the interviewee for more information, were also commonly stated as reasons why having a natural human interaction may be difficult. All participants also expressed the importance of the two-sidedness of the interaction. Many mentioned how they wanted it to “feel more like a chat” and expressed the importance of being transparent and open with the interviewee. Due to the strong feelings expressed by participants about ensuring the conversation feels natural, it was decided that any solution should have minimal impact on the flow of the interaction between interviewer and interviewee. The focus should be placed on making it easier for the interviewer to be present on a human level, displaying positive body language and actively listening to what is being said. Therefore, interactions with the system should be minimised, subtle and unintrusive of the conversation. It was also felt that taking too many notes, particularly where the interviewee would be unable to see the notes, can be damaging to rapport. This can also be the case if an interview is structured in a way that feels regimented and too much like a one-sided question and answer session. Additionally, some participants mentioned the danger of bias in interviewing, particularly in research interviews. They felt that if the questions are not sufficiently open-ended or if the interviewer leads the questioning along a path of confirming their own beliefs, then there is a danger the output of the interview will become biased. Furthermore, due to the nature of data collected from quantitative research interviews, it can be difficult to ensure all data is documented and insights are surfaced without being influenced by personal bias. Taking a recording of the interview to overcome these problems was met with a mixed reaction. Some felt it was a good way to alleviate the difficulties of note-taking and ensure direct quotes can be documented. Nonetheless, others felt it was too intrusive and would damage the sense of trust in the interaction as well as being very time-consuming to process.",
+        "listHeader": "Key Pain-points",
+        "list": [
+          "Overcoming the cognitive load to effectively elicit and document information whilst maintaining a natural two-way conversation and building a rapport with the interviewee.",
+          "Mitigating personal bias when preparing, delivering and evaluating an interview."
+        ],
+        "footnote": "A key constraint to addressing these pain points is that audio recording can create challenges, since it is felt that it may make the interviewee feel uncomfortable and dealing with raw audio-recorded data takes too long."
+      },
+      {
+        "type": "ImageSet",
+        "text": "User Journey",
+        "subtext": "Based on the identified pain-points, the following user journey was created:",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/User Journey 1.svg"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "text": "Develop",
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "text": "Ideation",
+        "body": "In order to spark ideation, \"how might we \" questions were generated to frame the problem in different ways to help explore possible solutions. Following the generation of these questions, brainstorming began. In order to carry out effective brainstorming, Stanford d.school recommends that you focus on generating a large number of broad ideas, reserving judgement and imposing constraints where necessary. The “how might we” questions were used as a guide, breaking them down into more focused questions until a question that could be answered was reached.",
+        "footnote": "The following ideas were formed as a result of analysing brainstorming data:",
+        "small": true
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "Progress Tracking",
+        "body": "A feature that allows the interviewer to define a structure for the interview beforehand, then, during the interview, helps them to keep track of the completion of components and timing by providing visual cues. Additionally, the next component to be covered could be suggested to the interviewer based on the previously completed components and the plan that has been defined. This aims to reduce cognitive load by simplifying the task of determining the path of the interview as well as to mitigate bias by helping the interviewer keep to a predetermined line of questioning.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Progress Tracking Diagram.svg"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "Segmented Documentation",
+        "body": "A feature that allows notes and recordings taken during the interview to be automatically segmented into corresponding interview components (e.g. questions, topics, form sections) creating a more structured and uniform account of the proceedings that facilitates faster access to specific information. This aims to reduce cognitive load by taking care of the structuring of notes, mitigate bias by helping the interviewer capture a more indiscriminate account of the interview, and reduce the time taken to process and search audio recordings.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Segmented Documentations Diagram.svg"
+          }
         ]
-    },
-    {
-        "name": "Amazon Transportation",
-        "type": "Internship Project",
-        "path": "/amazon-transportation",
-        "id": "amazon",
-        "projectImageFormat": "svg",
-        "time": "Summer 2018 - Spring 2019",
-        "duration": "6 Months",
-        "skills": [
-            "UX Research",
-            "UX Design",
-            "Data Visualisation",
-            "Fullstack Web Development"
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "Open Questioning Analysis",
+        "body": "A feature that automatically determines if a question an interviewer plans to ask is open or closed. This aims to mitigate bias since it has been found that the line of questioning chosen by the interviewer is a common source of bias.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Open Questioning Analysis Diagram.svg"
+          }
         ],
-        "fullCaseStudy": false,
-        "primaryColor": "#000000",
-        "secondaryColor": "#327b8f",
-        "backgroundColor": "#f3f3f3",
-        "hasSecondaryImage": true,
-        "secondaryImageFormat": "jpg",
-        "invertBackgroundColor": "#ff9a00",
-        "invertColor": "#000000",
-        "description": "I spent 6 months working in the Amazon Transportation EU scheduling team, a team responsible for scheduling truck deliveries between Amazon warehouses across Europe. I was placed into a team working on a system which uses machine learning to predictively schedule around ten thousand journeys a week between hundreds of sites. My role was initially focused on front-end software engineering, however after observing the use of the system and talking to users I identified the opportunity for significant improvements to the UI and took on additional UI/UX design responsibilities. The users of our system were producing week-by-week plans of truck schedules. Particularly during \"Peak\" season (the build up to Christmas) this was a very complex, stressful and time-pressured task. I focused on identifying the pain-points that existed within the system that were causing frustration to users and wasteing precious time. I worked closely with users to help improve the usability of the system and ensure that new features were intuitive, working closely to the Semantic UI design system. I also worked with users to help streamline other processes they carried out, often using time consuming, error-prone techniques such as cross-referencing excel spreadsheets. I worked to develop a set of dashboards that allow users to access an instant visualisation of various metrics. Previously accessing these metrics would require complex data analysis and coding. Providing these dashboards gave the users across the company a window into the data behind the process so they could focus their time on optimisation. I designed the implementation of the dashboards to be very easily scalable. I created a model of a skeleton dashboard allowing new dashboards to be configured made with minimal coding. The key design challenges I faced were presenting large amounts of data and many complex options to the user in a clean, simple user experience."
-    },
-    {
-        "name": "BuzzFeed News Offline Experience",
-        "type": "Internship Project",
-        "path": "/buzzfeed-news-offline-experience",
-        "id": "buzzfeed-news",
-        "projectImageFormat": "png",
-        "time": "Summer 2018",
-        "duration": null,
-        "skills": [
-            "UX Design",
-            "Rapid Protoyping",
-            "Fullstack Web Development"
+        "highlight": true,
+        "small": true
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "Bias Reflection",
+        "body": "A feature that aims to help interviewers be more mindful of their own bias, by asking them to predict what they think the participant might say in response to a given question, i.e. explicitly stating their bias, then reflecting on how their answer may be surprising and if it has changed their point of view.  This feature would not be appropriate for all types of interviews but, based on empathetic data, it is felt it may be useful in areas such as qualitative research. This aims to mitigate bias by transforming personal bias from being something in the interviewer's mind that they try to suppress to something that is acknowledged and forms part of the data itself.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Bias reflection Diagram.svg"
+          }
         ],
-        "fullCaseStudy": true,
-        "primaryColor": "#000000",
-        "secondaryColor": "#327b8f",
-        "backgroundColor": "#fcfcfc",
-        "description": "During my internship at BuzzFeed I joined the BuzzFeed News team in the final weeks before the launch of buzzfeednews.com, a dedicated news location helping BuzzFeed create a new identity for it's more serious journalism content. Towards the end of my internship I was given the opportunity to work on a new concept for the offline page of the site. Working closely with design, engineering and the news team, I created a prototype of an offline experience that allowed a round-up of the latest news to be consumed without connection to the internet. The daily content was taken from BuzzFeed's daily newsletter, cached on the user's device then served to the user when they lost connection. To add a playful element to the idea, the roundup was styled as in a way that is reminiscent of a newspaper, to reflect the offline, daily update nature of the content.",
-        "ownNav": true,
-        "invertBackgroundColor": "#000000",
-        "invertColor": "#ffffff",
-        "slides": [
-            {
-                "type": "ImageSet",
-                "text": "The BuzzFeed news website provides a constant stream of news content...",
-                "images": [
-                    {
-                        "url": "/assets/projects/buzzfeed/bfn.png",
-                        "width": 9
-                    },
-                    {
-                        "url": "/assets/projects/buzzfeed/bfnmobile.png",
-                        "width": 3
-                    }
-                ],
-                "highlight": true
-            },
-            {
-                "type": "Text",
-                "subtext": "...but what happens when we lose internet connection?",
-                "small": true,
-                "image": "/assets/projects/buzzfeed/offline.png",
-                "imagePos": "right",
-                "imageWidth": 12,
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "subtext": "Probably something like this.",
-                "small": true,
-                "image": "/assets/projects/buzzfeed/nowifi.gif",
-                "imagePos": "left",
-                "imageWidth": 12,
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "subtext": "How might we improve this?",
-                "small": true,
-                "invert": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "After investigating the web technology of \"Service Workers\" which allow websites to inject code onto a user's device to be executed if connection is lost, I started thinking about the possibility of providing an alternative offline experience. ",
-                "small": true,
-                "invert": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "I started by exploring the offline pages of other websites. While most sites did not provide any offline page, the Guardian's offline crossword stood out to me as a great piece of opportunistic seamful design. Seamful design is where a designer acknowledges the \"seams\" that exist in a system (in this case the availability of an internet connection) and accounts for them into their design. In other words they plan for things that can cause a system not to function properly and design the user experience around this. To do so opportunistically means to use the seam as an opportunity to provide an alternative experience to the user.",
-                "image": "/assets/projects/buzzfeed/guardian.jpg",
-                "imagePos": "left",
-                "small": true,
-                "invert": true
-            },
-            {
-                "type": "Text",
-                "body": "I wanted to build on this idea of incorporating an element of fun into the offline page and give the user something to occupy their time whilst offline, making them more likely to remain on the site until they regain connection. Since the user would likely have visited the site with the intent of consuming news content, I decided to experiment with caching news content offline that could be loaded if the user lost connection. BuzzFeed News produces a daily newsletter which is a daily roundup of the biggest stories of the day. This gave me the idea of framing this as a \"BuzzFeed daily newspaper\", a lightweight, offline, update of news which could be delivered to the user's device daily.",
-                "small": true,
-                "invert": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "ImageSet",
-                "subsubtext": "Design & Prototyping",
-                "images": [
-                    {
-                        "url": "/assets/projects/buzzfeed/early.png",
-                        "caption": "Early Design"
-                    },
-                    {
-                        "url": "/assets/projects/buzzfeed/rsz_1rsz_offlinepage.png",
-                        "caption": "Final Design",
-                        "width": 7
-                    }
-                ],
-                "invert": true,
-                "nobottompadding": true
-            },
-            {
-                "type": "Text",
-                "body": "Working closely with designers, engineers and journalists from the news team I created a working prototype of the idea. This was a challenge on both a design and engineering level. It was a very interesting process collaborating with the BuzzFeed News designers and art team to finalise a design that would create the fun newspaper feel whilst reflecting the recently rebranded BuzzFeed News site. Additionally, the project required significant full stack software engineering to serve the newsletter data and cache it to the device effectively. ",
-                "image": "/assets/projects/buzzfeed/bfn.gif",
-                "imagePos": "right",
-                "small": true,
-                "invert": true,
-                "imageWidth": 4
-            }
-           
+        "small": true
+      },
+      {
+        "type": "ImageSet",
+        "subtext": "Systematic Insight Surfacing",
+        "body": "A feature that facilitates a systematic approach to analysing qualitative data such as Thematic Analysis to allow the user to surface insights more objectively. This aims to mitigate bias by allowing the user to ensure that all data is taken into account when surfacing insights and that they are not influenced by their own bias in selecting pieces of information.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Systematic Insight Surfacing Diagram.svg"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "text": "Deliver",
+        "invert": true
+      },
+      {
+        "type": "ImageSet",
+
+        "subsubtext": "To explore how the generated ideas could be combined, they were mapped onto the user journey like this:",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/User Journey 2.svg"
+          }
         ]
-    }
+      },
+      {
+        "type": "ImageSet",
+
+        "subsubtext": "Based upon the empathetic data, the following flow diagram showing how information is passed along current processes was determined. This is a generalisation of all the types of interviews explored, with items that did not apply in all cases shown in brackets.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Information Flow 1.svg"
+          }
+        ]
+      },
+      {
+        "type": "ImageSet",
+
+        "subsubtext": "These existing processes should be considered when designing the tool, in order to ensure the tool can be integrated into workflows and is non-specific to particular use-cases. Based on this, the following user journey was established, incorporating the ideas into a single user experience:",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/Flow Diagram 2.svg"
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "text": "Prototyping",
+        "body": "In order to test these ideas, a high fidelity prototype was developed using React. It was decided to structure the development of the prototype in sprints, focusing each sprint on a particular feature and defining a user story based on empathetic data, to ensure that the development was grounded in solving real user problems. User stories are a concept borrowed from Agile methodologies that provide “short, specific and goal-oriented” statements that tend to take the form “As a..., I want..., so that...”"
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 1 - Progress Tracking",
+        "subsubtext": "User Story: As a social worker, I want a tool for organising and monitoring the progress of my assessments so that I can focus on being present with the service-user.",
+        "body": "Participant B, a social worker, is required to complete a structured form for each of their assessments with service-users. They expressed how it was important to them that the session feels“more like a chat” to help the service-user feel comfortable discussing sensitive issues. Because of this, they do not tend to complete the form in order, instead, completing it in the order that feels most appropriate to the flow of discussion in each case. However, this creates difficulties in identifying sections that still need to be completed and confirming that everything has been covered, since the form is many pages long and requires them to go through each page checking each section. Due to the strict time limits and the importance of ensuring all information is covered during the session this creates additional stress, increasing the cognitive load and making it more difficult to build the rapport that is vital in situations such as social work.",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "The key pain point established in this situation was the difficulty in identifying components of the session that were yet to be covered, and by extension concluding that all components had been covered. Working closely with Participant B, the idea of using a touch screen device to allow the user to discreetly dismiss components as they are covered was experimented with. Following the definition of a set of components, the user is able to start a session using the predefined components. The components are then displayed on-screen as large buttons and the user is able to tap each one when the component is covered. It then fades or disappears, depending on the user’s preference, meaning identifying components yet to be covered can be achieved through glancing at the screen. The components can also be colour-coded by the interviewer to provide instantaneous visual information about the type of component.",
+        "image": "/assets/projects/better-interviews/figure8.png",
+        "imagePos": "left",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true
+      },
+      {
+        "type": "Text",
+        "body": "As an extension to this idea, an additional view was added which displayed components as a set of rendered bubbles, which were sized according to which component should most likely come next based upon the predefined plan. This was an exploration into the incorporation of playful design into the tool, which aims to “make existing activities and systems more engaging by infusing them with the engaging qualities of games and toys. When discussing his three levels of emotional design, Don Norman explains how products that perform well on the reflective level should be fun to use and provide the user with a story they can tell about it’s novelty. The idea of using bubbles was developed by considering the action of the interviewer tapping a component to complete it, then it disappearing or fading as being similar to popping a bubble. It was also felt that the unordered nature of a group of bubbles could accentuate the sense of fluidity in allowing components to be completed in any order. Participants generally liked this idea and while they felt it may not be appropriate in all cases, some mentioned how it could be useful in making the interview more collaborative and transparent by altering the roles of the interviewer and interviewee to allow them to work together to pop all of the bubbles. Participant F spoke about the potential benefits of introducing a sense of motivation and achievement into the process and agreed it could be useful in conducting research interviews with children. Exploring the effects on rapport of reimagining interviews in this way could be a future area of research.",
+        "image": "/assets/projects/better-interviews/figure9.png",
+        "imagePos": "right",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true
+      },
+      {
+        "type": "Text",
+        "body": "Participant E described how they make use of a  TimeTimer™ during their interviews, which provides a simple visual representation of time remaining. The concept is widely celebrated in the design world for its fast interpretability compared to using clocks or stopwatches.  It was therefore decided to add a similar style of countdown timer to the UI to allow the interviewer to keep track of time remaining without disrupting the discussion.",
+        "image": "/assets/projects/better-interviews/Figure 10.png",
+        "imagePos": "left",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true
+      },
+      {
+        "type": "Text",
+        "body": "In order to evaluate the feasibility of this part of the prototype, user trials were carried out in which participants were to complete tasks using the system. The technique of “Show, don’t tell” was used meaning the facilitator should only give the participant “the basic context they need to understand what to do” and refrain from “correcting” misunderstandings. Additionally, the participants were encouraged to “Think aloud” to help empathise with their understanding of the system. These techniques are all outlined as part of the methodology for design thinking user testing by Stanford d.school. While the facilitator observed the proceedings, they completed a “Feedback capture matrix”. As defined by Stanford d.school, “feedback capture matrices facilitate real-time capture of feedback on presentations and prototypes”. The matrix helps the design thinker arrange thoughts into four categories: likes, wishes, questions raised and ideas spurred on.",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true
+      },
+      {
+        "type": "ImageSet",
+        "body": "During the trials for the component tracking tool, the users were able to complete the task with relative ease. They expressed a liking of the use of colour as well as the timer to give quick visual cues. The option of fading the components when they are completed was preferred over hiding them as it allowed them to keep a record of what had been previously covered. While they liked the colour coding, they expressed a desire to split components into more distinct categories to represent the stages of the interview, as well as the ability to make some components higher priority for completion than others. Therefore, the ability to group components into stages was added and components could be given importance of “Highest”, “High”, “Medium”, “Low” or  “Lowest”`.",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/figure11b.png"
+          },
+          {
+            "url": "/assets/projects/better-interviews/figure11a.png"
+          }
+        ],
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "small": true,
+        "footnote": "Overall, Participant B felt that this would be useful in their work to keep track of sessions and also mentioned how having a structure of sessions, which could be defined by NHS policymakers, could be beneficial in providing a better quality of care by standardising the approaches used by practitioners."
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 2 - Segmented Note Taking",
+        "subsubtext": "User Story: As a hiring manager, I want a note-taking tool that helps me collect and manage my interview data more easily.",
+        "body": "Participant A, a hiring manager, takes written notes during job-fit interviews to allow them to provide feedback afterwards. They expressed that they often found it difficult to ensure that these notes were complete and well organised whilst also maintaining a natural conversation with the interviewee and building a rapport. Additionally, Participant F, a recruitment lead, explained “I tend to have a pen and paper ready, but I try not to use them. My primary focus is to build a personal connection”. In these cases, it seems that building a rapport and ensuring the conversation flows naturally is prioritised over producing an account of the interview that is going to be easy to process afterwards.",
+        "small": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "Building on top of the progress tracking tool developed in sprint one, it was explored how note-taking could be added to the tool. The participants, who currently mostly take notes on paper, largely ruled out the use of a laptop, because of the noise the keyboard would make and felt that the upright screen would form a barrier between themselves and the interviewee. However, they were comfortable with the use of a small tablet such as an iPad with an on-screen keyboard to take notes electronically because interactions would be silent and the smaller size of the device would be less intrusive. Various ideas were experimented with such as typing notes in pop-up boxes that appeared when a component is selected or thinking about component objects as being 3D cards that can be flipped and responses written on the other side. However, participants found these concepts to be unnecessarily complex and they did not like how notes were hidden after they had been taken. The preferred design was a more simple chronological account of the completed components with notes appended beside each one. The design made use of negative space to remove any sense of restriction in the length of notes that could be taken, with some participants explaining how it felt close to taking notes on paper.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/tabs.gif",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "body": "The initial design challenge that led to the development of the rejected pop-up box and flip cards solutions was due to a lack of screen space on a small tablet display meaning notes were hidden away when not in use. This was overcome by introducing two separate tabs to the display, one showing the components and the other showing the notes. When a component was selected from the component tab, the focus was automatically shifted to the notes tab with the new component appended to the end of the chronology, ready for the user to add notes. While the users appreciated the amount of screen space being dedicated to note-taking, they felt that it was distracting and laborious for them to have to switch between tabs each time they wanted to start a new component. To combat this, a set of three suggested components was added to the bottom of the notes tab to allow for fast access to the predicted next component. The suggestions were determined based upon the current stage of the interview and the priority given to the upcoming components.",
+        "footnote": "In terms of the structure of the notes that were taken, initial implementations included a full rich text editor that would allow the interviewer to format their notes, changing font size, changing font weight, adding lists etc. However, this was observed to be redundant with many participants preferring the use of a simple bullet-pointed list. Therefore, the rich text options were removed, in favour of a bullet-pointed list of individual notes that can be indented to create a hierarchy.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true
+      },
+      {
+        "type": "Text",
+        "body": "Finally, it was suggested by Participant C that it would be useful to be able to link a note taken for a particular component to a different component since respondents will often mention information relating to topics which may have already been discussed or are yet to be discussed. This was added by allowing notes to be added to other components via a link button. This was found to be useful particularly when linking questions together, which is a skill many interviewers employ to help the conversation to feel more natural. For example, as show in the image, the user has linked a note taken for a question about the interviewee’s strengths to a question about an achievement the interviewee is proud of. This could serve as an aid to linking their phrasing of questions since they could say something like “You mentioned you are very ambitious and quite an over-achiever, please can you tell me about an achievement you are proud of?”",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/figure14.png",
+        "imagePos": "left"
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 3 - Segmented Audio-Recording",
+        "subsubtext": "User Story: As a magazine editor, I want an audio recording tool that helps me find the information I’m looking for more easily.",
+        "body": "Participant D, a homes editor of a magazine, conducts interviews with homeowners to create features. They take an audio recording of the conversation using a digital recorder as well as taking brief handwritten notes. However, they find processing the recording very time-consuming. They explained how they sometimes relisten to the recording of the interview three or four times to familiarise themselves with what was said, using their commute in the car to do so via a USB stick. When they come to write up the piece, they “usually remember the essence of what they said, but finding the exact words in a recording that can sometimes be more than an hour long is quite hard and time-consuming”.",
+        "footnote": "In a similar way to segmenting the notes into corresponding components, audio recording was integrated into the component tracking tool, using the information generated by the user when they tap a component to automatically timestamp the recording with the start times of each component. This meant that when reviewing the recording, this metadata could be used to allow the user to find specific information more easily.",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "Firstly, some participants who dealt with more sensitive issues ruled out the use of audio recording because they felt it would be inappropriate and damage trust. Therefore, an option was created to completely disable audio recording features for a particular session plan. Additionally, all participants who currently use audio recording felt that it was important to ask the interviewee’s permission to record the conversation and explain how the recording would be used before they started recording. Therefore, the decision was taken that even when audio recording is enabled, the default option would be that the recording would not be started automatically when the session starts. Instead, the interviewer is able to start the recording manually, by pressing a button on the session screen. This also meant that the interviewer was able to take multiple recordings throughout the conversation, meaning it could be used as a tool for relieving note-taking requirements in specific moments.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/firgures1718.svg",
+        "imagePos": "left",
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "body": "Due to the focus placed on trust and transparency, it was felt it was important to provide strong visual indicators and feedback regarding whether or not the conversation is currently being recorded. Learning from the Apple iOS UI design pattern of changing the colour of the status bar at the top of the screen to unobtrusively indicate current background processes such as the use of location (blue),  on a call (green) and screen/sound recording (red), the decision was taken to change the bar at the top of the UI to red to indicate recording has been started. When showing this to participants, they also felt it would give them the peace of mind that the recording was working and they could focus on the conversation instead of taking notes. Additionally, it was felt that feedback regarding the audio levels being recorded would be useful, to allow the interviewer to be sure both parties could be heard when the recording was played back. To cater for this, a waveform was added, taking the place of the start recording button that gives real-time feedback of the audio levels being recorded. Given more time and based on the feedback that was received, it could be beneficial to dynamically provide an indication of the optimality of the levels, i.e. whether they are too quiet or too loud.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/figure18.png",
+        "imagePos": "right",
+        "highlight": true
+      },
+      {
+        "subsubtext": "The following video shows audio being captured in an example interview",
+        "type": "Video",
+        "id": "3pED7ftZAjw",
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "body": "In order to allow the user to listen back to recordings, the documentation review screen was extended to include an audio player. It was felt by participants that it was important to be able to see corresponding components and notes alongside the audio currently being played, therefore, the favoured design for the audio player was a vertical progress bar alongside the notes with colour-coded markers where each component begins. To reduce the interaction required to review the recording and notes, the notes section of the interface was adapted to automatically scroll in time with the audio meaning the notes displayed would always correspond to the audio being played. The participants were impressed by this feature and felt it would be useful in allowing them to focus on the audio then check the notes when necessary. Additionally, to facilitate skipping the audio to a particular component, the component cards and markers could be clicked to automatically seek the audio to the moment that component began. Participant D, a magazine editor, particularly liked this feature and explained how “it would be so handy to be able to fast forward to a section of the interview so I could use an exact direct quote in my feature”.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/figure19.png",
+        "imagePos": "left",
+        "highlight": true
+      },
+      {
+        "subsubtext": "The following video shows the example audio being reviewed",
+        "type": "Video",
+        "id": "nk4CS6SlJ3U",
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 4 - Open Questioning Analysis",
+        "subsubtext": "User Story: As an academic researcher, I want to ensure that when interviewing I am mindful that my line of questioning does not lead the interviewee into confirming my own bias.",
+        "body": "Participant C, an academic researcher, feels that it is very important to ensure that their line of questioning remains open in order to ensure that the interviewer does not lead the interviewee into confirming their personal bias. They try to ask very high-level, “almost abstract” questions to gain insights rather than asking specific questions.",
+        "footnote": "With this in mind, providing assistance in ensuring that planned questions were open was explored. After researching online, a publicly available dataset was found containing around 1.4 million questions taken from amazon.com, each labelled as being either open or closed. This was then used to create an NLP algorithm that used the Python parts-of-speech library, spacy, to identify patterns of auxiliary verbs, adverbs and other key signifying words in open questions and closed questions. In order to implement this, a training sample of 210,000 questions was taken from the dataset, which was processed, grouping by the pattern of keywords in the first 6 words of the question. Then, for each pattern, the proportion of open questions was calculated. For example, the pattern \"did * have * * *\" (where * represents a word that is not an identified keyword) has a proportion of open questions of 0.3, whereas the pattern \"how would * * * *\" has a much higher proportion of 0.98. This shows how the model would favour the rephrasing of a closed question such as “Did you have a good experience?” to a more open question such as “How would you describe your experience?”. In order to generate a prediction for a given question, the pattern which matches the most keywords is found, giving the corresponding proportion of open questions in the dataset as the confidence the question should be classified as open. This achieved an accuracy of 78.5% on a testing sample of  21,000 questions. 74.7% of open questions were given an open confidence value of more than 0.5 while 82.8% of closed questions had an open confidence of less than 0.5.",
+        "small": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "In order to integrate this into the prototype, it was added to the component creation screen to ensure that bias mitigation is considered during the initial planning stages of the session. It was felt that the assistance should be fairly unobtrusive and unrestrictive in terms of indicating to the user the prediction, however, allowing them to dismiss this and proceed, even if the question was deemed to be closed, since in some cases it may be necessary to ask closed questions. Additionally, it was felt that it was important to present the prediction with an air of uncertainty so it was made clear the prediction was a best guess and may be incorrect. Based on this, the phrasing of the messages to the user was decided to be “This looks like it could be a closed question.” and “This looks like an open question.”.  The confidence value was also displayed to give the user an indication of how certain the prediction was, which was also colour coded to allow the user to understand the sentiment behind the message, i.e. closed is negative, open is positive.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/figure20.svg",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 5 - Bias Reflection",
+        "subsubtext": "User Story: As a qualitative researcher, I want to ensure that I am mindful of my own bias when interviewing.",
+        "body": "Participants C, E and F who all conduct qualitative research interviews, spoke of the importance of being aware of their own bias throughout the process. Participant E explained how “everybody’s got bias coming into something, whether you think you have or not, you have, and you want to be reflective of what you're hearing fully”. Participant C explained how they “don’t like over-preparing for interviews” since they feel that too much preparation biases their thinking.",
+        "small": true,
+        "highlight": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "ImageSet",
+        "subsubtext": "With the goal of altering the perception of personal bias from something that researchers attempt to suppress, into a feature of the data that is acknowledged and reflected upon, the following methodology was devised:",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/bias cartoon.svg"
+          }
+        ],
+        "highlight": true,
+        "notoppadding": true,
+        "small": true
+      },
+      {
+        "type": "Text",
+        "body": "Using this method, the researcher would declare what they expect the interviewee to say for specific parts of the interview, i.e. explicitly declaring their bias. Then, following the interview, they would be presented with their expectations alongside the actual data in order to allow them to reflect on whether their bias was confirmed by the interviewee. This was integrated into the prototype by allowing the user the append expectations to individual components for a particular session. These expectations are then hidden while the interview is carried out, before allowing the researcher to compare their data to their expectations and reflect on any differences by answering some simple questions",
+        "small": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/figure24.png",
+        "imagePos": "right",
+        "highlight": true,
+        "small": true
+      },
+      {
+        "type": "ImageSet",
+        "images": [
+          {
+            "url": "/assets/projects/better-interviews/figure23.png"
+          }
+        ],
+        "highlight": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "small": true,
+        "footnote": "When receiving feedback on this framework, participants felt that while it could be a useful tool in acknowledging their personal bias they were sceptical about the feasibility of declaring expectations for each individual session they carried out. Participant F suggested archetypes could be used to generalise expectations, assigning an archetype to individual sessions. Additionally, they felt that the tool could be reframed as a tool for hypothesis evaluation, meaning the expectations become a hypothesis that is to be proven or disproven by a set of interviews. They felt this could be useful in “ensuring the original angle is maintained” while acknowledging where preconceived ideas may have been incorrect."
+      },
+      {
+        "type": "Text",
+        "subtext": "Sprint 6 - Systematic Insight Surfacing",
+        "body": "When discussing the evaluation stage of a set of qualitative research interviews, Participant E described this as the “the messy bit”. They explained how it can be overwhelming to be presented with large quantities of subjective data and attempt to process it into something concise and usable. Additionally, it was felt that if a systematic approach is not taken, the researcher can be led into confirming their own bias by selecting insights that support it. Therefore, it was decided that the tool should facilitate a more objective, systematic approach to synthesising data to surface insights. Thematic analysis was selected as the analysis method to implement since it is seen as “a foundational method for qualitative analysis” and it provides the necessary flexibility to be applied to a variety of use cases.",
+        "small": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "In their 2006 paper, Braun and Clarke set out a step-by-step guide for doing thematic analysis.  The first phase is to familiarise yourself with the data; it was felt this was enabled by the documentation review interface produced in sprints 2 and 3 that shows the user segmented notes and audio recordings. The second phase is to generate initial codes which represent a feature of the data, systematically going through the entire dataset. This was integrated into the documentation review interface by adding an expandable “thematic analysis codings'' tab below each component, where codings can be appended and previously added codings enabled and disabled. Based on the application of qualitative research, codings are defined at a session plan level, meaning that parallels can be drawn between sessions. However, in future it may be useful to allow the user to perform analysis for individual sessions or specific groups of sessions.",
+        "small": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/themes.gif",
+        "imagePos": "right"
+      },
+      {
+        "type": "Text",
+        "body": "Following the generation of codes, the researcher should have a long list of codes that have been identified. Braun and Clarke explain how they should now begin “sorting the different codes into potential themes''. They explain how “it may be helpful at this phase to use visual representations”, suggesting writing the name of each code on a piece of paper and experiment with sorting them into overarching themes. Therefore, it was decided to design a user interface to reflect this. A drag and drop interface was used, where the user can create new themes which appear as coloured areas of the screen then fluidly move codes between themes, reflecting sorting pieces of paper into piles. Additionally, a count was given for each theme, so the researcher could see how prevalent a particular theme is. This can be used to facilitate the next phase of the process, reviewing themes, by allowing them to consider removing themes that do not have sufficient data to support them. Additionally, at this stage, the researcher should consider collapsing themes into each other, where “two apparently separate themes might form one theme”. In order to facilitate this, it is felt that a future enhancement could be to allow the user to explore the underlying data for a particular theme rather than going back to the notes and looking for corresponding codes. This could be done by displaying a subset of the data that applies to the theme so it can be reviewed more easily.",
+        "small": true,
+        "nobottompadding": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/themesorting.gif",
+        "imagePos": "left"
+      },
+      {
+        "type": "Text",
+        "body": "Once the researcher has reviewed the themes, they should “define and refine” each theme, identifying the essence of what each theme is about. This is enabled in the prototype by allowing the user to update the description of the theme as it is refined, however, again, a view to examine the data for a specific theme would be beneficial to this phase. Finally, the researcher should produce a report of their themes. The final arrangement of codes into themes can be extracted from the interface, however, it was felt it would be useful to provide an automated generation of a visualisation of the themes and codes. A word cloud was selected since it provides a “straightforward and visually appealing visualisation method for text”. This was integrated into the prototype by adding a button below the thematic analysis theme exploration to generate a word cloud. When clicked, this takes the current configuration of codes and themes and generates a word cloud with the names of the themes and codes sized by their frequency in the data. Participants liked how this instantly provided a visual, easily understandable overview of the parallels of a set of findings. It was mentioned how removing the chronology of the data allowed them to interpret the data more objectively since the immediately noticeable information was now the most prevalent rather than the first topic covered by the interviewer.",
+        "small": true,
+        "notoppadding": true,
+        "image": "/assets/projects/better-interviews/wordcloud.png",
+        "imagePos": "right",
+        "footnote": "While this feature was designed with a focus on qualitative research, Participant A, a social worker, also felt this would be beneficial to them in identifying the key themes discussed in a session. Throughout the process they mentioned how they have very little time to do extra preparation or analysis of their sessions but felt this would provide them with a quick method of reflecting on a session, using recurring codes and themes to connect ideas that have been developing between sessions. They gave the example of identifying a service user’s “rules for living” in cognitive behavioural therapy and felt that this method could help them to process all the information collected more systematically. They also felt that the word cloud could be an empowering tool for service-users to see the themes they discussed in a session and felt it could be useful in identifying a  progression from session to session as language changes and themes become more/less prominent."
+      },
+      {
+        "type": "Text",
+        "text": "Final Prototype",
+        "subsubtext": "Following the completion of the sixth sprint, a final working prototype had been produced with a functional front and back end that aimed to meet all the requirements of the solution. It is available to try online. Here you can either log in to the demo account with the following credentials: (Username: a Password: a) where there is some example data or register a new account.",
+        "link": "http://bengraves-interview-tool.herokuapp.com/",
+        "linkText": "Go to the prototype ->",
+        "highlight": true
+      }
+    ]
+  },
+  {
+    "name": "Google - Site Reliability Engineering for UX",
+    "type": "Internship Project",
+    "path": "/google-reliable-ux",
+    "id": "google",
+    "projectImageFormat": "svg",
+    "time": "Summer 2019",
+    "duration": "3 Months",
+    "skills": [
+      "UX Analysis",
+      "Site Reliability Engineering",
+      "Fullstack Software Engineering"
+    ],
+    "fullCaseStudy": true,
+    "primaryColor": "#000000",
+    "secondaryColor": "#fcfcfc",
+    "backgroundColor": "#f3f3f3",
+    "invertBackgroundColor": "#ffffff",
+    "invertColor": "#000000",
+    "description": "In Summer 2019 I joined a Site Reliability Engineering (SRE) team at Google, tasked with developing a way of helping engineers prioritise their time on maintaining a positive user experience. The team wanted to improve their measures of latency to better reflect the latency as perceived by the user. A key principal of SRE is to measure reliability as close to how it is experienced by the user as possible. This required full stack software engineering to create various microservices required to gather, process and store data and working to integrate the process into user interfaces to capture the latency experienced the user. This placement was an interesting insight into the world of operations and taught me a lot about the complexities of running great user experiences at scale.",
+    "slides": [
+      {
+        "type": "ImageSet",
+        "text": "User-Perceived Latency",
+        "invert": true,
+        "body": "As can be seen in the diagram below, measuring the \"User-Percieved Latency\" rather than the \"Server-Side Latency\" is vital in ensuring that metrics refelect the actual latency experienced by the user. Giving SREs access to this data allows them to prioritise spending time on weaknesses that damage UX.",
+        "images": [
+          {
+            "url": "/assets/projects/google/latency.svg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Method - Data Science for Design",
+    "type": "Internship Project",
+    "path": "/method-data-science-for-design",
+    "id": "method",
+    "projectImageFormat": "svg",
+    "time": "Spring 2019",
+    "duration": "3 Months",
+    "skills": ["Data Visualisation", "Data Science", "Chatbot development"],
+    "fullCaseStudy": true,
+    "primaryColor": "#000000",
+    "secondaryColor": "#327b8f",
+    "backgroundColor": "#ffffff",
+    "invertBackgroundColor": "#ffffff",
+    "invertColor": "#000000",
+    "description": "I joined Method at a the beginning of their \"Data Science for Design\" Initiative, exploring the intersection of Data and Design and the use of Data Science in the Design process. During my time at Method the main focus of this initiative was on the development of \"Data Driven Archetypes\". Following the successful use of archetypes derived from publically available social media and online review data for a previous client project, Method wanted to explore ways to generalise this process so it could be applied more broadly. This meant working to standardise the algorithmic process used to generate the archetypes as a self-service tool that could be used by designers across different projects. Coming from a Computer Science/Human-Computer Interaction background with some knowledge of data science, I worked closely with both data scientists to experiment with refining the process and with designers to design and prototype how users might interact with the tool. The final prototype I developed before the end of my internship was a slackbot which could be used by designers to gain quick insights into social media tastes and interests surrounding a \"seed\" account. For example, an analysis may be run using a client's instagram account as the seed to gather insights into their following. This served as an early prototype to give designers an opportunity to experiment with working with this type of tool and give feedback to inform future developments of the project.",
+    "slides": [
+      {
+        "type": "ImageSet",
+        "text": "Read about the project on Medium",
+        "sidePadding": "20px",
+        "topBottomPadding": "20px",
+        "images": [
+          {
+            "url": "/assets/projects/method/rsz_datadesign.jpg",
+            "caption": "Data Science for Design",
+            "link": "https://medium.com/method-perspectives/data-science-for-design-4bd23c2a957e"
+          },
+          {
+            "url": "/assets/projects/method/rsz_customers1.jpg",
+            "caption": "Using data design to understand your customers (Part 1)",
+            "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-1-f9ddaf65bc42"
+          },
+          {
+            "url": "/assets/projects/method/rsz_customers2.jpg",
+            "caption": "Using data design to understand your customers (Part 2)",
+            "link": "https://medium.com/method-perspectives/using-data-design-to-understand-your-customers-part-2-f87dafc08d5d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Amazon Transportation",
+    "type": "Internship Project",
+    "path": "/amazon-transportation",
+    "id": "amazon",
+    "projectImageFormat": "svg",
+    "time": "Summer 2018 - Spring 2019",
+    "duration": "6 Months",
+    "skills": [
+      "UX Research",
+      "UX Design",
+      "Data Visualisation",
+      "Fullstack Web Development"
+    ],
+    "fullCaseStudy": false,
+    "primaryColor": "#000000",
+    "secondaryColor": "#327b8f",
+    "backgroundColor": "#f3f3f3",
+    "hasSecondaryImage": true,
+    "secondaryImageFormat": "jpg",
+    "invertBackgroundColor": "#ff9a00",
+    "invertColor": "#000000",
+    "description": "I spent 6 months working in the Amazon Transportation EU scheduling team, a team responsible for scheduling truck deliveries between Amazon warehouses across Europe. I was placed into a team working on a system which uses machine learning to predictively schedule around ten thousand journeys a week between hundreds of sites. My role was initially focused on front-end software engineering, however after observing the use of the system and talking to users I identified the opportunity for significant improvements to the UI and took on additional UI/UX design responsibilities. The users of our system were producing week-by-week plans of truck schedules. Particularly during \"Peak\" season (the build up to Christmas) this was a very complex, stressful and time-pressured task. I focused on identifying the pain-points that existed within the system that were causing frustration to users and wasteing precious time. I worked closely with users to help improve the usability of the system and ensure that new features were intuitive, working closely to the Semantic UI design system. I also worked with users to help streamline other processes they carried out, often using time consuming, error-prone techniques such as cross-referencing excel spreadsheets. I worked to develop a set of dashboards that allow users to access an instant visualisation of various metrics. Previously accessing these metrics would require complex data analysis and coding. Providing these dashboards gave the users across the company a window into the data behind the process so they could focus their time on optimisation. I designed the implementation of the dashboards to be very easily scalable. I created a model of a skeleton dashboard allowing new dashboards to be configured made with minimal coding. The key design challenges I faced were presenting large amounts of data and many complex options to the user in a clean, simple user experience."
+  },
+  {
+    "name": "BuzzFeed News Offline Experience",
+    "type": "Internship Project",
+    "path": "/buzzfeed-news-offline-experience",
+    "id": "buzzfeed-news",
+    "projectImageFormat": "png",
+    "time": "Summer 2018",
+    "duration": null,
+    "skills": ["UX Design", "Rapid Protoyping", "Fullstack Web Development"],
+    "fullCaseStudy": true,
+    "primaryColor": "#000000",
+    "secondaryColor": "#327b8f",
+    "backgroundColor": "#fcfcfc",
+    "description": "During my internship at BuzzFeed I joined the BuzzFeed News team in the final weeks before the launch of buzzfeednews.com, a dedicated news location helping BuzzFeed create a new identity for it's more serious journalism content. Towards the end of my internship I was given the opportunity to work on a new concept for the offline page of the site. Working closely with design, engineering and the news team, I created a prototype of an offline experience that allowed a round-up of the latest news to be consumed without connection to the internet. The daily content was taken from BuzzFeed's daily newsletter, cached on the user's device then served to the user when they lost connection. To add a playful element to the idea, the roundup was styled as in a way that is reminiscent of a newspaper, to reflect the offline, daily update nature of the content.",
+    "ownNav": true,
+    "invertBackgroundColor": "#000000",
+    "invertColor": "#ffffff",
+    "slides": [
+      {
+        "type": "ImageSet",
+        "text": "The BuzzFeed news website provides a constant stream of news content...",
+        "images": [
+          {
+            "url": "/assets/projects/buzzfeed/bfn.png",
+            "width": 9
+          },
+          {
+            "url": "/assets/projects/buzzfeed/bfnmobile.png",
+            "width": 3
+          }
+        ],
+        "highlight": true
+      },
+      {
+        "type": "Text",
+        "subtext": "...but what happens when we lose internet connection?",
+        "small": true,
+        "image": "/assets/projects/buzzfeed/offline.png",
+        "imagePos": "right",
+        "imageWidth": 12,
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "subtext": "Probably something like this.",
+        "small": true,
+        "image": "/assets/projects/buzzfeed/nowifi.gif",
+        "imagePos": "left",
+        "imageWidth": 12,
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "subtext": "How might we improve this?",
+        "small": true,
+        "invert": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "After investigating the web technology of \"Service Workers\" which allow websites to inject code onto a user's device to be executed if connection is lost, I started thinking about the possibility of providing an alternative offline experience. ",
+        "small": true,
+        "invert": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "I started by exploring the offline pages of other websites. While most sites did not provide any offline page, the Guardian's offline crossword stood out to me as a great piece of opportunistic seamful design. Seamful design is where a designer acknowledges the \"seams\" that exist in a system (in this case the availability of an internet connection) and accounts for them into their design. In other words they plan for things that can cause a system not to function properly and design the user experience around this. To do so opportunistically means to use the seam as an opportunity to provide an alternative experience to the user.",
+        "image": "/assets/projects/buzzfeed/guardian.jpg",
+        "imagePos": "left",
+        "small": true,
+        "invert": true
+      },
+      {
+        "type": "Text",
+        "body": "I wanted to build on this idea of incorporating an element of fun into the offline page and give the user something to occupy their time whilst offline, making them more likely to remain on the site until they regain connection. Since the user would likely have visited the site with the intent of consuming news content, I decided to experiment with caching news content offline that could be loaded if the user lost connection. BuzzFeed News produces a daily newsletter which is a daily roundup of the biggest stories of the day. This gave me the idea of framing this as a \"BuzzFeed daily newspaper\", a lightweight, offline, update of news which could be delivered to the user's device daily.",
+        "small": true,
+        "invert": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "ImageSet",
+        "subsubtext": "Design & Prototyping",
+        "images": [
+          {
+            "url": "/assets/projects/buzzfeed/early.png",
+            "caption": "Early Design"
+          },
+          {
+            "url": "/assets/projects/buzzfeed/rsz_1rsz_offlinepage.png",
+            "caption": "Final Design",
+            "width": 7
+          }
+        ],
+        "invert": true,
+        "nobottompadding": true
+      },
+      {
+        "type": "Text",
+        "body": "Working closely with designers, engineers and journalists from the news team I created a working prototype of the idea. This was a challenge on both a design and engineering level. It was a very interesting process collaborating with the BuzzFeed News designers and art team to finalise a design that would create the fun newspaper feel whilst reflecting the recently rebranded BuzzFeed News site. Additionally, the project required significant full stack software engineering to serve the newsletter data and cache it to the device effectively. ",
+        "image": "/assets/projects/buzzfeed/bfn.gif",
+        "imagePos": "right",
+        "small": true,
+        "invert": true,
+        "imageWidth": 4
+      }
+    ]
+  }
 ]
