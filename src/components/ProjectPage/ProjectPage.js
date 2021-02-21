@@ -43,9 +43,9 @@ class ProjectPage extends Component {
         const { project } = this.props;
 
         return (
-            <div>
+            <div style={{ position: "relative" }}>
                 {project.ownNav ? <Navigation color={project.invertColor} /> : null}
-                <div style={{
+                {/* <div style={{
                     width: "100vw",
                     height: "100vh",
                     backgroundColor: project.invertBackgroundColor,
@@ -54,12 +54,18 @@ class ProjectPage extends Component {
                     backgroundSize: "cover",
                     backgroundPositionX: "30%",
                     zIndex: 0,
-                }}></div>
+                }}></div> */}
 
                 <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
 
 
-                    <FullHeight canExceed >
+                    <FullHeight canExceed style={{
+                        // backgroundColor: project.invertBackgroundColor,
+                        backgroundImage: "url(/assets/" + project.id + "-header-image.png)",
+                        backgroundSize: "auto 100vh",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPositionX: "center",
+                    }} >
 
                         {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
                         <Container>
