@@ -44,21 +44,23 @@ class ProjectPage extends Component {
 
         return (
             <div>
-                {/* {project.ownNav ? <Navigation color={project.invertColor} /> : null} */}
+                {project.ownNav ? <Navigation color={project.invertColor} /> : null}
+                <div style={{
+                    width: "100vw",
+                    height: "100vh",
+                    backgroundColor: project.invertBackgroundColor,
+                    position: "absolute",
+                    backgroundImage: "url(/assets/" + project.id + "-header-image.svg)",
+                    backgroundSize: "cover",
+                    backgroundPositionX: "30%",
+                    zIndex: 0,
+                }}></div>
 
                 <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
 
-                    <FullHeight canExceed>
-                        {/* <div style={{
-                            width: "100vw",
-                            height: "100vh",
-                            backgroundColor: project.invertBackgroundColor,
-                            position: "absolute",
-                            backgroundImage: "url(/assets/" + project.id + "-header-image.svg)",
-                            backgroundSize: "cover",
-                            backgroundPositionX: "30%",
-                            zIndex: 0,
-                        }}></div> */}
+
+                    <FullHeight canExceed >
+
                         {project.hasSecondaryImage ? <img className="project__secondary-image" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} alt="project" /> : null}
                         <Container>
                             <FadeIn>
@@ -100,7 +102,7 @@ class ProjectPage extends Component {
 
                 </div>
 
-            </div>
+            </div >
 
         );
     }
