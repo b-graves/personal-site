@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Overpass&family=Work+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa&family=Overpass&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Overpass', 'Work Sans', sans-serif !important;
+  font-family: "Overpass", "Work Sans", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fancy { 
-  font-family: 'Krona One', sans-serif !important;
+.fancy {
+  font-family: "Lexend Exa", sans-serif !important;
 }
