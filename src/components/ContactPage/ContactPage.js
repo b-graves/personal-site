@@ -21,18 +21,18 @@ class ContactPage extends Component {
                 <FadeIn>
                     <div className="intro">
                         I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
-                </div>
-                    
+                    </div>
+
                     <div className="contact__extra">
                         <div>
                             Currently working as a User Experience Engineer at <a target="_blank" href="https://five.ai"> Five AI</a> in London.
-                            </div>
+                        </div>
                         <div>
                             Former intern at Google, Method, Amazon & BuzzFeed.
                         </div>
                     </div>
                     <div className="contact__info">
-                        Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:bengravessss@gmail.com">Email - bengravessss@gmail.com</a>
+                        Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:benxgraves@gmail.com">Email - benxgraves@gmail.com</a>
                     </div>
                 </FadeIn>
 
