@@ -23,9 +23,14 @@ class ContactPage extends Component {
                         I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
                     </div>
 
-                    <div className="contact__extra">
+                    <div className="intro__extra">
                         <div>
-                            Currently working as a User Experience Engineer at <a target="_blank" href="https://five.ai"> Five AI</a> in London.
+                            Currently product designer at <a href="https://cogna.co/">Cogna</a>
+                        </div>
+                    </div>
+                    <div className="intro__extra extra">
+                        <div>
+                            Former UX engineer at Five AI
                         </div>
                         <div>
                             Former intern at Google, Method, Amazon & BuzzFeed.
