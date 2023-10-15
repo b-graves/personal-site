@@ -20,7 +20,7 @@ class ContactPage extends Component {
             <Container className="contact">
                 <FadeIn>
                     <div className="intro">
-                        I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
+                        I'm Ben, a product designer and frontend engineer who enjoys creating digital products that work for people.
                     </div>
 
                     <div className="intro__extra">
