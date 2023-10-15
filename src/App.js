@@ -16,6 +16,7 @@ import Navigation from "./components/Navigation/Navigation"
 
 import projects from "./data/projects.json"
 import GA from './utils/GoogleAnalytics'
+import SmoothieMakerPage from './components/SmoothieMakerPage/SmoothieMakerPage';
 
 
 function App() {
@@ -24,11 +25,13 @@ function App() {
       <div className="App">
         <BrowserRouter>
           {GA.init() && <GA.RouteTracker />}
+          <Route path='/art/smoothie-maker' component={SmoothieMakerPage} />
           <Navigation />
           <Switch>
             <Route exact path='/' component={HomePage} />
             <Route path='/projects' component={ProjectsPage} />
             <Route path='/contact' component={ContactPage} />
+
 
             {projects.map(project =>
               <Route path={"/project/" + project.id}>

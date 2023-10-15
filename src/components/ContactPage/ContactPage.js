@@ -40,8 +40,6 @@ class ContactPage extends Component {
                         Get In Touch: <a target="_blank" href="https://www.linkedin.com/in/ben-graves/">LinkedIn</a> / <a target="_blank" href="mailto:benxgraves@gmail.com">Email - benxgraves@gmail.com</a>
                     </div>
                 </FadeIn>
-
-
             </Container>
         );
     }
