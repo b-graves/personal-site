@@ -41,12 +41,17 @@ class HomePage extends Component {
             <Container className="projects">
                 <FadeIn >
                     <div className="intro">
-                        I'm Ben, a creative coder who enjoys designing and building digital products and experiences that work for people.
-                </div>
+                        I'm Ben, a product designer and frontend engineer who enjoys creating digital products that work for people.
+                    </div>
                     <div className="intro__extra">
                         <div>
-                            Currently working as a User Experience Engineer at <a target="_blank" href="https://five.ai"> Five AI</a> in London.
-                            </div>
+                            Currently product designer at <a href="https://cogna.co/">Cogna</a>
+                        </div>
+                    </div>
+                    <div className="intro__extra extra">
+                        <div>
+                            Former UX engineer at Five AI
+                        </div>
                         <div>
                             Former intern at Google, Method, Amazon & BuzzFeed.
                         </div>
