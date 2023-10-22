@@ -23,11 +23,11 @@ class SmoothieMakerPage extends Component {
     render() {
         return (
             <Container className="smoothie-maker">
+                <MetaTags>
+                    <title>SMOOTHIE MAKER</title>
+                    <meta id="meta-description" name="description" content=" Smoothie Maker is an edition of 2-colour reduction linocut prints. All 75 prints depict the same foundational image. Unlike in a conventional printmaking edition where the aim is often a consistent, uniform set, this series seeks to introduce variation. By altering the colours of the inks between prints and embracing the natural human imperfections of printing by hand, it's hoped each print will exhibit its own unique character." />
+                </MetaTags>
                 <FadeIn>
-                    <MetaTags>
-                        <title>SMOOTHIE MAKER</title>
-                        <meta id="meta-description" name="description" content=" Smoothie Maker is an edition of 2-colour reduction linocut prints. All 75 prints depict the same foundational image. Unlike in a conventional printmaking edition where the aim is often a consistent, uniform set, this series seeks to introduce variation. By altering the colours of the inks between prints and embracing the natural human imperfections of printing by hand, it's hoped each print will exhibit its own unique character." />
-                    </MetaTags>
                     <div className="smoothie-maker-title">
                         SMOOTHIE MAKER
                     </div>
