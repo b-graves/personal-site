@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container'
 import "./ContactPage.css"
 
 import FadeIn from 'react-fade-in';
+import { MetaTags } from 'react-meta-tags';
 
 class ContactPage extends Component {
 
@@ -18,6 +19,10 @@ class ContactPage extends Component {
 
         return (
             <Container className="contact">
+                <MetaTags>
+                    <title>Ben Graves - Contact</title>
+                    <meta id="description" name="description" content="Product designer and frontend engineer who enjoys creating digital products that work for people." />
+                </MetaTags>
                 <FadeIn>
                     <div className="intro">
                         I'm Ben, a product designer and frontend engineer who enjoys creating digital products that work for people.

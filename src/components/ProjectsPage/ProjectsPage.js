@@ -11,6 +11,7 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 
 import FadeIn from 'react-fade-in';
+import { MetaTags } from 'react-meta-tags';
 
 
 class ProjectsPage extends Component {
@@ -37,16 +38,20 @@ class ProjectsPage extends Component {
 
         return (
             <Container className="projects">
+                <MetaTags>
+                    <title>Ben Graves - Projects</title>
+                    <meta id="description" name="description" content="Product designer and frontend engineer who enjoys creating digital products that work for people." />
+                </MetaTags>
                 <FadeIn>
                     {rows}
                 </FadeIn>
                 {projects.map(project =>
                     <div className="preload">
-                    <img rel="preload" src={"/assets/" + project.id + "-project-image."+project.projectImageFormat} as="image" />
-                    <img rel="preload" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} as="image" />
-                    
+                        <img rel="preload" src={"/assets/" + project.id + "-project-image." + project.projectImageFormat} as="image" />
+                        <img rel="preload" src={"/assets/" + project.id + "-secondary-image." + project.secondaryImageFormat} as="image" />
+
                     </div>
-                  )}
+                )}
             </Container>
 
         );

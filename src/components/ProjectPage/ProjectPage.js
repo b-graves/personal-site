@@ -16,6 +16,7 @@ import Video from "./Slides/Video";
 import Navigation from "../Navigation/Navigation"
 
 import FadeIn from 'react-fade-in';
+import { MetaTags } from 'react-meta-tags';
 
 const slideComponents = {
     "ImageSet": ImageSet,
@@ -57,6 +58,10 @@ class ProjectPage extends Component {
                 }}></div> */}
 
                 <div style={{ backgroundColor: project.backgroundColor, color: project.primaryColor }} >
+                    <MetaTags>
+                        <title>Ben Graves - {project.name}</title>
+                        <meta id="description" name="description" content={project.description} />
+                    </MetaTags>
 
 
                     <FullHeight canExceed style={{

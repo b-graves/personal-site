@@ -13,6 +13,7 @@ import Card from 'react-bootstrap/Card'
 import "./HomePage.css"
 
 import FadeIn from 'react-fade-in';
+import { MetaTags } from 'react-meta-tags';
 
 
 class HomePage extends Component {
@@ -39,6 +40,10 @@ class HomePage extends Component {
 
         return (
             <Container className="projects">
+                <MetaTags>
+                    <title>Ben Graves</title>
+                    <meta id="description" name="description" content="Product designer and frontend engineer who enjoys creating digital products that work for people." />
+                </MetaTags>
                 <FadeIn >
                     <div className="intro">
                         I'm Ben, a product designer and frontend engineer who enjoys creating digital products that work for people.
