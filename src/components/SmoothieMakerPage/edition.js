@@ -543,7 +543,7 @@ export const misprints = [
 export const tshirts = [
     {
         number: 1,
-        fileName: "tshirt1.jpg",
+        fileName: "t1.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -551,7 +551,7 @@ export const tshirts = [
     },
     {
         number: 2,
-        fileName: "tshirt2.jpg",
+        fileName: "t2.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -559,7 +559,7 @@ export const tshirts = [
     },
     {
         number: 3,
-        fileName: "tshirt3.jpg",
+        fileName: "t3.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -567,7 +567,7 @@ export const tshirts = [
     },
     {
         number: 4,
-        fileName: "tshirt4.jpg",
+        fileName: "t4.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -575,7 +575,7 @@ export const tshirts = [
     },
     {
         number: 5,
-        fileName: "tshirt5.jpg",
+        fileName: "t5.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -583,7 +583,7 @@ export const tshirts = [
     },
     {
         number: 6,
-        fileName: "tshirt6.jpg",
+        fileName: "t6.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -591,7 +591,7 @@ export const tshirts = [
     },
     {
         number: 7,
-        fileName: "tshirt7.jpg",
+        fileName: "t7.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
@@ -599,10 +599,12 @@ export const tshirts = [
     },
     {
         number: 8,
-        fileName: "tshirt8.jpg",
+        fileName: "t8.jpeg",
         isAvailable: true,
         isMisprint: false,
         isTshirt: true,
         size: "XL"
     }
 ];
+
+

@@ -19,6 +19,9 @@ import GA from './utils/GoogleAnalytics'
 import SmoothieMakerPage from './components/SmoothieMakerPage/SmoothieMakerPage';
 import SmoothieMakerTexturePage from './components/SmoothieMakerPage/SmoothieMakerTexturePage';
 
+import initializeHoverImage from '@romellem/hover-image';
+
+initializeHoverImage({})
 
 function App() {
   return (
