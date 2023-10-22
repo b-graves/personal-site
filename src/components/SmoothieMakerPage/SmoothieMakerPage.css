@@ -8,8 +8,9 @@
 
 .smoothie-maker-title {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 32px;
+  margin-top: 32px;
 }
 
 .smoothie-maker-subtitle {
@@ -26,6 +27,19 @@
   max-width: 700px;
   margin: 0 auto;
   margin-bottom: 16px;
+}
+
+.smoothie-maker-subdescription {
+  color: grey;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+a.smoothie-maker-subdescription:hover {
+  color: grey;
 }
 
 .smoothie-maker-image {
