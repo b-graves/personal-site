@@ -1,16 +1,41 @@
-.contact {
-    min-height: 100vh;
-    padding-top: 56px;
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+.smoothie-maker {
+  min-height: 100vh;
+  padding-top: 56px;
+  font-family: "Sometype Mono", monospace;
 }
 
-.contact__info {
-    font-size: 2em;
-    text-align: initial;
-    margin: 5rem 0;
+.smoothie-maker-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 32px;
 }
 
-.contact__extra {
-    font-size: 1.5em;
-    text-align: initial;
-    margin: 5rem 0;
+.smoothie-maker-subtitle {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.smoothie-maker-description {
+  color: grey;
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.smoothie-maker-image {
+  max-width: 100%;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+}
+
+.smoothie-maker-footer {
+  padding-top: 8px;
+  color: grey;
 }

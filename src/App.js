@@ -25,13 +25,13 @@ function App() {
       <div className="App">
         <BrowserRouter>
           {GA.init() && <GA.RouteTracker />}
-          <Route path='/art/smoothie-maker' component={SmoothieMakerPage} />
+
           <Navigation />
           <Switch>
             <Route exact path='/' component={HomePage} />
             <Route path='/projects' component={ProjectsPage} />
             <Route path='/contact' component={ContactPage} />
-
+            <Route path='/art/smoothie-maker' component={SmoothieMakerPage} />
 
             {projects.map(project =>
               <Route path={"/project/" + project.id}>

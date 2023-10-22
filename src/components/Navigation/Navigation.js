@@ -23,7 +23,8 @@ class Navigation extends Component {
                 <Navbar.Toggle style={{ backgroundColor: this.props.color }} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto" >
-                        <Nav.Link style={{ color: this.props.color }} as={Link} to="/projects">Projects</Nav.Link>
+                        <Nav.Link style={{ color: this.props.color }} as={Link} to="/projects">Design</Nav.Link>
+                        <Nav.Link style={{ color: this.props.color }} as={Link} to="/art/smoothie-maker">Art</Nav.Link>
                         <Nav.Link style={{ color: this.props.color }} as={Link} to="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
