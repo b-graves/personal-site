@@ -3,7 +3,7 @@
 .smoothie-maker {
   min-height: 100vh;
   padding-top: 56px;
-  font-family: "Sometype Mono", monospace;
+  font-family: "Sometype Mono", "Overpass", "Work Sans", sans-serif !important;
 }
 
 .smoothie-maker-title {
