@@ -42,7 +42,7 @@ class SmoothieMakerPage extends Component {
                     </div>
                     {prints.map(print => <FullHeight canExceed>
                         <div className="smoothie-maker-print" >
-                            <LazyLoadImage src={"/assets/smoothie-maker/2000x2800/prints/" + print.fileName} placeholderSrc={"/assets/smoothie-maker/1000x1400/prints/" + print.fileName} className="smoothie-maker-image" />
+                            <LazyLoadImage src={"/assets/smoothie-maker/2000x2800/prints/" + print.fileName} placeholderSrc={"/assets/smoothie-maker/1000x1400/prints/" + print.fileName} className="smoothie-maker-image" threshold={1000} />
                             <div className="smoothie-maker-footer">
                                 <div className="smoothie-maker-number">{print.number}/58{!print.isAvailable && " •"}</div>
 
@@ -54,7 +54,7 @@ class SmoothieMakerPage extends Component {
                     </div>
                     {misprints.map(print => <FullHeight canExceed>
                         <div className="smoothie-maker-print">
-                            <LazyLoadImage src={"/assets/smoothie-maker/2000x2800/misprints/" + print.fileName} placeholderSrc={"/assets/smoothie-maker/1000x1400/misprints/" + print.fileName} className="smoothie-maker-image" />
+                            <LazyLoadImage src={"/assets/smoothie-maker/2000x2800/misprints/" + print.fileName} placeholderSrc={"/assets/smoothie-maker/1000x1400/misprints/" + print.fileName} className="smoothie-maker-image" threshold={1000} />
                             <div className="smoothie-maker-footer">
                                 <div className="smoothie-maker-number">MISPRINT {print.number}{!print.isAvailable && " •"}</div>
                             </div>
