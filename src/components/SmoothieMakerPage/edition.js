@@ -10,7 +10,7 @@ export const prints = [
     {
         number: 2,
         fileName: "2.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
