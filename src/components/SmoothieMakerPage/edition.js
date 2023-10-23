@@ -501,7 +501,7 @@ export const misprints = [
     {
         number: 5,
         fileName: "mp5.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: true,
         isTshirt: false,
         size: null
