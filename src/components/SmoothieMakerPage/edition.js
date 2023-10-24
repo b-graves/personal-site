@@ -493,7 +493,7 @@ export const misprints = [
     {
         number: 4,
         fileName: "mp4.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: true,
         isTshirt: false,
         size: null
