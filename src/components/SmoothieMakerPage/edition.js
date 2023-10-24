@@ -18,7 +18,7 @@ export const prints = [
     {
         number: 3,
         fileName: "3.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -34,7 +34,7 @@ export const prints = [
     {
         number: 5,
         fileName: "5.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -106,7 +106,7 @@ export const prints = [
     {
         number: 14,
         fileName: "14.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -186,7 +186,7 @@ export const prints = [
     {
         number: 24,
         fileName: "24.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -218,7 +218,7 @@ export const prints = [
     {
         number: 28,
         fileName: "28.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -234,7 +234,7 @@ export const prints = [
     {
         number: 30,
         fileName: "30.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -242,7 +242,7 @@ export const prints = [
     {
         number: 31,
         fileName: "31.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -346,7 +346,7 @@ export const prints = [
     {
         number: 44,
         fileName: "44.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -434,7 +434,7 @@ export const prints = [
     {
         number: 55,
         fileName: "55.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -584,7 +584,7 @@ export const tshirts = [
     {
         number: 6,
         fileName: "t6.jpeg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: true,
         size: "M"
@@ -600,7 +600,7 @@ export const tshirts = [
     {
         number: 8,
         fileName: "t8.jpeg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: true,
         size: "XL"
