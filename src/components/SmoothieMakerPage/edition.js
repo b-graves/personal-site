@@ -568,7 +568,7 @@ export const tshirts = [
     {
         number: 4,
         fileName: "t4.jpeg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: true,
         size: "XL"
