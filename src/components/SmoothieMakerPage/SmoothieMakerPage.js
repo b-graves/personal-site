@@ -37,7 +37,7 @@ class SmoothieMakerPage extends Component {
                     </div>
                     <div className="smoothie-maker-subdescription">
                         <a className="smoothie-maker-subdescription" href="/art/smoothie-maker/texture">
-                            The image was taken from a texture on some weathered wood paneling found on Highgate Hill.
+                            The image was taken from a texture on some weathered wood paneling found on Highgate Hill. (click here to see photos)
                         </a>
                     </div>
                     <div className="smoothie-maker-subdescription">
