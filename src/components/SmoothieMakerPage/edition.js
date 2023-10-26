@@ -509,7 +509,7 @@ export const misprints = [
     {
         number: 6,
         fileName: "mp6.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: true,
         isTshirt: false,
         size: null
