@@ -42,7 +42,7 @@ export const prints = [
     {
         number: 6,
         fileName: "6.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
@@ -560,7 +560,7 @@ export const tshirts = [
     {
         number: 3,
         fileName: "t3.jpeg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: true,
         size: "L"
