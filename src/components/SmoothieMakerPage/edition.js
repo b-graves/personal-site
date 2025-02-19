@@ -354,7 +354,7 @@ export const prints = [
     {
         number: 45,
         fileName: "45.jpg",
-        isAvailable: true,
+        isAvailable: false,
         isMisprint: false,
         isTshirt: false,
         size: null
